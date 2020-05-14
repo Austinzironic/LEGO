@@ -1,0 +1,381 @@
+.headerwhite
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    WORD-SPACING: 11px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.textwhite
+{
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textwhite1
+{
+    FONT-SIZE: 11px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textwhite A:link
+{
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textwhite A:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textwhite A:visited
+{
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textwhitebold
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.textblack
+{
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.textgray
+{
+    FONT-SIZE: 10px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textgray A:link
+{
+    FONT-SIZE: 10px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textgray A:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #ff6600;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textgray A:visited
+{
+    FONT-SIZE: 10px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.headergray1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 13px;
+    WORD-SPACING: 11px;
+    COLOR: #cccccc;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.textgray1 A:link
+{
+    FONT-SIZE: 10px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.textgray1 A:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #ff6600;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.textgray1 A:visited
+{
+    FONT-SIZE: 10px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.textgray1 A:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #ff6600;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.textgray1
+{
+    FONT-SIZE: 10px;
+    COLOR: #cccccc;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.textorange2
+{
+    FONT-SIZE: 13px;
+    COLOR: #ff6600;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.textpulldown
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #666666
+}
+.textpulldown1
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #333333
+}
+.header
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.headerproto
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.dot
+{
+    FONT-SIZE: 8px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.redHeader
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #ff0000;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.bluelink A:link
+{
+    FONT-SIZE: 10px;
+    COLOR: #0000ff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.bluelink A:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #ff6600;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.bluelink A:visited
+{
+    FONT-SIZE: 10px;
+    COLOR: #666666;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.bluelink A:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #ff6600;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.headerblack16px
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvetica, Verdana
+}
+.addwishbio
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial
+}
+.checkavailbio
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: gray;
+    FONT-FAMILY: Verdana, Arial
+}
+.addwishbio:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: red;
+    FONT-FAMILY: Verdana, Arial
+}
+.checkavailbio:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: red;
+    FONT-FAMILY: Verdana, Arial
+}
+.headerwhite16px
+{
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 16px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Arial
+}
+.textorange
+{
+    FONT-SIZE: 10px;
+    COLOR: #ff6600;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.lexON
+{
+    FONT-SIZE: 10px;
+    COLOR: #cccccc;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+.lexOFF
+{
+    FONT-SIZE: 10px;
+    COLOR: #ffcc00;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+.lexTitles
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: #ffcc00;
+    FONT-FAMILY: Verdana, Arial
+}
+.textgray:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #ff6600;
+    FONT-FAMILY: Verdana, Arial;
+    TEXT-DECORATION: none
+}
+.textblackbold
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Geneva, Arial
+}
+.textgraybold
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica
+}
+.textgray9
+{
+    FONT-SIZE: 9px;
+    COLOR: #cccccc;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica
+}
+.textwhitenav
+{
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textwhitenav A:link
+{
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textwhitenav A:visited
+{
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textwhitenav A:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #ffff99;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textgray1header
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #cccccc;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.textred A:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #ff3333;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textred A:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #ff3333;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textred A:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #ccff33;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textblack
+{
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.textorange3 A:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #ff9933;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textorange3 A:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #ff6600;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}
+.textorange3 A:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #cccccc;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none
+}

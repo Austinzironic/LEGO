@@ -1,0 +1,174 @@
+/*Products/Default.aspx*/
+/*---------------------------------------------------------------------------
+H O M E P A G E
+-----------------------------------------------------------------------------
+
+--------------------------------
+RESETS
+------------------------------*/
+body {
+    font-size: 100%;
+}
+
+/*Never add font-color, font-weight or font-family why they will overwrite the properties assigned to the global elements such as GlobalHeader*/
+/*------------------------------
+STRUCTURE
+------------------------------*/
+#container {
+    width: 950px;
+    height: 556px;
+    font: normal 80%/1.25 Verdana, lucida, arial, helvetica, sans-serif;
+    position: relative;
+    background: url(https://web.archive.org/web/20100828225354im_/http://cache.lego.com/upload/contentTemplating/MarketPortalDictionary/images/pic2BF1A60ADF1EFBF9ED6F3BA57BAD7C25.jpg) repeat-x;
+}
+
+#container hr {
+    width: 920px;
+    position: absolute;
+    top: 360px;
+    left: 15px;
+    border-color: #fff;
+    border-style: none none dotted;
+    border-width: 2px;
+    background: url(https://web.archive.org/web/20100828225354im_/http://cache.lego.com/upload/contentTemplating/MarketPortalDictionary/images/picFD7D152E6D5E5969AC8D6048D0B67BEC.gif) repeat-x;
+}
+
+.centerStage {
+    width: 588px;
+    height: 309px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    border: 1px solid #fff;
+}
+
+#whatsNew {
+    width: 284px;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    background-color: #fff;
+}
+
+#whatsNew ul {
+    width: 274px;
+    height: 273px;
+    margin: 0 0 5px 0;
+    padding: 0 0 0 5px;
+    overflow: auto;
+    /*overflow-x: hidden;*/
+}
+
+#whatsNew li {
+    /*width: 100%;*/ min-height: 40px;
+    margin: 0 0 5px 0;
+    padding: 0 0 5px 0;
+    clear: both;
+    background: url(https://web.archive.org/web/20100828225354im_/http://cache.lego.com/upload/contentTemplating/MarketPortalDictionary/images/pic48B58BB49604E516D39F2A99E8EBA925.gif) bottom left repeat-x;
+}
+
+#whatsNew .whatsNewHeader {
+    color: #4899B9;
+    font: bold 90% Verdana, lucida, arial, helvetica, sans-serif;
+}
+
+#whatsNew .whatsNewTxt {
+    padding: 0 0 0 61px;
+    display: block;
+    font: normal 90% Verdana, lucida, arial, helvetica, sans-serif;
+    color: #999;
+}
+
+ul#secondaryNavi {
+    width: 910px;
+    position: absolute;
+    top: 384px;
+    left: 23px;
+}
+
+#secondaryNavi li {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#secondaryNavi li.productsTout {
+    background: url(https://web.archive.org/web/20100828225354im_/http://cache.lego.com/upload/contentTemplating/MarketPortalDictionary/images/pic92A05FD1726BD153E2EA4A3986D5C9E7.gif) center 2px no-repeat;
+}
+
+#secondaryNavi li.playTout {
+    left: 310px;
+    background: url(https://web.archive.org/web/20100828225354im_/http://cache.lego.com/upload/contentTemplating/MarketPortalDictionary/images/pic3BFCFA98A3589B20FB6FDA8281E56020.gif) center 2px no-repeat;
+}
+
+#secondaryNavi li.shopTout {
+    left: 620px;
+    background: url(https://web.archive.org/web/20100828225354im_/http://cache.lego.com/upload/contentTemplating/MarketPortalDictionary/images/picDA1DF767D1F54BA336FC5A63659C2709.gif) center 2px no-repeat;
+}
+
+.clear {
+    clear: both;
+}
+
+/*------------------------------
+HEADERS/PARAGRAPHS
+------------------------------*/
+#secondaryNavi h2 {
+    position: absolute;
+    z-index: -1;
+    text-indent: -9999px;
+}
+
+#whatsNew h3 {
+    width: 284px;
+    height: 28px;
+    margin: 0 0 5px 0;
+    text-indent: -9999px;
+    background: url(https://web.archive.org/web/20100828225354im_/http://cache.lego.com/upload/contentTemplating/MarketPortalDictionary/images/pic43B12779309BA0A848E6445EDA9C573B.jpg);
+}
+
+/*------------------------------
+LINKS
+------------------------------*/
+#whatsNew a {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#whatsNew a:hover {
+    border: none;
+}
+
+#whatsNew a:hover .whatsNewHeader {
+    text-decoration: underline;
+}
+
+#secondaryNavi a {
+    width: 287px;
+    height: 154px;
+    display: block;
+}
+
+#secondaryNavi li a:hover {
+    background: url(https://web.archive.org/web/20100828225354im_/http://cache.lego.com/upload/contentTemplating/MarketPortalDictionary/images/picF69782257EEDAB3D67BFA449A1FA5738.gif) center top no-repeat;
+}
+
+/*------------------------------
+IMAGES
+------------------------------*/
+.centerStage img {
+    margin: 0 0 -3px 0;
+}
+
+#whatsNew img {
+    width: 56px;
+    height: 40px;
+    margin: 0 0 5px 0;
+    padding: 0 5px 0 0;
+    float: left;
+}
+
+#secondaryNavi img {
+    margin: 37px 0 0 6px;
+}

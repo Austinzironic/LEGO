@@ -1,0 +1,59 @@
+/*---------------------------------------------------------------------------
+G L O B A L   E L E M E N T S
+-----------------------------------------------------------------------------
+This style sheet is used by the entire LEGO.com on ja-jp 950
+---------------------------------
+RESETS
+------------------------------*/
+* { margin: 0; padding: 0; outline: 0; }
+body { font-size: 100%; }
+table { border-collapse: collapse; font-size: 100%; } 
+img, fieldset { border: 0; }
+ol, ul { list-style: none; }
+a:active, a:focus { outline: 0; }
+
+/*------------------------------
+SITE POSITIONING
+------------------------------*/
+html { text-align: center; }
+body { width: 950px; margin: 0 auto; position: relative; text-align: left; }
+
+/*------------------------------
+GLOBAL HEADER
+------------------------------*/
+/*STRUCTURE*/
+#GHcontainer { width: 950px; height: 82px; position: relative; background: url(https://web.archive.org/web/20100828225345im_/http://cache.lego.com/Global/V1/Market/img/950x082_bg.gif) no-repeat; font: normal 70%/1.25 Verdana, lucida, arial, helvetica, sans-serif; }
+#GHprimaryNavi { margin: 0 0 0 25px; padding: 19px 0 0 0; }
+#GHregion { position: absolute; top: 26px; left: 809px; }
+
+/*HEADERS*/
+#GHprimaryNavi h1 { width: 49px; height: 49px; margin: 0 14px 0 0; text-indent: -9999px; background: url(https://web.archive.org/web/20100828225345im_/http://cache.lego.com/Global/V1/Market/img/049x049_logo.gif) right 50% no-repeat; float: left; }
+
+/*LINKS*/
+#GHprimaryNavi a { margin: 0 7px 0 0; display: block; float: left; }
+#GHprimaryNavi a.GHLEGOlogo { width: 49px; height: 49px; margin: 0 7px 0 0; _margin: 0; display: block; }
+a.GHprivacy { padding: 0 8px 0 0; position: absolute; top: 45px; left: 809px; display: block; color: #FB9847 !important; text-decoration: none; background: url(https://web.archive.org/web/20100828225345im_/http://cache.lego.com/Global/V1/Market/img/img5x7_Arrow.gif) right 60% no-repeat; }
+#GHregion a { margin: 0 0 0 22px; color: #8E8F91; text-decoration: underline; }
+
+/*IMAGES*/
+#GHregion img { position: absolute; top: 2px; left: 0; }
+.GHstuds1 { width: 12px; height: 29px; position: absolute; top: 28px; left: 785px; background: url(https://web.archive.org/web/20100828225345im_/http://cache.lego.com/Global/V1/Market/img/img12x29_Studs.gif) no-repeat; }
+
+/*------------------------------
+GLOBAL FOOTER
+------------------------------*/
+/*STRUCTURE*/
+#GFcontainer { width: 950px; font: bold 85%/1.3 Verdana, lucida, arial, helvetica, sans-serif; font-size: 85% !important; }
+ul#GFlinks { width: 921px; height: 26px; margin: 0 0 5px 0; padding: 0; text-align: center; text-indent: 16px; display: block; font-size: 90%; background: url(https://web.archive.org/web/20100828225345im_/http://cache.lego.com/Global/V1/Market/img/001x026_globalfooter_bg.gif) top left repeat-x; float: left; }
+#GFlinks li { margin: 0 46px 0 0; padding: 0 0 0 16px; line-height: 26px; list-style: none; display: inline; background: url(https://web.archive.org/web/20100828225345im_/http://cache.lego.com/Global/V1/Market/img/010x010_stud.gif) left 60% no-repeat;  }
+
+/*HEADERS/PARAGRAPHS*/
+p.GFlegal, p#GFlegal { margin: 0 0 5px 0; text-align: center; font-size: 75%; font-weight: normal; color: #888C8E; }
+
+/*LINKS*/
+#GFlinks li a { text-decoration: none;  color: #474D50; }
+#GFlinks li a:hover { color: #F16062; }
+#GFlinks #GFlegalNotice a { color: #228DC5; }
+
+/*IMAGES*/
+#GFcontainer img { margin: 1px 0 0 0; float: right; }
