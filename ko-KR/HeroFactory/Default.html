@@ -1,0 +1,511 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ko-KR">
+<head id="ctl00_Head1">
+<link href="ko-KR950.css" rel="stylesheet" type="text/css">
+<title>LEGO.com  Hero Factory - 히어로 팩토리</title>
+    <!--[if IE 6]>
+        <script type="text/javascript" src="http://cache.lego.com/js/pngfix/pngSupport.js"></script>
+        <script type="text/javascript">
+			var selectors = '.pngSupport'; // Standard
+			selectors +=    ', .contentNaviNoArrows, #contentNaviWrapper h3, .contentNaviArrows, .bulletContent img, #primaryNavi li a, #contentSelectContainer a'; // Additional
+			ie6PNG.fix(selectors);
+        </script>
+    <![endif]-->
+    
+    
+    
+    <script src="https://web.archive.org/web/20100915042951js_/http://cache.lego.com/js/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+    <script src="https://web.archive.org/web/20100915042951js_/http://cache.lego.com/js/JQuery/jquery.bpopup-0.3.5.min.js" type="text/javascript"></script>
+    
+    
+    
+<link href="Common.css" rel="stylesheet" type="text/css">
+<link href="Menu.css" rel="stylesheet" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="SHORTCUT ICON" href="https://web.archive.org/web/20100915042951im_/http://herofactory.lego.com/favicon.ico">
+<meta name="description" content="100년 이상 골치거리였던 해충과 악당으로부터 은하계를 해방시켜라.">
+<link href="Home.css" rel="stylesheet" type="text/css">
+<!-- SiteCatalyst code version: H.15.1. Copyright 1997-2008 Omniture, Inc. More info available at http://www.omniture.com -->
+<script language="JavaScript" type="text/javascript"><!--
+var s_account='legoglobal';
+//--></script>
+<script language="JavaScript" type="text/javascript" src="https://web.archive.org/web/20100915042951js_/http://cache.lego.com/js/SC/s_code_V005.js"></script>
+<script language="JavaScript" type="text/javascript"><!--
+s.pageName='herofactory:homepage:overview';
+s.server='HeroFactory';
+s.channel='herofactory:homepage';
+s.prop1='04:15-04:29';
+s.prop2='2010-09-15';
+s.prop3='herofactory';
+s.prop7='ko-kr';
+s.prop8='False';
+s.prop9='US';
+var s_code=s.t();
+if(s_code)document.write(s_code)//--></script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+//--></script>
+<noscript><a href="https://web.archive.org/web/20100915042951/http://www.omniture.com/" title="Web Analytics"><img src="https://web.archive.org/web/20100915042951im_/http://legobrandretail.112.2o7.net/b/ss/legodev/1/H.15.1--NS/0" height="1" width="1" border="0" alt=""/></a></noscript><!--/DO NOT REMOVE/-->
+</head>
+<body>
+<form name="aspnetForm" method="post" action="Default.aspx" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTAxODczODc3MA9kFgJmD2QWBAICD2QWBgICDxUBFWh0dHA6Ly9jYWNoZS5sZWdvLmNvbWQCAw8WAh4HVmlzaWJsZWgWAmYPFQEVaHR0cDovL2NhY2hlLmxlZ28uY29tZAIEDxUCFWh0dHA6Ly9jYWNoZS5sZWdvLmNvbRVodHRwOi8vY2FjaGUubGVnby5jb21kAgQPZBYIAgMPDxYCHg5NYXJrZWRNZW51SXRlbQUESG9tZWRkAgUPDxYCHgRUZXh0ZGRkAgkPZBYCAgMPZBYCAgEPZBYaAgEPDxYCHghJbWFnZVVybAVtaHR0cDovL2NhY2hlLmxlZ28uY29tL3VwbG9hZC9jb250ZW50VGVtcGxhdGluZy9IZXJvRmFjdG9yeUhvbWUvaW1hZ2VzL3BpY0JEQUMzNzUxMjRFODEzQkQwOTVDRjE1RjJCODMyRTk0LnBuZ2RkAgIPFgIeC18hSXRlbUNvdW50AgIWBGYPZBYCZg8VAyIva28ta3IvU3VibWl0QU1pc3Npb24vRGVmYXVsdC5hc3B4F+uCtCDrr7jshZgg7KCc7Lac7ZWY6riwbWh0dHA6Ly9jYWNoZS5sZWdvLmNvbS91cGxvYWQvY29udGVudFRlbXBsYXRpbmcvSGVyb0ZhY3RvcnlIb21lL2ltYWdlcy9waWMwNDYwNzM0OURFREUzMEQ0MERFRjY2NzJDNzJFOTMyNC5wbmdkAgEPZBYCZg8VAx4va28ta3IvY2FsbGNlbnRlci9kZWZhdWx0LmFzcHgK7L2cIOyEvO2EsG1odHRwOi8vY2FjaGUubGVnby5jb20vdXBsb2FkL2NvbnRlbnRUZW1wbGF0aW5nL0hlcm9GYWN0b3J5SG9tZS9pbWFnZXMvcGljNUIxM0FGQzU5RUM0MUNFMEIyRDQ1QzQzRTg4QTJFMEQucG5nZAIDDxYCHwQCAhYEZg9kFgJmDxUEHy9rby1rci9tZWRpYWNlbnRlci9kZWZhdWx0LmFzcHhtaHR0cDovL2NhY2hlLmxlZ28uY29tL3VwbG9hZC9jb250ZW50VGVtcGxhdGluZy9IZXJvRmFjdG9yeUhvbWUvaW1hZ2VzL3BpYzE4NDNFRDk5MkExNkVCNUJBQjQwRTBGRUUyMzZCNzc4LnBuZxDrr7jrlJTslrQg7IS87YSwbWh0dHA6Ly9jYWNoZS5sZWdvLmNvbS91cGxvYWQvY29udGVudFRlbXBsYXRpbmcvSGVyb0ZhY3RvcnlIb21lL2ltYWdlcy9waWM5QkRCNjRGNDc3NjMyMTU5QkU5MkY2MkZENzk1NTdGQy5wbmdkAgEPZBYCZg8VBCcva28ta3IvYWJvdXR0aGVIZXJvRmFjdG9yeS9kZWZhdWx0LmFzcHhtaHR0cDovL2NhY2hlLmxlZ28uY29tL3VwbG9hZC9jb250ZW50VGVtcGxhdGluZy9IZXJvRmFjdG9yeUhvbWUvaW1hZ2VzL3BpYzdBNUQ4RDNDNDQyQzBFOTlGOEFFRDg1MTI5MDA3MEYyLnBuZxrtnojslrTroZwg7Yyp7Yag66asIOyGjOqwnG1odHRwOi8vY2FjaGUubGVnby5jb20vdXBsb2FkL2NvbnRlbnRUZW1wbGF0aW5nL0hlcm9GYWN0b3J5SG9tZS9pbWFnZXMvcGljQ0NFOTExMzYwODkxQjJBRkEwMUNGRkVFNzc5RjU5RDkucG5nZAIEDxYCHwQCAxYGZg9kFgJmDxUEKy9rby1rci9uZXdzL3JlYWRtb3JlL2RlZmF1bHQuYXNweD9pZD0yMDY3NzltaHR0cDovL2NhY2hlLmxlZ28uY29tL3VwbG9hZC9jb250ZW50VGVtcGxhdGluZy9IZXJvRmFjdG9yeUhvbWUvaW1hZ2VzL3BpY0ZDNjczRkNERkIyODM3RjgyMTYwMzExN0IzN0ZBNzNELnBuZyBDb21pbmcgU29vbjogQnVpbGQgWW91ciBPd24gSGVyb21odHRwOi8vY2FjaGUubGVnby5jb20vdXBsb2FkL2NvbnRlbnRUZW1wbGF0aW5nL0hlcm9GYWN0b3J5SG9tZS9pbWFnZXMvcGljOEE3NDVERkE0N0Y4MUM4QkU4QzMyN0I2ODg4MDYxMzcucG5nZAIBD2QWAmYPFQQoL2tvLWtyL2dhbWVzL2NyZWF0ZWF2aWxsYWluL2RlZmF1bHQuYXNweG1odHRwOi8vY2FjaGUubGVnby5jb20vdXBsb2FkL2NvbnRlbnRUZW1wbGF0aW5nL0hlcm9GYWN0b3J5SG9tZS9pbWFnZXMvcGljREQ0MEYwNjJCRTkxREZBODE2MDA2RTE0NjUwNzZEQ0MucG5nGOuCtCDslYXri7kg7LC+6riwIOqyjOyehG1odHRwOi8vY2FjaGUubGVnby5jb20vdXBsb2FkL2NvbnRlbnRUZW1wbGF0aW5nL0hlcm9GYWN0b3J5SG9tZS9pbWFnZXMvcGljQ0I1Q0JEMzYwRUE3M0EzMEEzRUZBOEY3OTAxNDdDRjAucG5nZAICD2QWAmYPFQQaL2tvLWtyL21vdmllcy9kZWZhdWx0LmFzcHhtaHR0cDovL2NhY2hlLmxlZ28uY29tL3VwbG9hZC9jb250ZW50VGVtcGxhdGluZy9IZXJvRmFjdG9yeUhvbWUvaW1hZ2VzL3BpYzkzRUUwNDQxMzE2RjM1NTEwQTIxMTUzNTFEMkVGOEI4LnBuZxDtmY3rs7Qg67mE65SU7JikbWh0dHA6Ly9jYWNoZS5sZWdvLmNvbS91cGxvYWQvY29udGVudFRlbXBsYXRpbmcvSGVyb0ZhY3RvcnlIb21lL2ltYWdlcy9waWNGMzMxQjJFNDE5MjdEM0NEQjkwNUQwOUQwMTExNzlBOS5wbmdkAgUPDxYCHwMFbWh0dHA6Ly9jYWNoZS5sZWdvLmNvbS91cGxvYWQvY29udGVudFRlbXBsYXRpbmcvSGVyb0ZhY3RvcnlIb21lL2ltYWdlcy9waWM2NThBNTU0MTU1NEY1MzZGRTU5NUMwNDc1MUZCNzA5QS5wbmdkZAIGDxYCHgRocmVmBRwva28ta3IvUHJvZHVjdHMvRGVmYXVsdC5hc3B4FgICAQ8PFgQfAwVtaHR0cDovL2NhY2hlLmxlZ28uY29tL3VwbG9hZC9jb250ZW50VGVtcGxhdGluZy9IZXJvRmFjdG9yeUhvbWUvaW1hZ2VzL3BpYzIwMjMyMEQ4RTBCNzJCQ0VENUE5REVCREM4RjM5ODVDLnBuZx4NQWx0ZXJuYXRlVGV4dAUg7Z6I7Ja066GcIO2Mqe2GoOumrCDsoJztkojsoJXrs7RkZAIHDw8WAh8DBW1odHRwOi8vY2FjaGUubGVnby5jb20vdXBsb2FkL2NvbnRlbnRUZW1wbGF0aW5nL0hlcm9GYWN0b3J5SG9tZS9pbWFnZXMvcGljODc2OUQyMDU3OTVDQTgxN0NFMERCNjIxREQzMkNDMkIucG5nZGQCCA8WAh8EAgMWBmYPZBYCZg8VAysva28ta3IvbmV3cy9yZWFkbW9yZS9kZWZhdWx0LmFz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">
+
+
+<script src="https://web.archive.org/web/20100915042951js_/http://cache.lego.com/js/DesignTemplate/TemplateFunctionsv5.js" type="text/javascript"></script>
+<script src="/web/20100915042951js_/http://herofactory.lego.com/ScriptResource.axd?d=YtAog8TDBOBhh121Y5G1dlxMHLW0RDg--X7LxasQ-V8Kt55j5gT6HbeAiMn-bxmVHDtttih2caZtKZEmPVxNqPRYCtqqQPYW0&amp;t=ffffffff84bfc513" type="text/javascript"></script>
+    	<div id="GHcontainer">
+<div id="GHprimaryNavi">
+<h1>
+<a href="https://web.archive.org/web/20100915042951/http://market.lego.com/ko-kr/Default.aspx" alt="홈" class="GHLEGOlogo">
+LEGO</a>
+</h1><span><script language="JavaScript">
+<!-- 
+try { 
+if (document.images) { 
+ctl00_ctl00_ctl08_on = new Image(); 
+ctl00_ctl00_ctl08_on.src = "https://web.archive.org/web/20100915042951/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/pic59509BD9295B7CFF9F70D1FF1037DCAE.jpg"; 
+ctl00_ctl00_ctl08_off = new Image(); 
+ctl00_ctl00_ctl08_off.src = "https://web.archive.org/web/20100915042951/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/picB35D963641B2B68B5BD90881965486AD.jpg"; 
+}
+} catch(e) {}
+--></script><a href="https://web.archive.org/web/20100915042951/http://market.lego.com/ko-kr/Default.aspx"><img id="ctl00_ctl00_ctl08" onmouseover="ms('ctl00_ctl00_ctl08','off')" onmouseout="ms('ctl00_ctl00_ctl08','on')" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/pic59509BD9295B7CFF9F70D1FF1037DCAE.jpg" alt="홈" style="height:49px;width:99px;border-width:0px;"></a><script language="JavaScript">
+<!-- 
+try { 
+if (document.images) { 
+ctl00_ctl00_ctl09_on = new Image(); 
+ctl00_ctl00_ctl09_on.src = "https://web.archive.org/web/20100915042951/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/picD832C0210F565783939535049F24C3DF.jpg"; 
+ctl00_ctl00_ctl09_off = new Image(); 
+ctl00_ctl00_ctl09_off.src = "https://web.archive.org/web/20100915042951/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/picC33CF44FC04E90D8E9999B780E8B6C04.jpg"; 
+}
+} catch(e) {}
+--></script><a href="https://web.archive.org/web/20100915042951/http://market.lego.com/ko-kr/products/default.aspx"><img id="ctl00_ctl00_ctl09" onmouseover="ms('ctl00_ctl00_ctl09','off')" onmouseout="ms('ctl00_ctl00_ctl09','on')" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/picD832C0210F565783939535049F24C3DF.jpg" alt="제품정보" style="height:49px;width:99px;border-width:0px;"></a><script language="JavaScript">
+<!-- 
+try { 
+if (document.images) { 
+ctl00_ctl00_ctl10_on = new Image(); 
+ctl00_ctl00_ctl10_on.src = "https://web.archive.org/web/20100915042951/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/picF0AAB2F6275FF13E13274DDCDB6E8940.jpg"; 
+ctl00_ctl00_ctl10_off = new Image(); 
+ctl00_ctl00_ctl10_off.src = "https://web.archive.org/web/20100915042951/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/picB0D57A8D3D754E719AC9EC6F982168E3.jpg"; 
+}
+} catch(e) {}
+--></script><a href="https://web.archive.org/web/20100915042951/http://market.lego.com/ko-kr/play/Default.aspx"><img id="ctl00_ctl00_ctl10" onmouseover="ms('ctl00_ctl00_ctl10','off')" onmouseout="ms('ctl00_ctl00_ctl10','on')" src="https://web.archive.org/web/20100915042951/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/picF0AAB2F6275FF13E13274DDCDB6E8940.jpg" alt="플레이존" style="height:49px;width:99px;border-width:0px;"></a><script language="JavaScript">
+<!-- 
+try { 
+if (document.images) { 
+ctl00_ctl00_ctl11_on = new Image(); 
+ctl00_ctl00_ctl11_on.src = "https://web.archive.org/web/20100915042951/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/pic3DCD20F265CFF498887AC60B7A5DE9E7.jpg"; 
+ctl00_ctl00_ctl11_off = new Image(); 
+ctl00_ctl00_ctl11_off.src = "https://web.archive.org/web/20100915042951/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/picAAEEB5A4445B02760CF9DDC9149C8DC9.jpg"; 
+}
+} catch(e) {}
+--></script><a href="https://web.archive.org/web/20100915042951/http://market.lego.com/ko-kr/news/default.aspx"><img id="ctl00_ctl00_ctl11" onmouseover="ms('ctl00_ctl00_ctl11','off')" onmouseout="ms('ctl00_ctl00_ctl11','on')" src="https://web.archive.org/web/20100915042951/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/pic3DCD20F265CFF498887AC60B7A5DE9E7.jpg" alt="뉴스&amp;이벤트" style="height:49px;width:100px;border-width:0px;"></a><script language="JavaScript">
+<!-- 
+try { 
+if (document.images) { 
+ctl00_ctl00_ctl12_on = new Image(); 
+ctl00_ctl00_ctl12_on.src = "https://web.archive.org/web/20100915042951/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/pic0D379121D91C06BC47267FC5B47760A3.jpg"; 
+ctl00_ctl00_ctl12_off = new Image(); 
+ctl00_ctl00_ctl12_off.src = "https://web.archive.org/web/20100915042951/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/pic24C6D03896F93C61E067896E6236FF43.jpg"; 
+}
+} catch(e) {}
+--></script><a href="https://web.archive.org/web/20100915042951/http://shop.lego.com/Default.aspx?LangId=2057"><img id="ctl00_ctl00_ctl12" onmouseover="ms('ctl00_ctl00_ctl12','off')" onmouseout="ms('ctl00_ctl00_ctl12','on')" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/CommonMarket/images/pic0D379121D91C06BC47267FC5B47760A3.jpg" alt="쇼핑몰" style="height:49px;width:99px;border-width:0px;"></a></span></div>
+		<a class="GHprivacy" href="https://web.archive.org/web/20100915042951/http://market.lego.com/ko-kr/aboutus/privacypolicy.aspx">개인정보취급방침</a>		<div id="GHregion">			<img src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/images/globalnavigation/Flags/ko-KR.gif" alt="Region name">			<a href="https://web.archive.org/web/20100915042951/http://www.lego.com/ko-KR/ms/default.aspx?site=HeroFactory">CHANGE REGION</a>		</div>         <span class="GHstuds1"></span>
+	</div>
+
+
+    <div id="siteContainer">
+        
+        <div id="branding">  
+            <h2 class="pngSupport">HeroFactory</h2>
+            <div id="primaryNavi">
+                <span id="ctl00_HeroFactoryTopNavigation"><ul class="mainmenu">
+<li class="mainmenuHomeActive">
+<a href="https://web.archive.org/web/20100915042951/http://herofactory.lego.com/ko-kr/Default.aspx" style="width:86px;">홈</a>
+</li>
+<li class="mainmenuProducts">
+<a href="https://web.archive.org/web/20100915042951/http://herofactory.lego.com/ko-kr/Products/Default.aspx" style="width:129px;">제품정보</a>
+</li>
+<li class="mainmenuDownloads">
+<a href="https://web.archive.org/web/20100915042951/http://herofactory.lego.com/ko-kr/Funzone/Downloads/Default.aspx" style="width:127px;">다운로드</a>
+</li>
+<li class="mainmenuFunzone">
+<a href="https://web.archive.org/web/20100915042951/http://herofactory.lego.com/ko-kr/Funzone/Default.aspx" style="width:99px;">펀존</a>
+</li>
+<li class="mainmenuStory">
+<a href="https://web.archive.org/web/20100915042951/http://herofactory.lego.com/ko-kr/Story/Default.aspx" style="width:112px;">스토리</a>
+</li>
+<li class="mainmenuGallery">
+<a href="https://web.archive.org/web/20100915042951/http://herofactory.lego.com/ko-kr/Gallery/Default.aspx" style="width:111px;">갤러리</a>
+</li>
+</ul>
+</span>
+            </div>
+        </div>
+       
+        
+        <div id="contentBgTop"><h3><span id="ctl00_lblPageHeaderText"></span></h3></div>
+        <div id="contentWrapper">
+            <div id="contentMain">
+            
+                
+                <div id="alternateFlashContent" style="display: none">
+                    <!-- Add content here -->
+                </div>
+                
+                
+                
+                               
+                
+                
+   
+   
+   <div id="ctl00_ContentPlaceHolderSite_pagecontent">
+     
+   
+   <script src="https://web.archive.org/web/20100915042951js_/http://cache.lego.com/js/jquery/query.scrollable-1.0.1.min.js" type="text/javascript"></script>
+   <script src="https://web.archive.org/web/20100915042951js_/http://cache.lego.com/js/jquery/ui.core.js" type="text/javascript"></script>
+   <script src="https://web.archive.org/web/20100915042951js_/http://cache.lego.com/js/jquery/ui.accordion_fixed.min.js" type="text/javascript"></script>
+   <script src="https://web.archive.org/web/20100915042951js_/http://cache.lego.com/js/jquery/ui.scrollbar.js" type="text/javascript"></script>
+   
+   <script type="text/javascript">
+       $(document).ready(function() {
+           var d = new Date();
+           var gmtHours = (d.getTimezoneOffset() / 60);
+           gmtHours = gmtHours * -1;
+
+           $.getJSON("WeatherSystem/WeatherStation.aspx", { gmt: gmtHours },
+            function(data) {
+                $('body').css('background', 'url(' + data.background + ') no-repeat scroll center top #000000');
+                $(".weatherForeCast").html(data.forecast);
+            });
+       });
+   </script>
+    
+    
+    
+    <div id="homecontentContainer">
+    
+        <img id="ctl00_ContentPlaceHolderSite_ctl00_topLeftToutHeader" class="topleftToutHeader pngSupport" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/picBDAC375124E813BD095CF15F2B832E94.png" border="0">
+
+        <ul id="topLeftToutsContainer" class="pngSupport">
+        
+                <li>
+                    <a href="/web/20100915042951/http://herofactory.lego.com/ko-kr/SubmitAMission/Default.aspx">
+                    <img alt="내 미션 제출하기" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/pic04607349DEDE30D40DEF6672C72E9324.png">
+                    </a>
+                </li>
+                
+            
+                <li>
+                    <a href="/web/20100915042951/http://herofactory.lego.com/ko-kr/callcenter/default.aspx">
+                    <img alt="콜 센터" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/pic5B13AFC59EC41CE0B2D45C43E88A2E0D.png">
+                    </a>
+                </li>
+                
+            
+        </ul>
+    
+        <ul id="middleLeftToutsContainer">
+        
+            
+                <li class="pngSupport">
+                    <a href="/web/20100915042951/http://herofactory.lego.com/ko-kr/mediacenter/default.aspx"><img alt="" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/pic1843ED992A16EB5BAB40E0FEE236B778.png" class="pngSupport">
+                    <img alt="미디어 센터" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/pic9BDB64F477632159BE92F62FD79557FC.png">
+                    </a>
+                </li>
+                
+            
+            
+                <li class="pngSupport">
+                    <a href="/web/20100915042951/http://herofactory.lego.com/ko-kr/abouttheHeroFactory/default.aspx"><img alt="" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/pic7A5D8D3C442C0E99F8AED851290070F2.png" class="pngSupport">
+                    <img alt="히어로 팩토리 소개" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/picCCE911360891B2AFA01CFFEE779F59D9.png">
+                    </a>
+                </li>
+                
+            
+        </ul>
+    
+        <ul id="bottomLeftToutsContainer">
+        
+                <li class="pngSupport">
+                    <a href="/web/20100915042951/http://herofactory.lego.com/ko-kr/news/readmore/default.aspx?id=206779"><img src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/picFC673FCDFB2837F821603117B37FA73D.png" alt="" class="bottomToutHeader pngSupport">
+                        <img alt="Coming Soon: Build Your Own Hero" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/pic8A745DFA47F81C8BE8C327B688806137.png" class="bottomToutImage">
+                    </a>
+                </li>
+                
+            
+                <li class="pngSupport">
+                    <a href="/web/20100915042951/http://herofactory.lego.com/ko-kr/games/createavillain/default.aspx"><img src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/picDD40F062BE91DFA816006E1465076DCC.png" alt="" class="bottomToutHeader pngSupport">
+                        <img alt="내 악당 찾기 게임" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/picCB5CBD360EA73A30A3EFA8F790147CF0.png" class="bottomToutImage">
+                    </a>
+                </li>
+                
+            
+                <li class="pngSupport">
+                    <a><img src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/pic93EE0441316F35510A2115351D2EF8B8.png" alt="" class="bottomToutHeader pngSupport">
+                        <img alt="홍보 비디오" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/picF331B2E41927D3CDB905D09D011179A9.png" class="bottomToutImage">
+                    </a>
+                </li>
+                
+            
+        </ul>
+    
+        <div id="productsTout" class="pngSupport">
+        <img id="ctl00_ContentPlaceHolderSite_ctl00_productsToutHeader" class="productsToutHeader pngSupport" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/pic658A5541554F536FE595C04751FB709A.png" border="0">
+            <a href="/web/20100915042951/http://herofactory.lego.com/ko-kr/Products/Default.aspx" id="ctl00_ContentPlaceHolderSite_ctl00_productsToutLink">
+            
+                <img id="ctl00_ContentPlaceHolderSite_ctl00_productsToutImage" class="productsToutImage" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/pic202320D8E0B72BCED5A9DEBDC8F3985C.png" alt="히어로 팩토리 제품정보" border="0">
+                
+            </a>
+        </div>
+    
+        <div id="newsToutContainer" class="pngSupport">
+            <img id="ctl00_ContentPlaceHolderSite_ctl00_newsToutHeader" class="newsToutHeader pngSupport" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/pic8769D205795CA817CE0DB621DD32CC2B.png" border="0">
+
+            <div id="newsToutsTop"></div>
+            <div class="scrollPane"><div class="scrollView" style="width: 245px; height: 120px; overflow: hidden;"><ul id="newsTouts" style="overflow: hidden; margin-top: 0px;">
+                
+                        <li class="newsToutItems">
+                            <a href="https://web.archive.org/web/20100915042951/http://herofactory.lego.com/ko-kr/news/readmore/default.aspx?id=206779">
+                                <span class="newsItem">히어로 팩토리에서 ‘내 영웅 만들기’라는 새 기능을 마지막으로 다듬고 있습니다. 간편한 드래그 앤 드롭 인터페이스로 나만의 영웅을 만들어 마쿠히어로 ...</span>
+                                <span class="newsItemDate">2010-08-10</span>
+                            </a>
+                        </li>
+                    
+                        <li class="newsToutItems">
+                            <a href="https://web.archive.org/web/20100915042951/http://herofactory.lego.com/ko-kr/news/readmore/default.aspx?id=206780">
+                                <span class="newsItem">현재 은하계 위협 수준은 PEARL입니다. 악당과 생물체의 활동이 거의 하나도 없습니다.</span>
+                                <span class="newsItemDate">2010-08-10</span>
+                            </a>
+                        </li>
+                    
+                        <li class="newsToutItems">
+                            <a href="https://web.archive.org/web/20100915042951/http://herofactory.lego.com/ko-kr/news/readmore/default.aspx?id=206781">
+                                <span class="newsItem">세 명의 루키 영웅이 생산되어 곧 훈련을 시작합니다.</span>
+                                <span class="newsItemDate">2010-08-10</span>
+                            </a>
+                        </li>
+                    
+            </ul></div><div class="vScrollNavigation" style="visibility: visible;"><div class="vScrollbarUpArrow"></div><div class="vScrollbar" style="height: 120px;"><div class="vScrollbarHandle" style="position: absolute; height: 68.5714px; margin-top: 0px;"><div class="vScrollbarHandleBackgroundTop" style=""></div><div class="vScrollbarHandleBackgroundMiddle" style="height: 68.5714px;"></div><div class="vScrollbarHandleBackgroundBottom" style=""></div></div><div class="vScrollbarBackgroundTop"></div><div class="vScrollbarBackgroundMiddle" style="height: 120px;"></div><div class="vScrollbarBackgroundBottom"></div></div><div class="vScrollbarDownArrow"></div></div></div>
+            <div id="newsToutsBottom"></div>
+        </div>
+    
+        <div id="realTimeStatsTout" class="pngSupport">
+            <img id="ctl00_ContentPlaceHolderSite_ctl00_realTimeStatsImage" class="realTimeStatsImage pngSupport" src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryHome/images/pic25E0C11BC3992418F9A12181BFB6E590.png" border="0">
+            <table id="realTimeStatsText">
+                
+                        <tbody><tr class="realTimeStatsTextItem">
+                            <td>
+                                현재 미션 수행 중인 팀:
+                            </td>
+                        </tr>
+                    
+                        <tr class="realTimeStatsTextItem">
+                            <td>
+                                이번 주에 생포하거나 물리친 악당과 심복 수:
+                            </td>
+                        </tr>
+                    
+                        <tr class="realTimeStatsTextItem">
+                            <td>
+                                완수한 미션 합계:
+                            </td>
+                        </tr>
+                    
+                        <tr class="realTimeStatsTextItem">
+                            <td>
+                                미션 성공률:
+                            </td>
+                        </tr>
+                    
+                        <tr class="realTimeStatsTextItem">
+                            <td>
+                                오늘 탄생한 새 영웅 수:
+                            </td>
+                        </tr>
+                    
+            </tbody></table>
+
+            
+            
+            <table id="realTimeStatsValue">
+                <tbody><tr class="realTimeStatsValueItem">
+                    <td>
+                        <span id="HeroTeamsCurrentlyOnMission"></span>
+                    </td>
+                </tr>
+                <tr class="realTimeStatsValueItem">
+                    <td>
+                        <span id="VillainsAndMinionsCapturedOrDefeatedThisWeek"></span>
+                    </td>
+                </tr>
+                <tr class="realTimeStatsValueItem">
+                    <td>
+                        <span id="TotalMissionsCompleted"></span>
+                    </td>
+                </tr>
+                <tr class="realTimeStatsValueItem">
+                    <td>
+                        <span id="MissionSuccessRatio"></span>
+                    </td>
+                </tr>
+                <tr class="realTimeStatsValueItem">
+                    <td>
+                        <span id="NewHeroesCommissionedToday"></span>
+                    </td>
+                </tr>
+            </tbody></table>
+            <script type="text/javascript">
+                $(document).ready(function() {
+
+                    UpdateRealTimeStatistics();
+
+                });
+
+                function UpdateRealTimeStatistics() {
+
+                    var d = new Date();
+
+                    $.getJSON("GameServices/FetchAggregateData.aspx?_=" + d.getTime(),
+                    function(data) {
+                        $("span#HeroTeamsCurrentlyOnMission").text(data.HeroTeamsCurrentlyOnMission);
+                        $("span#VillainsAndMinionsCapturedOrDefeatedThisWeek").text(data.VillainsAndMinionsCapturedOrDefeatedThisWeek);
+                        $("span#TotalMissionsCompleted").text(data.TotalMissionsCompleted);
+                        $("span#MissionSuccessRatio").text(data.MissionSuccessRatio + "%");
+                        $("span#NewHeroesCommissionedToday").text(data.NewHeroesCommissionedToday);
+                    });
+
+                    setTimeout(UpdateRealTimeStatistics, 600000);
+                }
+                
+            </script>
+            
+            <p id="ctl00_ContentPlaceHolderSite_ctl00__pWeatherHeader" class="weatherHeader">마쿠히어로 시티의 오늘 날씨:</p>
+            <p id="ctl00_ContentPlaceHolderSite_ctl00__pWeatherForecast" class="weatherForeCast">마쿠히어로 시티 기상 시스템에 연결하는 중...</p>
+        </div>
+    
+        
+        <div id="newsTickerTout">
+            
+
+
+    
+
+    <script language="javascript" src="/web/20100915042951js_/http://herofactory.lego.com/js/jquery.scrollTo-min.js" type="text/javascript"></script>
+    <script language="javascript" src="/web/20100915042951js_/http://herofactory.lego.com/js/jquery.smoothDivScroll-0.9-min.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        $(function() {
+            $("div#scrollingText").smoothDivScroll({ autoScroll: "always", autoScrollDirection: "endlessloop", pauseAutoScroll: "mouseover" });
+        });
+    </script>  
+    
+    <div id="scrollingText" class="pngSupport">
+        <div class="scrollWrapper">
+            <div class="scrollableArea" style="width: 7600px;">
+                
+                        <h5>“빨리 도와주세요! 미사일, 총, 지뢰로 무장한 자이언트 사이보그가 제 방을 파괴하고 있어요! 빨리 출동해서 도와주세요!”<span> </span></h5>
+                    
+                        <h5> &nbsp; &nbsp; &nbsp; &nbsp; . . . &nbsp; &nbsp; &nbsp; &nbsp; <span> </span></h5>
+                    
+                        <h5>“도와주세요!! 돌연변이 로봇 개미에게 공격을 당하고 있어요!!”<span> </span></h5>
+                    
+                        <h5> &nbsp; &nbsp; &nbsp; &nbsp; . . . &nbsp; &nbsp; &nbsp; &nbsp; <span> </span></h5>
+                    
+                        <h5>“어린 고양이가 엄마 샌드위치를 먹어버렸어요!!”<span> </span></h5>
+                    
+                        <h5> &nbsp; &nbsp; &nbsp; &nbsp; . . . &nbsp; &nbsp; &nbsp; &nbsp; <span> </span></h5>
+                    
+                        <h5>“야, 초콜릿 괴물이다! 이건 별거 아니겠는데. 윽... 초콜릿이 아니잖아! 도와주세요!”<span> </span></h5>
+                    
+                        <h5> &nbsp; &nbsp; &nbsp; &nbsp; . . . &nbsp; &nbsp; &nbsp; &nbsp; <span> </span></h5>
+                    
+            </div>
+        </div>
+    </div>
+        </div>
+    </div> 
+    
+    
+    <div id="videoPopup" class="videoPopupBackground"></div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('ul#bottomLeftToutsContainer li:last a').removeAttr('href', '');
+            $('ul#bottomLeftToutsContainer li:last a').live('click', function(e) {
+                $('div#videoPopup')
+                    .openPopup({appendTo: '#siteContainer', loadUrl: '/ko-kr/Popups/video.aspx' });
+                return false;
+            }); 
+      });
+    </script></div>
+    
+
+                        
+            </div>
+        </div>
+        <div id="contentBgBottom"></div>
+    </div>
+    	<div id="GFcontainer">
+		<ul id="GFlinks">
+			<li><a href="https://web.archive.org/web/20100915042951/http://service.lego.com/ko-KR/default.aspx">고객 서비스</a></li>
+			<li><a href="https://web.archive.org/web/20100915042951/http://market.lego.com/ko-kr/AboutUs/Default.aspx">회사소개</a></li>
+			<li><a href="https://web.archive.org/web/20100915042951/http://market.lego.com/ko-kr/siteindex/default.aspx">사이트맵</a></li>
+			<li id="GFlegalNotice"><a href="https://web.archive.org/web/20100915042951/http://market.lego.com/ko-kr/aboutUs/legalnotice.aspx">법적고지</a></li>
+		</ul>
+		<img src="https://web.archive.org/web/20100915042951im_/http://cache.lego.com/eng/images/globalfooter/img25x25legologo.gif" alt="LEGO logo">
+<p id="GFlegal">LEGO, the LEGO logo, DUPLO, BIONICLE, MINDSTORMS, the BELVILLE, KNIGHTS’ KINGDOM and EXO-FORCE logos, <br>the Brick and Knob configurations and the Minifigure are trademarks of the LEGO Group.<br>© 2010 The LEGO Group. All rights reserved. Use of this site signifies your agreement to the terms of use.</p>	</div>
+<script language="javascript">
+	var _hbEC=0,_hbE=new Array;
+	function _hbEvent(a,b){b=_hbE[_hbEC++]=new Object();b._N=a;b._C=0;return b;}
+	var hbx=_hbEvent("pv");
+	hbx.vpc="HBX0100u";
+	hbx.gn="ehg-legonewyorkinc.hitbox.com";
+	hbx.pn="-+we+build+heroes";
+	hbx.acct="DM530327F3EW;DM530410DDSE";
+	hbx.mlc="/content/hero+factory;/kor/content/hero+factory";
+	hbx.pndef="title";
+	hbx.ctdef="full";
+	hbx.lt="auto";
+	hbx.dft="n";
+	hbx.dlf="n";
+	hbx.elf="n";
+	hbx.cmpn="CMP";
+	hbx.dcmpn="DCMP";
+	hbx.hqsp="HQS";
+	hbx.cp="null";
+	hbx.cpd="lego.com";
+	hbx.seg="8,,15,--14,*";
+	hbx.hrf="";
+</script>
+<script language="javascript1.1" defer="defer" src="https://web.archive.org/web/20100915042951js_/http://cache.lego.com/include/hitbox/hbx.js"></script>
+
+    
+    
+
+<script type="text/javascript">
+//<![CDATA[
+$(function() {$('ul#newsTouts').scrollbar({scrollViewWidth: 245, scrollViewHeight: 120,showArrows: true});});//]]>
+</script>
+
+<script language="JavaScript">
+<!-- 
+function ms( imagename, action ) { 
+try { 
+if ( document.images ) {
+ eval('document.images.' +imagename + '.src=' + imagename + '_' + action +'.src;'); 
+} 
+
+} catch(e) {}
+}
+-->
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+</body>
+</html>
