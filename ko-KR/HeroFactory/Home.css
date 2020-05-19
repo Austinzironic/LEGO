@@ -1,0 +1,83 @@
+/*---------------------------------------------------------------------------
+H E R O   F A C T O R Y   H O M E
+----------------------------------------------------------------------------
+------------------------------
+STRUCTURE
+------------------------------*/
+
+body { background: #000 none; }
+#contentBgTop {background:url(/web/20100818093746im_/http://herofactory.lego.com/en-US/CSS/Home.aspx); height:0px; text-indent: -9999px; float:left;}
+#contentBgBottom {background:url(/web/20100818093746im_/http://herofactory.lego.com/en-US/CSS/Home.aspx); height:0px; float: left;}
+#contentWrapper, #contentBGBottom {background:url(/web/20100818093746im_/http://herofactory.lego.com/en-US/CSS/Home.aspx);}
+#contentMain {background-color:Transparent; min-height: 720px;}
+
+#newsToutsTop, #newsToutsBottom {left:10px;position:absolute;width:238px;}
+#newsToutsTop {background:url(https://web.archive.org/web/20100818093746im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryDictionary/images/pic6DE8DBC03FB6E9BA56559D4E632E1606.png) no-repeat; height:5px;top:46px;}
+#newsToutsBottom { background:url(https://web.archive.org/web/20100818093746im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryDictionary/images/pic5B2217860A2632019092465B76890B70.png) no-repeat;top:171px;height:6px;}
+
+#topLeftToutsContainer {background:url(https://web.archive.org/web/20100818093746im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryDictionary/images/picEE8219801BE9FD4328C6897A8E6FF6BD.png) no-repeat; height: 187px; width: 383px; position:absolute; float:left; top: 0px; left: 0px; }
+#topLeftToutsContainer li {float:left;padding: 46px 0 0 8px;}
+#middleLeftToutsContainer { height: 136px; float:left; position:absolute; top: 200px; }
+#middleLeftToutsContainer li {background:url(https://web.archive.org/web/20100818093746im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryDictionary/images/picAFFAE74AC7DC1646ED2A79571CF9F2DF.png) no-repeat; float:none; height:140px; width: 325px; padding: 10px 0 0 11px; }
+#middleLeftToutsContainer img {padding: 11px 0 0 0;}
+#bottomLeftToutsContainer { height: 136px; float:left; position:absolute; top: 562px; }
+#bottomLeftToutsContainer li {background:url(https://web.archive.org/web/20100818093746im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryDictionary/images/pic042A5F5F4C7BF9F947E2E25D407EE161.png) no-repeat; float:left; height: 136px; width: 219px; }
+
+#productsTout {background:url(https://web.archive.org/web/20100818093746im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryDictionary/images/pic0DD172A2EAB3269490F335C712B5C2EB.png) no-repeat; height: 187px; width: 337px; float:left; position:absolute; top: 0px; left: 612px;}
+#newsToutContainer {background:url(https://web.archive.org/web/20100818093746im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryDictionary/images/pic42346380EC97DCB5AFB0797435A5E345.png) no-repeat; overflow:hidden; height: 187px; width: 287px; float:left; position:absolute; top: 200px; left: 665px;}
+#realTimeStatsTout {background:url(https://web.archive.org/web/20100818093746im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryDictionary/images/pic5DDF149E97E22067751A6D6107ABE32B.png) no-repeat; height: 297px; width: 287px; float:left; position:absolute; top: 400px; left: 665px;}
+
+/*------------------------------
+ADDITIONAL CLASSES
+------------------------------*/
+#newsTouts { float: left; overflow: hidden; }
+#newsTouts .newsItem {color:#FFF;display:block;padding:7px 5px 0 20px;}
+#newsTouts .newsItemDate {color:#96A9AD;font-size:93%;padding: 0 0 0 20px;}
+.newsToutItems {background:url(https://web.archive.org/web/20100818093746im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryDictionary/images/pic49B35047FD553C1BF47B626A5F13570E.png) no-repeat; height: 57px; width: 238px; font-size: 85%; }
+.newsToutHeader {position:absolute; left:15px; top: 20px;}
+.realTimeStatsImage {position:absolute; left:15px; top: 20px;}
+#realTimeStatsText { display: inline; float:left; margin: 49px 0 0 35px; width: 140px; }
+.realTimeStatsTextItem { color:#FFFFFF; font-size:85%; height:36px; padding:6px 0 0; vertical-align:middle; }
+#realTimeStatsValue { float:left; margin:49px 0 0 4px; width:85px; }
+.realTimeStatsValueItem { color:#90A7AD; font-size:120%; font-weight:bold; height:36px; text-align:right; vertical-align:middle; }
+.weatherHeader { color:#FFFFFF; display: inline; float:left; font-size:85%; margin:6px 0 0 34px; }
+.weatherForeCast { bottom:20px; color:#97A9AD; font-size:85%; height:27px; left:37px; position:absolute; width:224px; }
+.scrollView {left:10px;position:absolute;top:50px;}
+
+.vScrollNavigation { position:absolute;right:15px;top:50px; }
+
+/*------------------------------
+HEADERS/PARAGRAPHS
+------------------------------*/
+
+
+/*------------------------------
+LINKS
+------------------------------*/
+#middleLeftToutsContainer a, #bottomLeftToutsContainer a, #topLeftToutsContainer a, #productsTout a { float: left;}
+
+
+/*------------------------------
+IMAGES
+------------------------------*/
+.bottomToutHeader {padding: 19px 0 0 15px;}
+.bottomToutImage {padding: 8px 0 0 6px;}
+.productsToutHeader {padding: 16px 0 0 15px;}
+.productsToutImage {position:absolute; top: 41px; left: 6px;}
+.topleftToutHeader {position:absolute; z-index: 100; top: 17px; left: 15px;}
+
+/*------------------------------
+VIDEOPOPUP
+------------------------------*/
+div.videoPopupBackground { background: url(https://web.archive.org/web/20100818093746im_/http://cache.lego.com/images/HeroFactory/movieplayer/Fullsite/popupbackground.jpg) no-repeat; display:none;height:331px;position:absolute;width:491px;}
+div#videoContainer { border:2px solid #799BA5;bottom:2px;height:300px;left:4px;position:absolute;width:480px; }
+div#videoPopup .bClose {background: url(https://web.archive.org/web/20100818093746im_/http://cache.lego.com/images/HeroFactory/movieplayer/Fullsite/X.jpg) no-repeat; cursor:pointer;display:block;height:17px;position:absolute;right:2px;top:4px;width:17px;}
+
+/*---------------------------------------------------------------------------
+NEWS TICKER
+---------------------------------------------------------------------------*/
+div#scrollingText { background: url(https://web.archive.org/web/20100818093746im_/http://cache.lego.com/upload/contentTemplating/HeroFactoryDictionary/images/pic3725A5576F5CBBB93CDEC292351994EB.png) no-repeat bottom; height:50px; position:relative; width:650px;}
+div.scrollWrapper { height:16px; margin-left:35px; overflow:hidden; padding:18px 0 0 0; position:relative; width:580px; }
+div.scrollableArea { height: 100%; position: relative; width: auto; }
+div#scrollingText div.scrollableArea * { color:#1E89D0; display: inline; font-weight: normal; height: auto; margin: 0; padding: 2px 0 0; width: auto; }
+#newsTickerTout {position:absolute; top: 500px; left: 0px;}
