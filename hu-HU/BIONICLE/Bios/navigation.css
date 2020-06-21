@@ -1,0 +1,147 @@
+BODY
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+P
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.topnav_legofinder
+{
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.topnav_searchbox
+{
+    FONT-SIZE: 9px;
+    WIDTH: 130px;
+    COLOR: #000000;
+    FONT-FAMILY: Arial
+}
+.topnav_breadcrumbwhite
+{
+    FONT-SIZE: 10px;
+    COLOR: white;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.topnav_breadcrumbblack
+{
+    FONT-SIZE: 10px;
+    COLOR: black;
+    FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.login
+{
+    FONT-SIZE: 11px;
+    WIDTH: 50px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Helvetica, Arial;
+    HEIGHT: 16px
+}
+.password
+{
+    FONT-SIZE: 11px;
+    WIDTH: 50px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Helvetica, Arial;
+    HEIGHT: 16px
+}
+.topnavtextblack
+{
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Helvetica, Arial;
+    TEXT-DECORATION: none
+}
+.topnavtext
+{
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Helvetica, Arial;
+    TEXT-DECORATION: none
+}
+.topnavtextshop
+{
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Helvetica, Arial;
+    TEXT-DECORATION: none
+}
+.topnavtextshop:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #ff3300;
+    FONT-FAMILY: Verdana, Helvetica, Arial;
+    TEXT-DECORATION: none
+}
+.topnavtext:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #ffffff;
+    FONT-FAMILY: Verdana, Helvetica, Arial;
+    TEXT-DECORATION: none
+}
+.topnavtextblack:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Helvetica, Arial;
+    TEXT-DECORATION: none
+}
+.topnavshopbreadcrumbs
+{
+    FONT-SIZE: 10px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Helvetica, Arial
+}
+.topnavshopbreadcrumbs:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #ff3300;
+    FONT-FAMILY: Verdana, Helvetica, Arial
+}
+.topnavtextblackmac
+{
+    FONT-SIZE: 9px;
+    WIDTH: 140px;
+    COLOR: red;
+    FONT-FAMILY: Verdana, helvetica, Arial;
+    TEXT-DECORATION: none
+}
+.shoplinks
+{
+    FONT-WEIGHT: bolder;
+    COLOR: #a5a6a5;
+    FONT-FAMILY: Verdana, Arial, sans-serif;
+    TEXT-DECORATION: underline
+}
+
+/*
+     FILE ARCHIVED ON 14:00:05 Dec 09, 2003 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:30:44 Jun 21, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  esindex: 0.009
+  load_resource: 1092.516
+  PetaboxLoader3.resolve: 1082.692 (2)
+  RedisCDXSource: 1.242
+  exclusion.robots: 0.314
+  exclusion.robots.policy: 0.299
+  CDXLines.iter: 9.586 (3)
+  captures_list: 142.22
+  PetaboxLoader3.datanode: 105.413 (4)
+  LoadShardBlock: 125.901 (3)
+*/
