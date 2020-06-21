@@ -1,0 +1,682 @@
+/*---------------------------------------------------------------------------
+G L O B A L   E L E M E N T S
+---------------------------------------------------------------------------*/
+* { margin: 0; padding: 0; }
+
+body { 
+	font-family: verdana, lucida, arial, helvetica, sans-serif; 
+	background-color: #000000; 
+	color: #ffffff;
+}
+
+img { border: 0; }
+
+
+/*---------------------------------------------------------------------------
+C O M M O N   E L E M E N T S
+---------------------------------------------------------------------------*/
+.noFlash p { margin: 5px 0 0 0; font: bold 10px verdana, lucida, arial, helvetica, sans-serif; color: #fff; text-align: center; }
+.noFlash a, .noFlash a:visited, .noFlash a:hover, .noFlash a:active { color: #f70000 !important; }
+#subContainer {
+	width: 700px;
+	padding: 40px 0 20px 30px;
+}
+
+/*---------------------------------------------------------------------------
+G A M E
+---------------------------------------------------------------------------*/
+#GAmainContainer {width: 770px; background-color: #353535; text-align: center; }
+.GAnoFlash { width: 578; margin: 0 auto; padding: 10px 0 0 0; }
+.GAanniversary { margin: 10px; display: block; text-align: left; }
+
+
+/*Funzone and Movies*/
+.MOnoFlash { float: left; }
+#FZ-mainContainer, #MO-mainContainer { width: 770px; background-color: #353535; overflow: hidden; }
+#FZ-mainContent, #MO-mainContent { margin: 0 0 0 8px; padding: 10px 0 0 0; background: url(https://web.archive.org/web/20080703164934im_/http://cache.lego.com/images/starwars/Homepage/img755x012_breakmiddle.jpg) bottom left no-repeat; }
+/*Tout*/
+.TOUT-header { width: 366px; height: 28px; display: block; font: bold 13px/28px verdana, lucida, arial, helvetica, sans-serif; color: #d9a544; text-indent: 10px; background: url(https://web.archive.org/web/20080703164934im_/http://cache.lego.com/upload/contentTemplating/StarwarsDictionary/images/1033/picE6FA6DF7-4818-4A06-9F59-E311A3FAA833.jpg) no-repeat; }
+.TOUT-txt { margin: 10px 5px 0 0; display: block; font-size: 13px; }
+#TOUT-container { margin: 0 0 0 8px; }
+#TOUT-container a { width: 366px; height: 161px; margin: 20px 14px 60px 0; display: block; background: url(https://web.archive.org/web/20080703164934im_/http://cache.lego.com/upload/contentTemplating/StarwarsDictionary/images/1033/pic33415808-D990-4E78-B8BF-2066454F44BE.jpg) 0 28px no-repeat; cursor: pointer; color: #ccc; float: left; }
+#TOUT-container a img { margin: 10px 5px 0 5px; float: left; }
+#TOUT-container a:hover { text-decoration: none; }
+#TOUT-container a:hover .TOUT-txt { text-decoration: underline; }
+
+/*Breadcrumb on Funzone and Movies*/
+#breadcrumb { width: 770px; background-color: #353535; }
+#breadcrumb li { margin: 0 0 0 10px; display: inline; color: #d9a544; }
+#breadcrumb a, 
+#breadcrumb a:visited, 
+#breadcrumb a:active { margin: 0 0 0 10px; font: normal 13px/2.3em verdana; color: #d9a544; }
+/*Various*/
+.clear { clear: both; }
+.leftFloat { float: left; }
+.rightFloat { float: right; }
+.noWhiteSpace { display: block; }
+
+
+/****************************/
+/* Menu at the top          */
+/****************************/
+.NavHeader
+{
+	height: 89px;
+	width: 770px;
+}
+
+.NavContainer
+{
+	background: no-repeat;
+	height: 45px;
+	width: 770px;
+	text-align: left;
+}
+
+.SubNavContainer
+{
+	height:45px;
+	width: 600px;
+	padding: 16px 0px 0px 55px;
+	text-align: left;
+}
+
+.NavItem
+{
+	margin-left: 5px;
+}
+
+.NavFooter
+{
+	height: 15px;
+	width: 770px;
+}
+
+/****************************/
+/* Breadcrumb               */
+/****************************/
+.ms-breadcrumb {
+    list-style: none;
+    padding: 0px;
+    margin: 2px 0px 0px 0px;
+    border: 1px solid #ffffff;
+}
+.ms-breadcrumb li {
+    float: left;
+    margin-left: 5px;
+}
+.ms-breadcrumb li img {
+    margin-top: 2px;
+}
+.ms-breadcrumb li, .ms-breadcrumb li a {
+    color: #888888;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+/****************************/
+/* Homepage                 */
+/****************************/
+.hp-MainstageImageProductsContainer
+{
+	width: 752px;
+}
+
+.hp-MainstageImageContainer 
+{
+	float: left;
+}
+
+.hp-ActivitiesContainer {
+	float: left;
+}
+
+/*Tout*/
+#hp-tout {
+	width: 187px;
+	height: 269px;
+	float: left;
+}
+
+#hp-toutInner {
+	margin: 4px;
+}
+
+#hp-toutInner h2 {
+	margin: 2px 0 5px 0;
+}
+
+#hp-toutInner h2 a {
+	margin: 2px 0 5px 0;
+	color: #f1a543;
+	font-weight: normal;
+}
+
+#hp-toutInner a {
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+.hp-DidYouKnowContainer {
+	background-image: url(/web/20080703164934im_/http://starwars.lego.com/en-us/CSS/starwars.aspx);
+	height: 214px;
+	width: 365px;
+	padding: 55px 60px 55px 70px;
+}
+
+/****************************/
+/* Products                 */
+/****************************/
+A:visited, A:active,  A:link
+{
+	font-family: verdana, lucida, arial, helvetica, sans-serif;
+	text-decoration: none;
+	color:#9C9B98;
+}
+
+A:hover
+{
+	font-family: verdana, lucida, arial, helvetica, sans-serif;
+	text-decoration: underline;
+	color:#9C9B98;
+}
+
+.Text
+{
+	font-family: verdana, lucida, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.ProductDetails
+{
+	border: #010101 1px solid;
+	background-color: #7e7e7e;
+}
+
+.ProductActivities
+{
+	background-color: #000000;
+	color:#ffffff;
+	font-weight: bold;
+}
+.ProductActivities-header {
+	background-color: #212121;
+	font-weight: bold;
+	height: 40px;
+}
+.ProductActivities-header .ProductSubTitle {
+	color:#c7c7c7;
+}
+.ProductActivities-desc {
+	background-color: #7e7e7e;
+}
+.ProductActivities-desc a, .ProductActivities-desc {
+	color:#000000;
+}
+.ProductActivities-desc a:hover {
+	text-decoration: underline;
+}
+.ProductShopLinks {
+	padding-right: 0px;
+	padding-left: 117px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	background-color: #788694;
+}
+
+.Vote {
+	font-size: 8pt;
+	width: 100%;
+	border-bottom: #BBBBBB 1px solid;
+	font-family: Arial;
+	background-color: #EEF8FC;
+	text-decoration: none;
+	color: black;
+}
+
+.VoteHover
+{
+	font-size: 8pt;
+	color: white;
+	font-family: Arial;
+	text-decoration: underline;
+	background-color:#D87A38;
+}
+
+.VoteThankYou
+{
+	font-size: 8pt;
+	color: white;
+	font-family: Arial;
+	background-color: #d87a38;
+	text-align: center;
+}
+
+.VoteBasedOn
+{
+	font-weight: bold;
+	font-size: 7pt;
+	color: white;
+	font-family: Arial;
+}
+
+.VoteRank
+{
+	font-weight: bold;
+	font-size: 18pt;
+	color: white;
+	font-family: Arial;
+}
+
+.ProductMainTitle
+{
+	font-weight: bold;
+	font-size: 17px;
+	color: #000000;
+	padding: 3px;
+	font-family: Arial;
+}
+
+.ProductDescription
+{
+	font-size: 11px;
+	color: #000000;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+.ProductSubTitle
+{
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+/****************************/
+/* Downloads                */
+/****************************/
+.DLText
+{
+	font-family: verdana, lucida, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.DLLink {
+	color: #ffffff !important;
+	font-family: verdana, lucida, arial, helvetica, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: bold;
+}
+.DLLinkOuter {
+	margin-left: 10px; 
+	margin-top: 2px;
+	float: left;
+	display: inline;
+	text-align: center; 
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+/* IE HACK \*/
+* html .DLLinkOuter {
+	padding-top: 0px;
+}
+/* END IE HACK */
+.DLLinkOuterWP {
+	width: 81px; 
+}
+.DLLinkOuterSS {
+	width: 169px;
+}
+.DLouter {
+	width: 770px;
+	color: #000000;
+}
+.DLinner {
+	padding: 10px;
+}
+.DLcontent {
+	background-color: #353535;
+	padding: 5px;
+	margin-left: 90px;
+	width: 575px;
+}
+.DLheadline {
+	height: 30px;
+	margin-bottom: 5px;
+}
+.DLwallpaper {
+	margin-bottom: 10px;
+}
+.DLwallpaper .DLheadline {
+	background: url(https://web.archive.org/web/20080703164934im_/http://cache.lego.com/upload/contentTemplating/StarwarsDictionary/images/1033/pic32A40B60-6FE7-4DC9-9AC0-D6BF80DEA3FC.jpg) no-repeat;
+}
+.DLscreensaver .DLheadline {
+	background: url(https://web.archive.org/web/20080703164934im_/http://cache.lego.com/upload/contentTemplating/StarwarsDictionary/images/1033/pic7BA7AC94-3F6E-4D33-B9A1-E747D55D53FE.jpg) no-repeat;
+}
+
+/*************************/
+/* Screening Room        */
+/*************************/
+
+.sw-sr-menu-left {
+	border: 1px solid #000000;
+}
+
+/*************************/
+/* Gallery               */
+/*************************/
+
+.GalleryMainContainer
+{
+	background-color: #353535;
+	width: 770px;
+	text-align: center;
+}
+#GALmainContent { width: 582px; margin: 0 auto; }
+.GALanniversary { margin: 10px; display: block; text-align: left; }
+.GalleryImageLink
+{
+	float: left;
+	margin-right: 6px;
+	margin-top: 3px;
+}
+
+
+.GalleryEmployeeImage
+{
+	width: 202px;
+	margin-top: 10px;
+}
+
+/* Provides the background behind the (6) scene images */
+.GalleryScenePanel
+{
+	width: 606px;
+	height: 275px;
+	margin: 0px;
+	padding: 0px;
+	background: #353535 url(https://web.archive.org/web/20080703164934im_/http://cache.lego.com/images/starwars/gallery/img606x275_gallerybg.gif) no-repeat left top;
+}
+
+/* Contains each of the scene images with a link to the pop-up */
+.GallerySceneLink
+{
+	float: left;
+	width: 152px;
+	height: 128px;
+	margin: 0px;
+	padding: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+/* Positioned to the left of each scene image to give horizontal space without using margin or padding in divs */
+.GallerySceneSpacer
+{
+	float: left;
+	width: 38px;
+	height: 128px;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Positioned above the scene image to give vertical space without using margin or padding in divs */
+.GalleryTopSpacer
+{
+	width: 580px;
+	height: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* Used in the popup for each gallery scene (GalleryScene.aspx) */
+.GallerySceneContainer
+{
+	position: relative; 
+	top: 0px; 
+	left: 0px; 
+	width: 351px;
+	height: 440px;
+	margin: 0px;
+	padding: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+	background: #3D3D3D url(https://web.archive.org/web/20080703164934im_/http://cache.lego.com/images/starwars/gallery/img351x397popupbg.jpg) no-repeat left top;
+}
+
+.GallerySceneImage
+{
+	margin: 4px;
+}
+
+.GallerySceneLabel
+{
+	color: #DDDDDD;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.GallerySceneText
+{
+	color: #EEEEEE;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.GallerySceneTable
+{
+	margin: 10px;
+}
+
+/* Used for the count label in the popup for a gallery scene (GalleryScene.aspx) */
+.GallerySceneCountLabel
+{
+	color: #DDDDDD;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.GalleryEmployeeText
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 11px;
+}
+/*********************/
+/***Promotion survey*/
+/*********************/
+
+
+.RandomSurvey
+{	width:148px;
+	height:296px;
+	font-size:10px;
+	border:solid 1px black;
+	
+}
+
+.PromotionButtonContainer
+{	padding:3px 0px 0px 15px;
+	
+}
+.PromotionTextContainer
+{	margin:5px;
+	font-size:9px;
+	font-family:arial;	
+	text-align:center;
+	color:Gray;
+}
+
+
+/*---------------------------------------------------------------------------
+T E A S E R   P A G E
+---------------------------------------------------------------------------*/
+
+/* -----------------------------
+STRUCTURE
+------------------------------*/
+#TE-mainContainer {
+	width: 770px;
+	padding: 40px 0 20px 10px;
+	text-align: center;
+}
+
+#TE-mainContent {
+	width: 570px;
+	margin: 0 auto;
+	font-size: 13px; 
+	text-align: left;
+	font-family: verdana;
+	color: #fff; 
+}
+
+#TE-mainContentTxt {
+	margin: 0 0 40px 0;
+}
+
+#TE-videoContainer {
+	margin: 0 0 20px 0;
+	padding: 0;
+	display: block;
+}
+
+.TE-videoItem {
+	width: 146px;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	float: left;
+}
+
+.TE-videoItemMiddle {
+	width: 146px;
+	margin: 0 50px 0 50px;
+	font-size: 0;
+	float: left;
+}
+
+.TE-videoItem .TE-img, .TE-videoItemMiddle .TE-img {
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+.TE-videoItem a img, .TE-videoItemMiddle a img {
+	margin: 0;
+	padding: 0;
+}
+
+	
+/* -----------------------------
+HEADERS/PARAGRAPHS
+------------------------------*/
+#TE-mainContent h1 {
+	margin: 0 0 5px 0;
+	padding: 0;
+	font: bold 13px/1.25 Verdana;
+	color: #EEA53F;
+}
+
+/* -----------------------------
+IMAGES
+------------------------------*/
+#TE-mainContentTxt img {
+	margin: 0 10px 0 0;
+	float: left;
+}
+
+
+/*---------------------------------------------------------------------------
+F U N Z O N E
+---------------------------------------------------------------------------*/
+
+/* -----------------------------
+HEADERS/PARAGRAPHS
+------------------------------*/
+.FunZoneLargeText {
+	width: 250px;  
+	padding: 0 0 5px 0;
+	display: block; 
+	float: left;
+	font-size: 13px;
+}
+
+/* -----------------------------
+LINKS
+------------------------------*/
+#FZ-mainContent h1 a { 
+	color: #d9a544; 
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/* -----------------------------
+IMAGES
+------------------------------*/
+#FZ-mainContent img { 
+	margin: 0 20px 40px 0; 
+	float: left; 
+}
+
+
+/*---------------------------------------------------------------------------
+M O V I E S
+---------------------------------------------------------------------------*/
+
+/*------------------------------
+STRUCTURE
+------------------------------*/
+#MO-mainContentFlash {
+	width: 514px;
+	margin: 10px 5px 0 0;
+	padding: 0 0 30px 0;
+	float: right;
+}
+
+ul#MO-mainContentNavi {
+	width: 230px;/*260*/
+	margin: 20px 10px 20px 0;
+	float: left;
+	overflow:auto;
+	height:323px
+}
+
+
+#MO-mainContentNavi li {
+	margin: 0 0 8px 10px;
+	list-style-type: none;
+	font-size: 13px;
+	clear: both;
+}
+
+#MO-mainContentNavi .MO-mainContentNaviTxt {
+	width: 105px;
+	margin: 0 0 10px 0;
+	cursor: pointer;
+	float: left;
+}
+
+/*------------------------------
+LINKS
+------------------------------*/
+#MO-mainContentNavi li a {
+	color: #d9a544;
+}
+
+#MO-mainContentNavi li a:hover img {
+	text-decoration: none;
+}
+
+/*-----------------------------
+IMAGES
+------------------------------*/
+#MO-mainContentNavi li img {
+	margin: 0 5px 10px 0;
+	float: left;
+}
