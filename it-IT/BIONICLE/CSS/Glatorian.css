@@ -574,7 +574,7 @@ DTV - Characters
 .characterNav ul#contentNavi li a { text-indent: -9999px; }
 .charContentOuter { padding:0 0 0 12px; width:719px; margin:20px 0 0 0; float:left }
 .charImage { margin:0; padding:0; width:353px; float:left }
-.charContent { font-family:arial; margin:0; width:340px; padding:0 0 0 20px; float:left }
+.charContent { font-family:sans-serif; margin:0; width:340px; padding:0 0 0 20px; float:left }
 .charName { margin:0; padding:0; float:left }
 .charText { color:#fff; font-weight:normal; font-size:.8em; margin:0; padding:10px 0 10px 0; float:left }
 .charQuote { color:#90c2db; font-weight:normal; font-size:.9em; margin:0; padding:0; float:left } 
