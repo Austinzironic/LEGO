@@ -148,7 +148,7 @@ IMAGES
 .newsNav li a, .newsNav li a:visited, .newsNav li a:active { width: 147px; margin: 0 0 10px 0; color: #FBE7CE; font:normal 12px arial, sans-serif; float:left; padding: 0 0 0 17px; background: url(https://web.archive.org/web/20100827131706im_/http://cache.lego.com/images/bionicle/glatorian/news/12x12newsarrow.gif) no-repeat; }
 .newsNav li a:hover { text-decoration: underline; color: #FBE7CE; }
 .newsNav li a:hover .newsNavDate { text-decoration: underline; color: #DDB168; }
-.newsNav li .newsNavDate { font:normal 12px arial, sans-serif; color:#DDB168; padding: 0 0 5px 0; display: block; }
+.newsNav li .newsNavDate { font:normal 12px sans-serif; color:#DDB168; padding: 0 0 5px 0; display: block; }
 .newsNavImage { float:left; display:block; padding:0px; margin:0px }
 .newsMain { width: 535px; height: 335px; margin: 5px 0 0 0; padding:0px; display:block; overflow: auto; float: left; }
 .newsMain ul { list-style-type:none; display:block; padding: 0px 0px 2px 10px; margin:5px 0 0 0;  }
@@ -215,16 +215,16 @@ STWE = Story Weapons
 --------------------------------
 STRUCTURE
 ------------------------------*/
-#STmainContainer { width: 770px; overflow: hidden; background-color: #F8E7CB; font: normal 13px arial; }
+#STmainContainer { width: 770px; overflow: hidden; background-color: #F8E7CB; font: normal 13px sans-serif; }
 #STheader h3 { width: 770px; height: 64px; text-indent: -9999px; background: url(https://web.archive.org/web/20100827131706im_/http://cache.lego.com/upload/contentTemplating/BionicleDictionary/images/picE8C78012F7595C9549449BE00F99E1AB.gif) no-repeat; }
 #STLink2 ul { margin: -25px 10px 20px 0px; text-align: right; }
 #STLink2 li { margin: 0 10px 0 0; display: inline; }
-#STLink2 li.storylinks a { color: #343530; font: normal 11px arial; }
+#STLink2 li.storylinks a { color: #343530; font: normal 11px sans-serif; }
 #STMIcontent { margin: 0 0 0 10px; }
 #STMIcontent p { margin: 0 10px 0 0; }
-li.storylinksNon a { color: #C3DB8F; font: normal 11px arial; }
+li.storylinksNon a { color: #C3DB8F; font: normal 11px sans-serif; }
 li.storylinksNon a:hover { text-decoration: none; }
-li.storylinks a { color: #fff; font: normal 11px arial; }
+li.storylinks a { color: #fff; font: normal 11px sans-serif; }
 #STMIcontent img { margin: 0 10px 0 0; float: left; }
 #STMIfooter { width: 770px; height: 93px; background: url(https://web.archive.org/web/20100827131706im_/http://cache.lego.com/images/bionicle/glatorian/common/770x73footer.gif) left top no-repeat; }
 #STmainContainerInner { background-color: #F8E7CB; padding:5px 0px 0px 0px; }
@@ -233,10 +233,10 @@ ul#storyContainer {  margin: 30px 0 0 55px; list-style: none; }
 #storyContainer li { width: 198px; margin: 0 30px 0 0; float: left; }
 #storyContainer li a img { margin: -3px 0; }
 .storyTxt { padding: 10px; height: 120px; display: block; background: #EFDABD; }
-#STMI-mainContent { margin: 10px 10px 0 10px; font:normal 12px arial,sans-serif; }
+#STMI-mainContent { margin: 10px 10px 0 10px; font:normal 12px sans-serif; }
 #ST-mainContent #ST-header img { margin: 0; float: none; }
 #ST-mainContent img { margin: 0 15px 10px 0; float: left; }
-#ST-mainContentTxt { width: 370px; margin: 0 10px 0 0; padding: 0 0 0 10px; color:#B4C2CD; font:normal 12px arial,sans-serif; text-align:left; float:right; }
+#ST-mainContentTxt { width: 370px; margin: 0 10px 0 0; padding: 0 0 0 10px; color:#B4C2CD; font:normal 12px sans-serif; text-align:left; float:right; }
 
 /*BIOS*/
 #STBImainContainerInner { background-color: #F8E7CB; padding: 5px 0px 0px 0px; width:761px; }
@@ -257,7 +257,7 @@ ul#storyContainer {  margin: 30px 0 0 55px; list-style: none; }
 #STBIprofile p { width: 310px; }
 #STBIprofile h4 { font-size: 16px; }
 .STBIprofileDownload { margin: 20px 0 0 0; }
-.biosProfileHeader { margin: 0 0 8px 10px; padding: 0 0 0px 0; font: bold 24px/26px arial, helvetica, sans-serif; border-bottom: 2px solid #86765D; color: #353533; }
+.biosProfileHeader { margin: 0 0 8px 10px; padding: 0 0 0px 0; font: bold 24px/26px helvetica, sans-serif; border-bottom: 2px solid #86765D; color: #353533; }
 .biosProfileText { margin: 0 0 0 10px; font-family: verdana, lucida, arial, helvetica, sans-serif; font-size: 13px; color: #343530; }
 
 /*WEAPONS*/
@@ -308,14 +308,14 @@ ul#storyContainer {  margin: 30px 0 0 55px; list-style: none; }
 .ProductActivities-desc a .Text { color: #343530; line-height: 14px; }
 .ProductActivities-desc a:hover .Text { color:#343530; text-decoration: underline; }
 .ProductShopLinks { padding-right: 0px;	padding-left: 117px; padding-bottom: 0px; padding-top: 0px; background-color: #788694; }
-.Vote {	font-size: 8pt;	width: 100%; border-bottom: #BBBBBB 1px solid; font-family: Arial; background-color: #EEF8FC; text-decoration: none; color: black; }
-.VoteHover { font-size: 8pt; color: white; font-family: Arial; text-decoration: underline; background-color:#D87A38; }
-.VoteThankYou {	font-size: 8pt;	color: white; font-family: Arial; background-color: #d87a38; text-align: center; }
-.VoteBasedOn { font-weight: bold; font-size: 7pt; color: white; font-family: Arial; }
-.VoteRank { font-weight: bold; font-size: 18pt; color: white; font-family: Arial; }
-.ProductMainTitle { font-weight: bold; font-size: 17px; color: #343530; padding: 3px; font-family: Arial; }
-.ProductDescription { font-size: 11px; color: #343530; font-family: Arial; text-decoration: none; }
-.ProductSubTitle {font-weight: bold; color: #ffffff; font-size: 12px; font-family: Arial; text-decoration: none; }
+.Vote {	font-size: 8pt;	width: 100%; border-bottom: #BBBBBB 1px solid; font-family: sans-serif; background-color: #EEF8FC; text-decoration: none; color: black; }
+.VoteHover { font-size: 8pt; color: white; font-family: sans-serif; text-decoration: underline; background-color:#D87A38; }
+.VoteThankYou {	font-size: 8pt;	color: white; font-family: sans-serif; background-color: #d87a38; text-align: center; }
+.VoteBasedOn { font-weight: bold; font-size: 7pt; color: white; font-family: sans-serif; }
+.VoteRank { font-weight: bold; font-size: 18pt; color: white; font-family: sans-serif; }
+.ProductMainTitle { font-weight: bold; font-size: 17px; color: #343530; padding: 3px; font-family: sans-serif; }
+.ProductDescription { font-size: 11px; color: #343530; font-family: sans-serif; text-decoration: none; }
+.ProductSubTitle {font-weight: bold; color: #ffffff; font-size: 12px; font-family: sans-serif; text-decoration: none; }
 .familyNavLink { display:block; width: 120; height: 50px; margin: 0 3px 0 0; text-indent: -9999px; font-weight: bold; color: #434D4E; }
 .familyNavLink:hover { text-decoration: none; }
 .familyNavContainer { width: 148px; height: 50px; margin: 3px 1px 0 0px; float: left; text-align: center; font-size:10px; color: #ffffff; }
@@ -397,7 +397,7 @@ ul#contentSub { margin: 0 0 0 6px; }
 #KCcontainer { width:770px; height: 650px; background-color: #F8E7CB; }
 #KCcontent { background-color:#F8E7CB; padding:0px; width: 770px; margin:0px auto; }
 #KCheader h3 { width: 770px; height: 64px; background: url(/web/20100827131706im_/http://bionicle.lego.com/it-it/CSS/glatorian.aspx) no-repeat; }
-#KCcontentTxt { width: 500px; color: #343530; font:normal 12px arial,sans-serif; text-align:left;padding:10px 0px 0px 20px; }
+#KCcontentTxt { width: 500px; color: #343530; font:normal 12px sans-serif; text-align:left;padding:10px 0px 0px 20px; }
 #KCcontentTxt a { color: #fff; text-decoration: underline; }
 #KCcontentTxt a:hover { text-decoration: none; } 
 #KAmainContainer { background-color:#677E38; width:770px; text-align:center; min-height: 600px; height: auto !important; height: 600px; }
@@ -405,12 +405,12 @@ ul#contentSub { margin: 0 0 0 6px; }
 #KAheader { width: 165px; height: 22px; background: url(/web/20100827131706im_/http://bionicle.lego.com/it-it/CSS/glatorian.aspx) no-repeat; }
 .kanokaClubContainerMain { width:672px; height:32px; clear:both; display:block; padding:0px 0px 0px 45px; margin:0px; }
 .kanokaClubSmallHeader { display:block; width:198px; height:43px; }
-.kanokaClubSmallHeader p { padding:6px 0px 0px 5px; margin:0px; display:block; width:193px; height:32px; text-align:left; font:bold 16px arial,sans-serif; color:#fff }
+.kanokaClubSmallHeader p { padding:6px 0px 0px 5px; margin:0px; display:block; width:193px; height:32px; text-align:left; font:bold 16px sans-serif; color:#fff }
 .kanokaClubSmallContainer { width:672px; display:block; margin:0px; float:left; padding:0px }
 .kanokaClubSmallContainer ul { list-style-type:none; width:198px; float:left; display:inline; margin:0px; padding:0px 0px 0px 15px }
 .kanokaClubSmallContainer li { float:left; font-size:1px; margin:0px; padding:0px }
 #kanokaClubLoginLink a:hover, #kanokaClubMyPageLink a:hover {text-decoration:none;color:#000000;}
-#KCcontentNavi { float: left; width: 195px; padding-left: 15px; padding-top: 35px; color:#B4C2CD; font:normal 12px arial,sans-serif; text-align:left; }
+#KCcontentNavi { float: left; width: 195px; padding-left: 15px; padding-top: 35px; color:#B4C2CD; font:normal 12px sans-serif; text-align:left; }
 #KCcontentNaviContent { width: 190px; height: 31px; background: url(/web/20100827131706im_/http://bionicle.lego.com/it-it/CSS/glatorian.aspx); }
 #KCcontentNaviLoggedIn { width: 334px; height: 110px; background: url(/web/20100827131706im_/http://bionicle.lego.com/it-it/CSS/glatorian.aspx); }
 
@@ -452,19 +452,19 @@ a.KCmln { width: 334px; height: 110px; margin: 40px 10px 0 0; display: block; te
 .comicsPromotionHeader p { margin:0px; display:block; width:174px; height:32px; text-indent: 5px; text-align:left; font:bold 12px/32px verdana,sans-serif; color:#fff }
 .comicsPromotionContainer ul { list-style-type:none; width:179px; float:left; display:inline; margin:0px; padding:0px 0px 0px 7px }
 .comicsPromotionContainer li { float:left; font-size:1px; margin:0px; padding:0px }
-.comicsPromotionText p { font:normal 11px arial,sans-serif; padding:5px 0px 0px 1px; margin:0px; text-align:left; color: #343530; width:175px }
+.comicsPromotionText p { font:normal 11px sans-serif; padding:5px 0px 0px 1px; margin:0px; text-align:left; color: #343530; width:175px }
 
 /****************************/
 /* Promotion                */
 /****************************/
 .RandomSurvey {	width:148px; height:266px; font-size:10px; border: solid 1px black; }
 .PromotionButtonContainer { padding:3px 0px 0px 15px; }
-.PromotionTextContainer { margin:5px; font-size:9px; font-family:arial;	text-align:center;	color:Gray; }
+.PromotionTextContainer { margin:5px; font-size:9px; font-family:sans-serif;	text-align:center;	color:Gray; }
 
 /****************************************************/
 /* Moderation -> by dkClaSti, Sune please redo :)   */
 /****************************************************/
-#RoleMemberTable td {font-family: verdana, lucida, arial, helvetica, sans-serif; color: #ffffff; background-color: #C3DB8F; }
+#RoleMemberTable td {font-family: verdana, lucida, helvetica, sans-serif; color: #ffffff; background-color: #C3DB8F; }
 .ModAcceptRejectButton{font-size:18px;font-weight:bold;height:50px;width:100px;}
 #btnReject{color:Red;}
 #btnAccept{color:Green;}
