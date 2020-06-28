@@ -2,21 +2,21 @@ A:visited, A:active,  A:link
 {
 	font-family: verdana, lucida, helvetica, sans-serif;
 	text-decoration: none;
-	color:Black;
+	color: Black;
 }
 
 A:hover
 {
 	font-family: verdana, lucida, helvetica, sans-serif;
 	text-decoration: underline;
-	color:Black;
+	color: Black;
 }
 
 .Text
 {
 	font-family: verdana, lucida, helvetica, sans-serif;
 	font-size: 10px;
-	color:Black;
+	color: Black;
 }
 
 .ProductDetails
@@ -28,7 +28,7 @@ A:hover
 .ProductActivities
 {
 	background-color: #ffd3a5;
-	color:Black;
+	color: Black;
 }
 
 .ProductShopLinks
