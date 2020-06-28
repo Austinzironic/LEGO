@@ -1,0 +1,474 @@
+body
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 8pt;
+	padding-bottom: 0px;
+	margin: 0px;
+	color: white;
+	padding-top: 0px;
+	font-family: verdana, lucida, helvetica, sans-serif;
+	background-color:black;
+}
+
+A:visited, A:active,  A:link
+{
+	font-family: verdana, lucida, helvetica, sans-serif;
+	text-decoration: none;
+	color:White;
+}
+
+A:hover
+{
+	font-family: verdana, lucida, helvetica, sans-serif;
+	text-decoration: underline;
+	color:White;
+}
+
+#DI_MainText a 
+{
+	color: #000000;
+}
+
+.Vote
+{
+	font-size: 8pt;
+	width: 100%;
+	border-bottom: #BBBBBB 1px solid;
+	font-family: sans-serif;
+	background-color: #EEF8FC;
+	text-decoration: none;
+	color: black;
+}
+
+.VoteHover
+{
+	font-size: 8pt;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: underline;
+	background-color:#D87A38;
+}
+
+.VoteThankYou
+{
+	font-size: 8pt;
+	color: white;
+	font-family: sans-serif;
+	background-color: #d87a38;
+	text-align: center;
+}
+
+.VoteBasedOn
+{
+	font-weight: bold;
+	font-size: 7pt;
+	color: white;
+	font-family: sans-serif;
+}
+
+.VoteRank
+{
+	font-weight: bold;
+	font-size: 18pt;
+	color: white;
+	font-family: sans-serif;
+}
+
+.ProductMainTitle
+{
+	font-weight: bold;
+	font-size: 17px;
+	color: black;
+	padding: 3px;
+	font-family: sans-serif;
+}
+
+.ProductDescription
+{
+	font-size: 11px;
+	color: black;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.ProductSubTitle
+{
+	font-weight: bold;
+	color: black;
+	font-size: 12px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.Text
+{
+	font-family: verdana, lucida, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color:White;
+}
+
+.DLText
+{
+	font-family: verdana, lucida, arial, helvetica, sans-serif;
+	font-size: 8px;
+	color:White;
+}
+
+.Dropdown
+{
+	font-family: verdana, lucida, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color:White;
+	background-color: #6E7480;
+}
+
+.MarginText
+{
+	font-size: 10px;
+	left: 5px;
+	color: white;
+	font-family: verdana, lucida, arial, helvetica, sans-serif;
+	position: relative;
+}
+
+.ProductSelector
+{
+	margin-bottom: 7px;
+}
+
+.DownLoad
+{
+	border-right: #3366ff 1px solid;
+	border-top: #3366ff 1px solid;
+	display: inline;
+	margin: 2px;
+	border-left: #3366ff 1px solid;
+	width: 100px;
+	border-bottom: #3366ff 1px solid;
+	height: 150px;
+}
+
+H1
+{
+	font-weight: bold;
+	color: white;
+	font-family: sans-serif;
+}
+
+H3
+{
+	vertical-align:middle;
+	display: inline;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Verdana;
+}
+
+P
+{
+	padding: 2px;
+}
+TABLE
+{
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+}
+
+.Marked
+{
+	font-size: larger;
+}
+
+.Instruction
+{
+	display: inline;
+	margin-right: 7px;
+	margin-Left: 7px;
+}
+
+.HeaderStyle
+{
+	padding-left: 5px;
+	padding-top: 2px;
+	overflow: hidden;
+	height: 19px;
+	color: #000000;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Verdana;
+	vertical-align:top;
+}
+
+.HeaderStyle IMG
+{
+	vertical-align:middle;
+	margin-right:5px;
+}
+
+.HeaderStyle SPAN
+{
+	vertical-align:middle;
+	height:19px;
+}
+
+.BuildingMarkedStep
+{
+	font-weight: bold;
+}
+
+.Disabled
+{
+	color: #303030;
+}
+
+.LanguageSelect
+{
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.LanguageSelect A, .LanguageSelect A:visited, .LanguageSelect A:active, .LanguageSelect A:link
+{
+	margin: 2px;
+	color: #696e79;
+}
+
+.LanguageMarked A, .LanguageMarked A:visited, .LanguageMarked A:active, .LanguageMarked A:link
+{
+	margin: 10px;
+	color: Blue;
+}
+
+
+.messagesContainer {
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+/* Message Content */
+.messagesContent_odd {
+	padding: 0px;
+	margin: 0px;
+	width: 100px;
+	display: block;
+	list-style-type:none;
+}
+.messagesContent_even {
+	padding: 0px;
+	margin: 0px;
+	width: 100px;
+	display: block;
+	list-style-type:none;
+}
+/* Topic Content */
+.topicData {
+	padding: 0px 0px 10px 0px;
+	margin: 0px;
+	width: 100px;
+	display: block;
+	float: left;
+}
+
+.topicData p {
+	margin: 0px;
+}
+
+/* Author Content */
+.messageAuthor 
+{
+	display:none;
+}
+.messageAuthor p {
+	display:none;
+}
+
+/* Date Content */
+.messageDate 
+{
+	display:none;
+}
+.messageDate p {
+
+}
+INPUT
+{
+	font-size: 10px;
+	font-family: Verdana;
+}
+
+
+.BuildingStepItem
+{
+	padding-right: 2px;
+	display: block;
+	padding-left: 2px;
+	padding-bottom: 2px;
+	margin: 1px;
+	padding-top: 2px;
+	border-bottom: #6A6F7A 1px solid;
+}
+
+.BuildingSmallTout
+{
+	border-right: #6a6f7a 1px solid;
+	border-top: #6a6f7a 1px solid;
+	margin: 0px 0px 5px;
+	border-left: #6a6f7a 1px solid;
+	border-bottom: #6a6f7a 1px solid;
+}
+
+.test
+{
+	left: 1px;
+	position: absolute;
+	top: 1px;
+}
+
+
+
+
+
+
+/* The Poll Question - The title of the Poll in the top */
+.pollQuestion{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 11px;
+	color: Gray;
+}
+
+/* The Poll Text - The text over the bar graphics */
+.pollText{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 10px;
+	padding-top: 5px;
+	color: FFCC66;
+}
+
+/* The Percent Result text */
+.percentResult{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 10px;
+	color: FFCC66;
+}
+
+.surveyOption{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.surveyQuestion{
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 11px;
+	color: Gray;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.outerlist{
+	width: 150px;
+	background-color: #000000;
+}
+
+.resultPanel{
+	width: 150px;
+	background-color: #000000;
+	padding: 5px;
+}
+
+/* RadioButtons text */
+.listItems{
+	margin: 5px 0px 5px 0px;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 10px;
+	color: FFCC66;
+}
+
+/* The send button */
+.gobutton{
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.highscore-table
+{
+	width: 100%;
+}
+
+.highscore-username{
+	font-size: 12px;
+	text-align: left;
+}
+
+.highscore-score{
+	font-size: 12px;
+	text-align: right;
+}
+
+.exo-menu div {
+	width: 672px;
+	margin-left: 98px;
+	padding-top: 5px;
+}
+.exo-menu a {
+	margin-right: 10px;
+}
+
+/* BORDER */
+.exo-border-hangar1, .exo-border-hangar2 {
+	border: 1px solid #585858;
+}
+.exo-border-database {
+	border: 1px solid #f2d232;
+}
+
+.exo-border-database2 {
+	border: 1px solid #585858;
+}
+
+/* CODEBRICK */
+
+#exo-cb-club-outer a, #exo-cb-profile-outer a, #exo-cb-download-outer a {
+	color: #FAC134;
+	text-decoration: underline;
+}
+.exo-codebrick-left-menu img {
+	margin-bottom: 5px;
+}
+.exo-cb-profiles-flash embed {
+	border: 1px solid #444445;
+}
+
+/**********************
+* ExoBattle
+**************************/
+#content {
+	text-align: left;
+	margin: 20px auto 0 auto;
+	padding: 0;
+	width: 752px;
+}
+#logo {
+	float: left;
+}
+#ultimate {
+	float: right;
+	margin: 18px 0 0 0;
+}
+#frame {
+	float: left;
+	width: 752px;
+	height: 439px;
+	
+	background-repeat:no-repeat;
+	/*padding: top right bottom left;*/
+	padding: 20px 0px 0px 19px;
+}
