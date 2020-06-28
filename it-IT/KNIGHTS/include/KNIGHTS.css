@@ -1,0 +1,396 @@
+body
+{
+    BACKGROUND: #000000;
+}
+.question
+{
+    FONT-SIZE: 11px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none;
+}
+.answer
+{
+	FONT-SIZE: 11px;
+	COLOR: #CC99FF;
+	FONT-FAMILY: Verdana,Geneva, Arial, sans-serif;
+	TEXT-DECORATION: none;	
+}
+.comicsoff
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #5B6F8F;
+    FONT-FAMILY: Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none;
+}
+.comicstext11
+{
+    FONT-SIZE: 11px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none;
+}
+.comicslinks A:link
+{
+     FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+.comicslinks A:hover
+{
+      FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+.comicslinks A:visited
+{
+     FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+.comicslinks A:active
+{
+     FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+.boldwhitetext
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+    FONT-FAMILY:  Verdana,Geneva, Arial, sans-serif;
+
+}
+.homepage14
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    COLOR: #FFCC66;
+    FONT-FAMILY: Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none;
+}
+.homepagelink
+{
+    FONT-SIZE: 11px;
+    COLOR: #FFCC66;
+    FONT-FAMILY: Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none;
+}
+.productdescr
+{  
+    FONT-SIZE: 10px;
+    COLOR: #999999;
+    FONT-FAMILY:  Verdana,Geneva, Arial, sans-serif;
+}
+.activities16
+{
+    FONT-WEIGHT: bold;
+	FONT-SIZE: 16px;
+	COLOR: #FFCC66;
+	FONT-FAMILY: Verdana,Geneva, Arial, sans-serif;
+	TEXT-DECORATION: none;
+}
+.producttitle
+{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 12px;
+	COLOR: #FFCC66;
+	FONT-FAMILY: Verdana,Geneva, Arial, sans-serif;
+}
+.activities10
+{
+    FONT-SIZE: 10px;
+    COLOR: #999999;
+    FONT-FAMILY:  Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none;
+}
+.activities11
+{
+    FONT-SIZE: 11px;
+    COLOR: #999999;
+    FONT-FAMILY:  Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none;
+}
+.activities12
+{
+    FONT-SIZE: 12px;
+    COLOR: #999999;
+    FONT-FAMILY:  Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none;
+}
+.activities14
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 14px;
+    COLOR: #FFCC66;
+    FONT-FAMILY:  Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none;
+}
+.shoplink A:link
+{
+    FONT-SIZE: 10px;
+    COLOR: #FFFFCC;
+    FONT-FAMILY:  Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none;
+}
+.shoplink A:hover
+{
+    FONT-SIZE: 10px;
+    COLOR: #FFFFCC;
+    FONT-FAMILY:  Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none;
+}
+.shoplink A:visited
+{
+    FONT-SIZE: 10px;
+    COLOR: #FFFFCC;
+    FONT-FAMILY:  Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none; 
+}
+.shoplink A:active
+{
+    FONT-SIZE: 10px;
+    COLOR: #FFFFCC;
+    FONT-FAMILY:  Verdana,Geneva, Arial, sans-serif;
+    TEXT-DECORATION: none;
+}
+.activitieslink A:link
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+.activitieslink A:hover
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;    
+}
+.activitieslink A:visited
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+.activitieslink A:active
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;    
+}
+
+.eventsheader
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #999999;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+
+.eventslink A:link
+{
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+.eventslink A:hover
+{
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;    
+}
+.eventslink A:visited
+{
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+.eventslink A:active
+{ 
+    FONT-SIZE: 11px;
+    COLOR: #FFCC66;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;    
+}
+.onstate  A:link
+{
+    FONT-SIZE: 11px;
+    COLOR: #FFCC66;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+.onstate  A:hover
+{
+    FONT-SIZE: 11px;
+    COLOR: #FFCC66;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;    
+}
+.onstate A:visited
+{
+    FONT-SIZE: 11px;
+    COLOR: #FFCC66;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+.onstate A:active
+{ 
+    FONT-SIZE: 11px;
+    COLOR: #FFCC66;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;    
+}
+
+.activitieswhite
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+
+.whitetext
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    COLOR: #FFFFFF;
+	TEXT-DECORATION: none;
+    FONT-FAMILY:  Verdana,Geneva, Arial, sans-serif;
+
+}
+.shoplink A:link
+{
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+.shoplink A:hover
+{
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;    
+}
+.shoplink A:visited
+{
+    FONT-SIZE: 11px;
+    COLOR: #FFFFFF;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;   
+}
+.shoplink A:active
+{ 
+    FONT-SIZE: 11px;
+    COLOR: #FFCC66;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-DECORATION: none;    
+}
+
+/* Knights Download Page. Tim Pascoe 14/05/04*/ 
+.dl_instructions{}
+	.dl_instructions h1{
+	margin: 4px 6px 0px 6px;
+	padding: 0px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	}
+	.dl_instructions p{
+	margin: 9px 6px 0px 6px;
+	padding: 0px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+	
+.dl_downloads, .dl_downloads td{
+	margin: 3px 0px 9px 0px;
+	padding: 0px;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+			.dl_downloads a:link { color: #FFFFFF; text-decoration : none;}
+			.dl_downloads a:visited { color: #FFFFFF; text-decoration : none;}
+			.dl_downloads a:hover  { color: #FFFFFF; text-decoration : underline;}
+			.dl_downloads a:active  { color: #FFFFFF; text-decoration : none;}
+			
+/* END: TP */ 
+
+/* Knights Screening. Tim Pascoe 10/10/04*/ 
+
+			.moviePopLink a:link { color: #FFFFFF; text-decoration : none;}
+			.moviePopLink a:visited { color: #FFFFFF; text-decoration : none;}
+			.moviePopLink a:hover  { color: #FFFFFF; text-decoration : underline;}
+			.moviePopLink a:active  { color: #FFFFFF; text-decoration : none;}
+	
+			.moviePopType a:link { 	font-weight: bold; color: #FFFFFF; text-decoration : none;}
+			.moviePopType a:visited { font-weight: bold; color: #FFFFFF; text-decoration : none;}
+			.moviePopType a:hover  { font-weight: bold; color:  #FFFFFF; text-decoration : underline;}
+			.moviePopType a:active  { font-weight: bold; color: #FFFFFF; text-decoration : none;}
+		
+/* Movie Display Popup */
+.movepopPrefs{
+	color: #FFFFFF;
+	margin: 60px 0px 10px 60px;
+	padding: 0px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.moviePopType{
+	color: #FFFFFF;
+	margin: 0px 0px 0px 60px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.moviePopType h2{
+	color: #B8C7FF;
+	margin: 7px 0px 5px 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.moviePopLink{
+	color: #5582AE;
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+
+}
+
+/* New Container. Readyness for LEGO.com Redesign
+tim.pascoe 12/2004  */
+
+.kk-container{
+	margin: 0px;
+	padding: 0px;
+	width: 770px;
+	background-color: #303030;
+}
