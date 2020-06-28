@@ -1,5 +1,4 @@
-
-				body{
+                                body {
 				background-color: #000000;
 				}
 			
@@ -1278,3 +1277,220 @@
 				width: 135px;
 				height: 45px;
 				}
+
+
+		
+		#bi-navContainer{
+			margin: 0px;
+			padding: 0px;
+			width: 770px;
+			height: 78px;
+			background-color: #000000;
+		}
+		
+		#bi-navHeader{
+			margin: 0px;
+			padding: 0px;
+			width: 770px;
+			height: 57px;
+			background-repeat: no-repeat;
+		}
+		
+		#bi-navPositioner{
+			margin: 0px;
+			padding: 0px 0px 0px 0px;
+			width: 770px;
+			height: 20px;
+			background-repeat: no-repeat;
+			background-color: #464946;
+		}
+		
+		.bi-navItem{
+			margin: 0px;
+			padding: 0px;
+			display: block;
+			float: left;
+		}
+		
+		#bi-homeButton {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_home85x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-homeButtonOn {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_home85x19_on.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-homeButton a{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_home85x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-homeButton a:hover{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_home85x19_on.gif);
+			background-repeat: no-repeat;
+		}
+
+		#bi-newsButton {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_news61x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-newsButtonOn {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_news61x19_on.gif);
+			background-repeat: no-repeat;
+		}
+				
+		#bi-newsButton a{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_news61x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-newsButton a:hover{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_news61x19_on.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-storyButton {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_story62x19_off.gif);
+			background-repeat: no-repeat;
+		}
+
+		#bi-storyButtonOn {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_story62x19_on.gif);
+			background-repeat: no-repeat;
+		}
+		
+		/* GREYED OUT SECTION - REMOVE WHEN SECTION IS LIVE*/
+		#bi-storyButtonOFF {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_story62x19_grey.gif);
+			background-repeat: no-repeat;
+		}	
+		
+		#bi-storyButton a{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_story62x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-storyButton a:hover{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_story62x19_on.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-gamesButton {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_games69x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-gamesButtonOn {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_games69x19_on.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-gamesButton a{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_games69x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-gamesButton a:hover{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_games69x19_on.gif);
+			background-repeat: no-repeat;
+		}
+
+		#bi-productsButton {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_products94x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-productsButtonOn {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_products94x19_on.gif);
+			background-repeat: no-repeat;
+		}		
+		
+		#bi-productsButton a{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_products94x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-productsButton a:hover{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_products94x19_on.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-buildingButton {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_building82x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-buildingButtonOn {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_building82x19_on.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-buildingButton a{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_building82x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-buildingButton a:hover{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_building82x19_on.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-communityButton {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_community106x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-communityButtonOn {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_community106x19_on.gif);
+			background-repeat: no-repeat;
+		}
+		
+		/* GREYED OUT SECTION - REMOVE WHEN SECTION IS LIVE*/
+		#bi-communityButtonOFF {
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_community106x19_grey.gif);
+			background-repeat: no-repeat;
+		}
+		
+		
+		#bi-communityButton a{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_community106x19_off.gif);
+			background-repeat: no-repeat;
+		}
+		
+		#bi-communityButton a:hover{
+			height: 19px; display: block; float: left;
+			background-image: url(https://web.archive.org/web/20060321175423im_/http://cache.lego.com/eng/images/bionicle/brandNav/nav/bn_community106x19_on.gif);
+			background-repeat: no-repeat;
+		}
