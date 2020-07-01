@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'LEGOChalet60';
-    src:url(https://www.lego.com/r/www/r/service/Components/Fonts.LEGOChalet/font/LEGO-Chalet60-Light.otf?l.r2=1.0.0.1108);
+    src: url('https://www.lego.com/r/www/r/service/Components/Fonts.LEGOChalet/font/LEGO-Chalet60-Light.otf?l.r2=1.0.0.1108');
     font-weight: 900;
 }
 
 @font-face {
     font-family: 'LEGOChalet60';
-    src:url(https://www.lego.com/r/www/r/service/Components/Fonts.LEGOChalet/font/LEGO-Chalet60-Regular.otf?l.r2=1.0.0.1108);
+    src: url('https://www.lego.com/r/www/r/service/Components/Fonts.LEGOChalet/font/LEGO-Chalet60-Regular.otf?l.r2=1.0.0.1108');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'LEGOChalet60';
-    src:url(https://www.lego.com/r/www/r/service/Components/Fonts.LEGOChalet/font/LEGO-Chalet60-Bold.otf?l.r2=1.0.0.1108);
+    src: url('https://www.lego.com/r/www/r/service/Components/Fonts.LEGOChalet/font/LEGO-Chalet60-Bold.otf?l.r2=1.0.0.1108');
     font-weight: bold;
 }
 
