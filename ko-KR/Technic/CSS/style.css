@@ -1,0 +1,1093 @@
+/*---------------------------------------------------------------------------
+G L O B A L   E L E M E N T S
+---------------------------------------------------------------------------*/
+body { text-align: center; font-family: verdana, lucida, arial, helvetica, sans-serif; font-size: 12px; background-color: #000000; color: #ffffff; }
+* { margin: 0; padding: 0; }
+img { border: 0; }
+.leftFloat { float: left; }
+.rightFloat { float: right; }
+h1 { font: bold 16px/1.8 sans-serif; }
+a, a:visited, a:active { color: #fff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+/*Overwrite the font-size assigned to the footer in "contentAdminFooter.css" */
+#GFcontainer { font-size: 10px !important; }
+/*Overwrite the font-size assigned to the GlobalHeader in "body" in this style sheet"*/
+#GHregion { font-size: 11px; }
+
+
+/*---------------------------------------------------------------------------
+C O M M O N   E L E M E N T S
+---------------------------------------------------------------------------*/
+.mainContainer {
+	background-color: #000000;
+	width: 770px;
+	margin-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+}
+
+.subContainer {
+	background-color: #000;
+	width: 754px;
+	padding-left: 0px;
+	margin-left: 8px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+
+.noFlash p { margin: 5px 0 0 0; font: bold 10px verdana, lucida, arial, helvetica, sans-serif; color: #fff; text-align: center; }
+.subContainer .noFlash a, .subContainer .noFlash a:visited, .subContainer .noFlash a:hover, .subContainer .noFlash a:active { color: #f70000; }
+
+.clear {
+	clear: both;
+}
+
+/*Advert starts*/
+#advert { width: 159px; height: 252px; position: relative; background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/images/ads/ad_bg_eng-na.gif) left top no-repeat; z-index:0 }
+#advert img, #advert .advertFlash { position: absolute; top: 5px; left: 26px; }
+/*Advert ends*/
+
+/*---------------------------------------------------------------------------
+M E N U   A T   T H E   T O P 
+---------------------------------------------------------------------------*/
+.NavHeader
+{
+	height: 75px;
+	width: 770px;
+}
+
+.NavContainer
+{
+	background: no-repeat;
+	height: 25px;
+	width: 770px;
+	text-align: left;
+}
+
+.SubNavContainer
+{
+	height: 25px;
+	width: 770px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+.NavItem
+{
+	margin-left: 5px;
+}
+
+/*---------------------------------------------------------------------------
+B R E A D C R U M B
+---------------------------------------------------------------------------*/
+
+.ms-breadcrumb
+{
+	list-style: none;
+	padding: 0px;
+	margin: 2px 0px 0px 0px;
+	border: 1px solid #ffffff;
+}
+.ms-breadcrumb li
+{
+	float: left;
+	margin-left: 5px;
+}
+.ms-breadcrumb li img
+{
+	margin-top: 2px;
+}
+.ms-breadcrumb li, .ms-breadcrumb li a
+{
+	color: #888888;
+	text-decoration: none;
+	font-size: 10px;
+}
+
+/*---------------------------------------------------------------------------
+H O M E P A G E
+---------------------------------------------------------------------------*/
+.HOnoFlash {
+	margin: 0 0 0 10px;
+}
+
+.HO-DividingBar {
+	margin: 7px 0 5px 6px;
+	padding: 0 0 0 0px;
+}
+
+#HO-toutNews {
+	width: 180px;
+	height: 257px;
+	margin: 0 7px 5px 0;
+	background-color: #182224;
+	font: normal 12px Verdana;
+	color: #fff;
+	float: left;
+}
+
+#HO-toutContainer { width: 750px; margin: 0 0 0 7px; padding: 0; }
+
+#HO-toutContainer .HO-tout {
+	width: 180px;
+	height: 257px;
+	margin: 0 7px 5px 0;
+	display: block;
+	background-color: #182224;
+	cursor: pointer;
+	font: normal 12px Verdana;
+	color: #fff;
+	float: left;
+}
+
+.HO-toutHeader {
+	width: 180px;
+	height: 30px;
+	display: block;
+	text-indent: 5px;
+	line-height: 30px;
+	font-weight: bold;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/pic6D32DDEC-7496-495D-A9AA-A8B06979465E.jpg) no-repeat;
+}
+
+/* Poll tout properties can be found under P O L L */
+
+#HO-toutContainer .HO-tout img {
+	margin: 0 0 5px 0;
+}
+
+.HO-toutTxt {
+	padding: 0 5px;
+	display: block;
+}
+
+/* -----------------------------
+LINKS
+------------------------------*/
+#HO-toutNews a, #HO-toutNews a:visited, #HO-toutNews a:active {
+	margin: 0 0 2px 0;
+	padding: 0 0 0 10px;
+	display: block;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/pic240B49DB-D028-4C38-9EA1-05175B137F74.jpg);
+	line-height: 34px;
+	font-weight: bold;
+	color: #fff;
+}
+
+#HO-toutNews a:hover {
+	text-decoration: underline;
+}
+
+#HO-toutContainer a:hover {
+	text-decoration: none;
+}
+
+#HO-toutContainer a:hover .HO-toutTxt {
+	text-decoration: underline !important;
+}
+
+
+
+
+/*---------------------------------------------------------------------------
+N E W S
+---------------------------------------------------------------------------*/
+
+/* -----------------------------
+STRUCTURE
+------------------------------*/
+#NE-header {
+	width: 743px;
+	margin: 0 0 5px 5px;
+	padding: 0 0 0 10px;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/pic910D9C15-D07D-4E1E-8AA1-1C89B5423BDF.jpg) top left no-repeat;
+}
+
+#NE-mainContentContainer {
+	width: 743px;
+	margin: 0 0 0 5px;
+	background-color: #1f3037;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/picD1348578-EB4B-4511-841D-3AD3FA8F2124.gif) top left repeat-y;
+}
+
+#NE-mainContentMenu {
+	width: 200px;
+	padding: 0 0 10px 0;
+	float: left;
+}
+
+#NE-mainContentMenu ul {
+	height: 30px;
+	margin: 15px 0 0 0;
+	padding: 0;
+	list-style-image: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/pic9CF418DD-61DA-4996-8489-4E167086C659.jpg);
+}
+
+#NE-mainContentMenu ul li {
+	margin: 0 0 0 30px;
+	padding: 0 0 0 5px;
+}
+
+.NE-MainContetnMenuItem {
+	font: bold 12px Arial;
+	color: #999;
+}
+
+#NE-mainContent {
+	width: 495px;/*538*/
+	margin: 0;
+	padding: 15px 5px 10px 0;
+	float: right; 
+}
+
+#NE-mainContentInner {
+	width: 295px;/*380*/
+	margin: 0 0 0 5px;
+	float: left;
+}
+
+.NE-mainContentInnerDate {
+	color: #999;
+}
+
+#NE-mainContentInner p {
+	margin: 10px 0 0 0;
+}
+
+/* -----------------------------
+HEADERS
+------------------------------*/
+#NE-mainContentInner h2 {
+	font: normal 13px arial;
+}
+
+/* -----------------------------
+IMAGES
+------------------------------*/
+#NE-mainContent img {
+	margin: 0 10px 0 0;
+	float: left;
+}
+
+/* -----------------------------
+LINKS
+------------------------------*/
+#NE-mainContentMenu a, #NE-mainContentMenu a:visited, #NE-mainContentMenu a:hover, #NE-mainContentMenu a:active {
+	font: bold 12px Arial;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/*---------------------------------------------------------------------------
+P O L L
+---------------------------------------------------------------------------*/
+
+/* -----------------------------
+STRUCTURE
+------------------------------*/
+.PO-container {
+	width: 226px;
+	height: 247px;
+	margin: 8px 0 0 0;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/picC0B1DF1F-3A16-463C-A2E8-16922AD8D01D.jpg) 0 23px no-repeat;
+	float: right;
+}
+
+/*This class overwrites the properties from .PO-container. Must always be placed after .PO-container! */
+.HO-toutPoll {
+	width: 180px;
+	height: 257px;
+	margin: 0 5px 0 0;
+	background: #182224 none;
+	float: left;
+}
+
+.PO-container fieldset {
+	width: 220px;
+	border: 0 solid transparent;
+}
+
+.HO-toutPoll fieldset {
+	width: 180px;
+}
+
+.HO-toutPoll ul {
+	width: 170px;
+	overflow: hidden;
+}
+
+.PO-container ul {
+	padding: 0 0 0 5px;
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+.PO-container li {
+	margin: 0 0 2px 0;
+	list-style-type: none;
+	clear: left;
+}
+
+.PO-container li span {
+	margin: 0 5px 0 0;
+	float: right;
+}
+
+.PO-container label {
+	padding: 0 5px 0 20px;
+	display: block;
+	font-size: 12px;
+}
+
+.PO-container input {
+	float: left;
+}
+
+.PO-container p.PO-totalVotes {
+	margin: 0 0 0 5px;
+	padding: 10px 0 0 0;
+	clear: left;
+}
+
+.PO-voteBtn {
+	margin: 0 0 0 5px;
+}
+
+/* -----------------------------
+HEADERS/PARAGRAPHS
+------------------------------*/
+.PO-container .PO-header {
+	width: 226px;
+	display: block;
+	text-indent: 5px;
+	font-family: Verdana;
+	font-size: 12px;
+	height: 23px;
+	font-weight: bold;
+	color: #ffffff;
+	line-height: 23px;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/pic66C8B39F-1487-4CE4-AEE8-7C5CF6CA8BDF.jpg) top left no-repeat;
+}
+
+.PO-container p {
+	margin: 0 0 5px 5px;
+	padding: 0;
+	display: block;
+	font-family: Verdana;
+	font-size: 12px;
+	line-height: 1.3em;
+}
+
+/* -----------------------------
+IMAGES
+------------------------------*/
+.PO-container li img {
+	margin: 0 0 5px 0;
+	*margin: 0 0 5px -3px; /*IE hack*/
+	padding: 0;
+	float: left;
+}
+
+
+/*---------------------------------------------------------------------------
+P R O D U C T S
+---------------------------------------------------------------------------*/
+A:visited, A:active, A:link
+{
+	font-family: verdana, lucida, arial, helvetica, sans-serif;
+	text-decoration: none;
+	color: #9C9B98;
+}
+
+A:hover
+{
+	font-family: verdana, lucida, arial, helvetica, sans-serif;
+	text-decoration: underline;
+	color: #9C9B98;
+}
+
+.Text
+{
+	font-family: verdana, lucida, arial, helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.ProductDetails
+{
+	background-color: #1C1C24;
+	color: #FFFFFF;
+	border: #535258 1px solid;
+}
+
+.ProductImages img
+{
+	border: 1px solid #535258;
+}
+
+.ProductActivities
+{
+	background-color: #1C1C24;
+	color: #ffffff;
+	font-weight: bold;
+	border: #5A5B5F 1px solid;
+}
+td .ProductActivities
+{
+	padding-top: 3px;
+}
+.ProductActivitiesDesc
+{
+	background-color: #1C1C24;
+	color: #ffffff;
+}
+.ProductActivitiesDesc .Text
+{
+	color: #ffffff;
+}
+
+.ProductShopLinks
+{
+	padding-right: 0px;
+	padding-left: 117px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	background-color: #737373;
+}
+
+.Vote
+{
+	font-size: 8pt;
+	width: 100%;
+	border-bottom: #BBBBBB 1px solid;
+	font-family: Arial;
+	background-color: #EEF8FC;
+	text-decoration: none;
+	color: black;
+}
+
+.VoteHover
+{
+	font-size: 8pt;
+	color: white;
+	font-family: Arial;
+	text-decoration: underline;
+	background-color: #D87A38;
+}
+
+.VoteThankYou
+{
+	font-size: 8pt;
+	color: white;
+	font-family: Arial;
+	background-color: #d87a38;
+	text-align: center;
+}
+
+.VoteBasedOn
+{
+	font-weight: bold;
+	font-size: 7pt;
+	color: white;
+	font-family: Arial;
+}
+
+.VoteRank
+{
+	font-weight: bold;
+	font-size: 18pt;
+	color: white;
+	font-family: Arial;
+}
+
+.ProductMainTitle
+{
+	font-weight: bold;
+	font-size: 17px;
+	color: #ffffff;
+	padding: 3px;
+	font-family: sans-serif;
+}
+
+.ProductDescription
+{
+	font-size: 11px;
+	color: #ffffff;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.ProductSubTitle
+{
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+.familyNavContainer { width: 104px; height: 52px; float: left; text-align: center; font-size:10px; margin-left:5px;  }
+.familyNavContainerFirst { width: 104px; height: 52px; float: left; text-align: center; font-size:10px; }
+.familyNavContainerInner { padding-top: 38px; color:#000; }
+.familyNavLink { display:block; width: 104px; height: 52px; font-weight: bold; color: #000; }
+.familyNavLink:hover { text-decoration: none; }
+
+/*---------------------------------------------------------------------------
+D O W N L O A D S
+---------------------------------------------------------------------------*/
+
+/* -----------------------------
+STRUCTURE
+------------------------------*/
+#DO-mainContentContainer {
+	margin: 0 0 0 5px;
+}
+
+#DO-header {
+	margin: 0 0 20px 5px;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/pic910D9C15-D07D-4E1E-8AA1-1C89B5423BDF.jpg) top left no-repeat;
+}
+
+#DO-mainContent {
+	margin: 0 0 0 5px;
+}
+
+.DO-touts {
+	width: 180px;
+	height: 257px;
+	margin: 0 7px 0 0;
+	padding: 0;
+	float: left;
+	color: #fff;
+	background: #182125 url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/picFFE79FF1-E35C-4E33-8571-160BCD6A12ED.jpg) top left no-repeat;
+}
+
+.DO-wallpaperTout {
+	width: 180px;
+	margin: 8px 7px 0 0; 
+	float: left;
+}
+
+.DO-screensaverTout { 
+	width: 180px; 
+	margin: 0 7px 0 0; 
+	float: left; 
+}
+
+#DO-posterContent {
+	width: 180px;
+	margin: 0 7px 10px 0;
+	text-align: center;
+	float: left;
+}
+
+/* -----------------------------
+HEADERS/PARAGRAPHS
+------------------------------*/
+#DO-header h1 {
+	text-indent: 13px;
+}
+
+.DO-touts h2 {
+	padding: 0 0 0 5px;
+	font: bold 12px/2.4 Arial;
+}
+
+.DO-touts p {
+	margin: 5px;
+}
+
+#DO-header p {
+	color: #fff;
+	margin: 20px 0 0 0;
+}
+
+/* -----------------------------
+LINKS
+------------------------------*/
+.DO-screensaverTout a, .DO-screensaverTout a:visited, .DO-screensaverTout a:hover, .DO-screensaverTout a:active { 
+	text-decoration: none; 
+	display: block; 
+}
+
+/* -----------------------------
+IMAGES
+------------------------------*/
+.DO-wallpaperTout img {
+	width: 180px; 
+	margin: 0 0 5px 0;
+}
+
+.DO-wallpaperTout a img {
+	width: 89px;
+	margin: 0 0 2px 0;
+	border: 0;
+}
+
+.DO-screensaverTout img { 
+	width: 180px; 
+	margin: 0 0 5px 0; 
+}
+
+.DO-screensaverTout a img { 
+	width: 180px; 
+	margin: 0 0 2px 0; 
+	border: 0; 
+}
+
+#DO-posterContent img {
+	margin: 0 0 5px 0;
+}
+
+
+/*---------------------------------------------------------------------------
+V I D E O S
+---------------------------------------------------------------------------*/
+.te-vi-videoItemContainer
+{
+	width: 200px;
+	float: left;
+	color: #000000;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+/*---------------------------------------------------------------------------
+B U I L D I N G   I N S T  R U C T  I O N S
+---------------------------------------------------------------------------*/
+#BI-header {
+	margin: 0 0 5px 5px;
+	padding: 0 0 0 10px;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/picB9F8385C-E1A7-45B6-991C-E7736D847762.jpg) top left no-repeat;
+}
+
+.buildingContainerMain
+{
+	clear: both;
+	/*height: 640px;*/
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+.leftnavContainer {
+	width: 205px;
+	height: 520px;
+	background-color: #333;
+	margin: 0px 0px 0px 5px;
+	padding: 0px 15px 0px 15px;
+	float: left;
+}
+.leftnavContainer hr
+{
+	height: 1px;
+	color: #ffffff;
+}
+.leftnavContainerMenu {
+	width: 205px;
+	overflow: auto;
+	height: 200px;/*520*/
+	margin: 0;
+}
+.leftnavContainerMenu ul
+{
+	list-style-type: none;
+	display: block;
+	margin: 0px;
+	padding: 3px 0px 2px 0px;
+}
+.leftnavContainerMenu li
+{
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+}
+.ViewDownloadContainer
+{
+	width: 205px;
+	/*background-color: #142C35;*/
+	display: block;
+}
+.ViewDownloadContainer ul
+{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+}
+.ViewDownloadContainer li
+{
+	font-size: 12px;
+	padding: 5px 0 0 0;
+}
+.leftnavText p
+{
+	padding: 1px 5px 0px 5px;
+	width: 90px;
+	float: left;
+	margin: 0px;
+	color: #B4C2CD;
+	font: normal 12px arial, sans-serif;
+	text-align: left;
+}
+
+.BInoFlash { margin: 0 0 0 5px; display: block; float: left; }
+
+.ViewDownlaodHeader
+{
+	font-size: 14px;
+	color: #ffffff;
+}
+
+
+/*---------------------------------------------------------------------------
+M O V I E S
+---------------------------------------------------------------------------*/
+.MO-header {
+	margin: 0 0 5px 5px;
+	padding: 0 0 0 10px;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/pic8470CE26-2FCB-4042-9E42-C78A0E234019.jpg) top left no-repeat;
+}
+
+.MOflash { float: right; }
+
+
+/*---------------------------------------------------------------------------
+S C R E E N I N G   R O O M
+---------------------------------------------------------------------------*/
+
+.screeningRoomContainerMain {
+	padding: 0px;
+	margin: 0px;
+}
+.screeningRoomleftnavContainer {
+	width: 225px;
+	background-color: #333333;
+	float: left;
+	overflow: auto;
+	height: 353px;
+	margin: 0 5px 10px 5px
+}
+
+.test {
+	margin: 0 0 10px 0;
+	border-bottom: 1px dotted #fff;
+}
+
+.test img {
+	margin: 0 5px 10px 0;
+	float: left;
+}
+
+.screeningRoomPromotionContainer {
+	float: left;
+	padding: 0;
+}
+.screeningRoomPromotionItem {
+	width: 180px;
+	margin: 0 0 0 5px;
+	background-image: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/pic4986CB43-079B-46CD-8C69-EBCBCD59CFB9.jpg);
+	float: left;
+}
+
+.screeningRoomPromotionItem h2 {
+	height: 30px;
+	padding: 0 0 0 5px;
+	font: bold 12px/30px Arial
+}
+
+.screeningRoomPromotionItem h2 .twoLines { font: bold 12px/15px Arial; }
+
+.screeningRoomPromotionHeader {
+	width: 180px;
+	height: 30px;
+	
+}
+.screeningRoomPromotionHeader p
+{
+	padding: 6px 0px 0px 5px;
+	margin: 5px 0 0 0;
+	display: block;
+	width: 174px;
+	height: 25px;
+	text-align: left;
+	font: bold 16px arial,sans-serif;
+	color: #fff;
+}
+
+
+/*---------------------------------
+P O W E R F U N C T I O N S
+----------------------------------*/
+#PFcontainer { text-align: center; }
+
+.subContainer h1 {
+	height: 30px;
+	margin: 0 0 5px 5px;
+	padding: 0 0 0 10px;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/pic4536164A-3A57-4B49-AC39-262C687E8F68.jpg) top left no-repeat;
+	text-align: left;
+}
+
+#PF-toutContainer { margin: 40px 0 0 0; }
+
+#PF-flashContainer {
+	width: 700px;
+	margin: 0 auto;
+}
+
+.PFtout {
+	width: 180px;
+	margin: 0 0 0 5px;
+	background-image: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/pic4986CB43-079B-46CD-8C69-EBCBCD59CFB9.jpg);
+	float: left;
+	
+}
+
+.PFtout h2 {
+	text-indent: 5px;
+	font: bold 12px/2.4 Arial;
+	text-align: left;
+}
+
+
+/*---------------------------------------------------------------------------
+D E S I G N   S T U D I O
+-----------------------------------------------------------------------------
+DS = Design Studio
+AD = Ask a Designer
+BI = Bios
+BL = Blog
+--------------------------------
+STRUCTURE
+------------------------------*/
+#DS-header {
+	margin: 0 0 20px 5px;
+	text-indent: 10px;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/pic910D9C15-D07D-4E1E-8AA1-1C89B5423BDF.jpg) top left no-repeat;
+}
+
+#DS-mainContentContainer {
+	margin: 0 0 0 5px;
+}
+
+#DS-mainContent, #DS-AD-mainContent {
+	width: 534px;
+	height: 500px;
+	margin: 0 0 20px 0;
+	padding: 10px 0 0 0;
+	overflow: auto;
+	background-color: #182126;
+	float: left;
+}
+
+#DS-primaryNavi {
+	width: 190px;
+	padding: 0 25px 0 0;
+	float: left;
+}
+
+#DS-primaryNaviExtra, #DS-BI-primaryNaviExtra, #DS-BL-primaryNaviExtra {
+	width: 188px;
+	margin: 0 0 0 5px;
+	background-color: #182126;
+}
+
+#DS-primaryNaviExtraInner {
+	margin: 5px;
+}
+
+#DS-primaryNaviExtraInner fieldset {
+	border: 0;
+}
+
+#DS-primaryNaviExtra textarea {
+	width: 175px;
+	height: 50px;
+	padding: 5px;
+	border: 1px solid #2D2D2D; 
+	background-color: #000;
+	font: normal 13px arial, verdana, lucida, helvetica, sans-serif;
+	color: #fff;
+}
+
+.DS-submitBtn {
+	margin: 10px 5px 10px 0;
+	float: right;
+}
+
+.DS-thankYou { margin: 10px 0; display: block; font: normal 13px arial, verdana, lucida, helvetica, sans-serif; color: #fff; }
+
+.DS-nationality { margin: -18px 0 20px 40px; color: #ccc; }
+
+.DS-AD-blogItemContainer {
+	width: 460px;
+	margin: 0 0 0 15px;
+}
+
+.DS-blogItem, .DS-BI-blogItem  {
+	width: 490px;
+	margin: 0 0 30px 10px;
+	padding: 0 0 40px 0;
+	float: left;
+	border-bottom: 1px dotted #fff;
+}
+
+.DS-BI-blogItem {
+	border: none;
+}
+
+.DS-AD-blogItem {
+	width: 490px;
+	margin: 0 0 30px 0;
+	padding: 0 0 20px 0;
+	float: left;
+	border-bottom: 1px dotted #fff;
+}
+
+.DS-itemLast { border: none; }
+
+.DS-BI-blogItem p {
+	margin: 0 0 30px 0;
+	padding: 0 0 0 116px;
+}
+
+.DS-postBy {
+	margin: 15px 0 0 0;
+	padding: 0 0 0 116px;	
+}
+
+.DS-postDate {
+	font-weight: bold;
+	color: #989697;
+	font: bold 12px verdana;
+}
+
+/* -----------------------------
+HEADERS/PARAGRAPHS
+------------------------------*/
+#DS-mainContent h2 {
+	margin: 0 0 20px 15px;
+	font: bold 16px Verdana;
+	text-indent: 25px;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/picD4CBB10A-BF6B-4CCD-9A41-5C7DBA09CF22.gif) no-repeat;
+}
+
+#DS-BI-primaryNaviExtra h2, #DS-BL-primaryNaviExtra h2 {
+	margin: 0 0 20px 5px;
+	padding: 5px 0 0 0;
+	font: bold 13px Verdana;
+	text-indent: 23px;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/picD4CBB10A-BF6B-4CCD-9A41-5C7DBA09CF22.gif) 0 5px no-repeat;
+}
+
+.DS-BlogItem h3, .DS-AD-BlogItem h3 {
+	margin: 0 0 10px 0;
+	font: bold 14px Verdana;
+}
+
+.DS-AD-BlogItem h3 {
+	padding: 0 0 0 116px;
+}
+
+.DS-BI-blogItem h4 {
+	margin: 0 0 7px 0;
+	padding: 0 0 0 116px;
+	font: bold 14px Verdana;
+}
+
+.DS-blogItem p {
+	padding: 0 0 0 116px;
+	line-height: 1.3em;
+}
+
+.DS-AD-BlogItem p {
+	padding: 0 0 0 116px;
+}
+
+#DS-primaryNaviExtraInner p {
+	margin: 0 0 5px 0;
+}
+
+/* -----------------------------
+LINKS
+------------------------------*/
+#DS-primaryNavi a {
+	margin: 0 0 3px 5px;
+	display: block;
+}
+
+#DS-primaryNaviExtra a {
+	padding: 13px 0 20px 0;
+	background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/images/technic/designstudio/img174x39_window.gif) no-repeat;
+	color: #fff;
+	text-align: center;
+}
+
+#DS-BI-primaryNaviExtra a, #DS-BL-primaryNaviExtra a  {
+	margin: 0;
+	padding: 0 0 10px 25px;
+	font: normal 13px Verdana;
+}
+
+#DS-primaryNaviExtraInner a {  }
+
+/* -----------------------------
+IMAGES
+------------------------------*/
+#DS-mainContent img {
+	margin: 0 15px 0 0;
+	float: left;
+}
+
+#DS-mainContent .DS-AD-blogItemContainer img {
+	margin: 0 15px 0 0;
+}
+
+
+/*---------------------------------------------------------------------------
+G A L L E R Y
+-----------------------------------------------------------------------------
+GAL = Gallery page
+GALU = Gallery Upload page
+--------------------------------
+STRUCTURE
+------------------------------*/
+#GALcontainer, #GALUcontainer { margin: 15px 0 20px 0; padding: 0 0 0 10px; }
+#GALnavi { width: 180px; height: 318px; padding: 0 0 0 5px; background-color: #1f3037; float: left; }
+#GALnavi fieldset { border: none; }
+#GALnavi .Gallery_SearchControl { width: 150px; height: 15px; padding: 0 0 0 3px; font-size: 12px; border: 0; float: left; }
+#GALnavi .Gallery_SearchButtonImage { margin: 0px; }
+#GALnavi ul { margin: 10px 0 0 0; padding: 0; }
+#GALnavi li { height: 20px; margin: 0 5px 0 0; list-style: none; line-height: 20px; background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/images/bionicle/gallery_viewer/18x15_galleryGo.gif) right 50% no-repeat; }
+#GALcontainer .noFlashWhite { padding: 0 0 0 10px; float: left; }
+#GALvotePopupContainer { width: 400px; height: 300px; position: relative; background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/upload/contentTemplating/TechnicDictionary/images/1033/pic6FC1D1B0-F43A-4C54-BF87-2C0117C01C81.jpg) top left no-repeat; }
+#GALvotePopupContainer p { width: 130px; height: 77px; margin: 0; position: absolute; top: 30px; left: 23px; font-size: 13px; color: #fff; }
+#GALvotePopupContainer a { position: absolute; top: 10px; left: 10px; }
+#GALUcontent { text-align: center; }
+#GALUcontent table { width: 600px; margin: 0 auto; }
+#GALUcontent .GalleryDataItemText, #GALUcontent .GalleryError { width: 200px; _width: auto; padding: 15px 0; font-size: 13px; }
+#GALUcontent .GalleryDataItemValue { width: 300px; }
+#GALUcontent .GalleryError { color: red; }
+#GALUcontent textarea { height: 100px; margin: 0 0 10px 0; }
+#GALUcontent .ga-UploadTextDesc { margin: -10px 0 0 0; text-indent: 240px; font-size: 11px; color: #ccc; }
+#GALUcontent hr { display: none; }
+#GALUcontent #GalleryEditsubmit { margin: 20px 255px 0 0; }
+#GALUcontent select { width: 100px; }
+
+/* -----------------------------
+HEADERS/PARAGRAPHS
+------------------------------*/
+#GALUcontainer h1 { width: 750px; text-indent: 10px; background-color: #183648; }
+#GALnavi h1 { margin: 0 5px 0 0; font-size: 13px; background: url(https://web.archive.org/web/20081116160220im_/http://cache.lego.com/images/bionicle/gallery_viewer/014x014_gallerySearchIcon.gif) right 50% no-repeat; }
+#GALnavi h2 { margin: 10px 0 2px 0; font-size: 12px; font-weight: bold; }
+
+/* -----------------------------
+LINKS
+------------------------------*/
+#GALnavi li a { display: block; }
+
+/* -----------------------------
+IMAGES
+------------------------------*/
