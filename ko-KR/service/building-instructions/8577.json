@@ -1,0 +1,236 @@
+{
+   "took": 1,
+   "timed_out": false,
+   "_shards": {
+      "total": 6,
+      "successful": 6,
+      "skipped": 0,
+      "failed": 0
+   },
+   "hits": {
+      "total": {
+         "value": 1,
+         "relation": "eq"
+      },
+      "max_score": 7.254649,
+      "hits": [
+         {
+            "_index": "lego_historic_product_637345408748318909",
+            "_type": "_doc",
+            "_id": "8577",
+            "_score": 7.254649,
+            "_source": {
+               "market": {
+                  "kr": {
+                     "skus": [
+                        {
+                           "item_id": 4187144
+                        },
+                        {
+                           "item_id": 4204083
+                        }
+                     ]
+                  },
+                  "us": {
+                     "skus": [
+                        {
+                           "item_id": 4187582
+                        },
+                        {
+                           "item_id": 4204084
+                        }
+                     ]
+                  }
+               },
+               "product_versions": [
+                  {
+                     "item_id": 4187144,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 1,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 41091,
+                              "modifiedDate": "2014-11-06T07:33:28",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4200944.png"
+                           },
+                           "file": {
+                              "size": 2909903,
+                              "modifiedDate": "2002-11-06T11:53:16",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4200944.pdf"
+                           },
+                           "description": "BUILDING INSTRUCTION  8577",
+                           "id": "4200944",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2003-12-31T00:00:00",
+                        "launchDate": "2003-03-01T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 4187144,
+                        "length": 109,
+                        "width": 157,
+                        "sizeUnit": "MM",
+                        "height": 88
+                     }
+                  },
+                  {
+                     "item_id": 4187582,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 1,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 41091,
+                              "modifiedDate": "2014-11-06T07:33:28",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4200944.png"
+                           },
+                           "file": {
+                              "size": 2909903,
+                              "modifiedDate": "2002-11-06T11:53:16",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4200944.pdf"
+                           },
+                           "description": "BUILDING INSTRUCTION  8577",
+                           "id": "4200944",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2003-12-31T00:00:00",
+                        "launchDate": "2003-03-01T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 4187582,
+                        "length": 109,
+                        "width": 157,
+                        "sizeUnit": "MM",
+                        "height": 88
+                     }
+                  },
+                  {
+                     "item_id": 4204083,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 1,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 41091,
+                              "modifiedDate": "2014-11-06T07:33:28",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4200944.png"
+                           },
+                           "file": {
+                              "size": 2909903,
+                              "modifiedDate": "2002-11-06T11:53:16",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4200944.pdf"
+                           },
+                           "description": "BUILDING INSTRUCTION  8577",
+                           "id": "4200944",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2003-12-31T00:00:00",
+                        "launchDate": "2003-03-01T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 4204083,
+                        "length": 109,
+                        "width": 157,
+                        "sizeUnit": "MM",
+                        "height": 88
+                     }
+                  },
+                  {
+                     "item_id": 4204084,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 1,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 41091,
+                              "modifiedDate": "2014-11-06T07:33:28",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4200944.png"
+                           },
+                           "file": {
+                              "size": 2909903,
+                              "modifiedDate": "2002-11-06T11:53:16",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4200944.pdf"
+                           },
+                           "description": "BUILDING INSTRUCTION  8577",
+                           "id": "4200944",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2003-12-31T00:00:00",
+                        "launchDate": "2003-03-01T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 4204084,
+                        "length": 109,
+                        "width": 157,
+                        "sizeUnit": "MM",
+                        "height": 88
+                     }
+                  }
+               ],
+               "assets": [
+                  {
+                     "itemId": "50008577",
+                     "modifiedDate": "2020-08-20T18:28:25.3873862",
+                     "assetFiles": [
+                        {
+                           "extension": ".jpg",
+                           "fileName": "8577_prod.jpg",
+                           "size": 175127,
+                           "metaTags": {
+                              "image": {
+                                 "width": 400,
+                                 "height": 768
+                              }
+                           },
+                           "modifiedDate": "0001-01-01T00:00:00",
+                           "type": "product.img.pri",
+                           "url": "https://www.lego.com/cdn/product-assets/product.img.pri/8577_prod.jpg"
+                        }
+                     ],
+                     "type": "product.img.pri",
+                     "baseName": "8577_prod"
+                  }
+               ],
+               "theme": {
+                  "display_title": "LEGO® BIONICLE®",
+                  "id": "f1d29741-ae70-2850-a275-00d2fa7804ae",
+                  "title": "bionicle"
+               },
+               "availability": {
+                  "launchDate": "2003-03-01T00:00:00"
+               },
+               "locale": {
+                  "en-gb": {
+                     "display_title": "Pahrak-Kal",
+                     "description": "Pahrak-Kal is a slow-moving powerhouse. Although it would seem this Bohrok-Kal would be easy to evade, that is not so. The Pahrak-Kal is a juggernaut that can plough through any obstacle on the way to its goal. Anything it cannot break through, it can melt with its amazing plasma shield.",
+                     "title": "Pahrak-Kal",
+                     "tags": []
+                  },
+                 "ko-kr": {
+                    "display_title": "파라크 칼",
+                    "description": "파라크 칼은 느리게 움직이는 파워하우스입니다. 보록 칼이 피하는 것은 쉽겠지만 그렇지 않습니다. 파라크 칼은 목표에 도달하는 장애물을 뚫고 지나갈 수 있는 악수를 부리는 사람입니다. 뚫을 수 없는 것은, 놀라운 플라즈마 방패으로 녹을 수 있습니다.",
+                 }
+               },
+               "product_number": "8577"
+            }
+         }
+      ]
+   }
+}
