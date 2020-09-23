@@ -1,0 +1,196 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 7.225966,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "8011",
+        "_score": 7.225966,
+        "_source": {
+          "market": {
+            "fr": {
+              "skus": [
+                {
+                  "item_id": 4162657
+                }
+              ]
+            },
+            "us": {
+              "skus": [
+                {
+                  "item_id": 4162658
+                }
+              ]
+            }
+          },
+          "product_versions": [
+            {
+              "item_id": 4162657,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 76953,
+                    "modifiedDate": "2014-11-06T07:32:04",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4185407.png"
+                  },
+                  "file": {
+                    "size": 9769121,
+                    "modifiedDate": "2002-11-30T11:07:00",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4185407.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION 8011",
+                  "id": "4185407",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2003-12-31T00:00:00",
+                "launchDate": "2002-04-23T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4162657,
+                "length": 240,
+                "width": 288,
+                "sizeUnit": "MM",
+                "height": 60
+              }
+            },
+            {
+              "item_id": 4162658,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 76953,
+                    "modifiedDate": "2014-11-06T07:32:04",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4185407.png"
+                  },
+                  "file": {
+                    "size": 9769121,
+                    "modifiedDate": "2002-11-30T11:07:00",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4185407.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION 8011",
+                  "id": "4185407",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2003-12-31T00:00:00",
+                "launchDate": "2002-04-23T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4162658,
+                "length": 240,
+                "width": 288,
+                "sizeUnit": "MM",
+                "height": 60
+              }
+            },
+            {
+              "item_id": 4170589,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 76953,
+                    "modifiedDate": "2014-11-06T07:32:04",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4185407.png"
+                  },
+                  "file": {
+                    "size": 9769121,
+                    "modifiedDate": "2002-11-30T11:07:00",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4185407.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION 8011",
+                  "id": "4185407",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2003-12-31T00:00:00",
+                "launchDate": "2002-04-23T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4170589,
+                "length": 240,
+                "width": 288,
+                "sizeUnit": "MM",
+                "height": 60
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50008011",
+              "modifiedDate": "2020-09-09T06:32:16.0593971",
+              "assetFiles": [
+                {
+                  "extension": ".JPG",
+                  "fileName": "8011_prod.JPG",
+                  "size": 487973,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/8011_prod.JPG"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "8011_prod"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® Star Wars™",
+            "id": "ae537d16-848c-47d1-9c28-5a57aea1d87b",
+            "title": "Star Wars"
+          },
+          "availability": {
+            "launchDate": "2002-04-23T00:00:00"
+          },
+          "locale": {
+            "en-us": {
+              "display_title": "Jango Fett™",
+              "title": "Jango Fett™",
+              "tags": []
+            },
+            "fr-fr": {
+              "display_title": "Jango Fett™",
+              "description": "Jango Fett a joint ses forces à celles du Comte Dooku et de la Fédération du Commerce dans une tentative commune pour se séparer de la République. Jango emploie sa ceinture gadget et son sac à dos fusée pour se sortir des ennuis. Il doit combattre le Jedi et rencontrer Dooku sur la planète Geonosis. Un mécanisme de lancement spécial te permet de lancer la fusée placée dans le sac à dos.",
+              "title": "Jango Fett™",
+              "tags": []
+            }
+          },
+          "product_number": "8011"
+        }
+      }
+    ]
+  }
+}
