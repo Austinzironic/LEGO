@@ -1,0 +1,165 @@
+{
+  "took": 3,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 6.820016,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "7659",
+        "_score": 6.820016,
+        "_source": {
+          "market": {
+            "cz": {
+              "skus": [
+                {
+                  "item_id": 4495388
+                }
+              ]
+            },
+            "us": {
+              "skus": [
+                {
+                  "item_id": 4495388
+                },
+                {
+                  "item_id": 4498194
+                }
+              ]
+            }
+          },
+          "product_versions": [
+            {
+              "item_id": 4495388,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 35568,
+                    "modifiedDate": "2014-11-06T07:47:48",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4506884.png"
+                  },
+                  "file": {
+                    "size": 9463113,
+                    "modifiedDate": "2006-10-09T09:05:30.4608325",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4506884.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  7659",
+                  "id": "4506884",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2008-12-31T00:00:00",
+                "launchDate": "2007-01-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4495388,
+                "length": 480,
+                "width": 288,
+                "sizeUnit": "MM",
+                "height": 72
+              }
+            },
+            {
+              "item_id": 4498194,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 35568,
+                    "modifiedDate": "2014-11-06T07:47:48",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4506884.png"
+                  },
+                  "file": {
+                    "size": 9463113,
+                    "modifiedDate": "2006-10-09T09:05:30.4608325",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4506884.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  7659",
+                  "id": "4506884",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2008-12-31T00:00:00",
+                "launchDate": "2007-01-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4498194,
+                "length": 480,
+                "width": 288,
+                "sizeUnit": "MM",
+                "height": 72
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50007659",
+              "modifiedDate": "2020-08-20T18:46:23.9054666",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "7659_prod.jpg",
+                  "size": 132782,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/7659_prod.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "7659_prod"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® Star Wars™",
+            "id": "ae537d16-848c-47d1-9c28-5a57aea1d87b",
+            "title": "Star Wars"
+          },
+          "availability": {
+            "launchDate": "2007-01-01T00:00:00"
+          },
+          "locale": {
+            "en-us": {
+              "display_title": "Imperial Landing Craft™",
+              "description": "Equipped with two forward-firing laser cannons, two blaster cannons, and bombs, the Imperial landing craft is heavily armed and ready for battle. Set comes with pilot, two Sandtroopers and two Stormtroopers armed with blasters.",
+              "title": "Imperial Landing Craft™",
+              "tags": []
+            },
+            "cs-cz": {
+              "display_title": "Imperial Landing Craft™ (Vyloďovací plavidlo Impéria)",
+              "description": "Díky dvěma dopředu střílejícím laserovým dělům, dvěma blasterovým dělům a bombám je vyloďovací plavidlo Impéria po zuby ozbrojeno a připraveno k bitvě. Sada obsahuje pilota, dva Sandtroopery a dva Stormtroopery vybavené blastery.",
+              "title": "Imperial Landing Craft™ (Vyloďovací plavidlo Impéria)",
+              "tags": []
+            }
+          },
+          "product_number": "7659"
+        }
+      }
+    ]
+  }
+  }
