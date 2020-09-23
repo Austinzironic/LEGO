@@ -1,0 +1,275 @@
+{
+    "took": 1,
+    "timed_out": false,
+    "_shards": {
+        "total": 6,
+        "successful": 6,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 1,
+            "relation": "eq"
+        },
+        "max_score": 7.283906,
+        "hits": [
+            {
+                "_index": "lego_historic_product_637345408748318909",
+                "_type": "_doc",
+                "_id": "8562",
+                "_score": 7.283906,
+                "_source": {
+                    "market": {
+                        "fr": {
+                            "skus": [
+                                {
+                                    "item_id": 4159499
+                                }
+                            ]
+                        },
+                        "us": {
+                            "skus": [
+                                {
+                                    "item_id": 4159856
+                                },
+                                {
+                                    "item_id": 4174324
+                                },
+                                {
+                                    "item_id": 4177356
+                                },
+                                {
+                                    "item_id": 4180736
+                                }
+                            ]
+                        }
+                    },
+                    "product_versions": [
+                        {
+                            "item_id": 4159499,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 38074,
+                                        "modifiedDate": "2014-11-06T07:30:32",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4169954.png"
+                                    },
+                                    "file": {
+                                        "size": 18652593,
+                                        "modifiedDate": "2002-06-01T18:45:22",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4169954.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8562",
+                                    "id": "4169954",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2002-12-31T00:00:00",
+                                "launchDate": "2002-03-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4159499,
+                                "length": 109,
+                                "width": 157,
+                                "sizeUnit": "MM",
+                                "height": 88
+                            }
+                        },
+                        {
+                            "item_id": 4159856,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 38074,
+                                        "modifiedDate": "2014-11-06T07:30:32",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4169954.png"
+                                    },
+                                    "file": {
+                                        "size": 18652593,
+                                        "modifiedDate": "2002-06-01T18:45:22",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4169954.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8562",
+                                    "id": "4169954",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2002-12-31T00:00:00",
+                                "launchDate": "2002-03-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4159856,
+                                "length": 109,
+                                "width": 157,
+                                "sizeUnit": "MM",
+                                "height": 88
+                            }
+                        },
+                        {
+                            "item_id": 4174324,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 38074,
+                                        "modifiedDate": "2014-11-06T07:30:32",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4169954.png"
+                                    },
+                                    "file": {
+                                        "size": 18652593,
+                                        "modifiedDate": "2002-06-01T18:45:22",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4169954.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8562",
+                                    "id": "4169954",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2002-12-31T00:00:00",
+                                "launchDate": "2002-03-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4174324,
+                                "length": 109,
+                                "width": 157,
+                                "sizeUnit": "MM",
+                                "height": 88
+                            }
+                        },
+                        {
+                            "item_id": 4177356,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 38074,
+                                        "modifiedDate": "2014-11-06T07:30:32",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4169954.png"
+                                    },
+                                    "file": {
+                                        "size": 18652593,
+                                        "modifiedDate": "2002-06-01T18:45:22",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4169954.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8562",
+                                    "id": "4169954",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2002-12-31T00:00:00",
+                                "launchDate": "2002-03-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4177356,
+                                "length": 109,
+                                "width": 157,
+                                "sizeUnit": "MM",
+                                "height": 88
+                            }
+                        },
+                        {
+                            "item_id": 4180736,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 38074,
+                                        "modifiedDate": "2014-11-06T07:30:32",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4169954.png"
+                                    },
+                                    "file": {
+                                        "size": 18652593,
+                                        "modifiedDate": "2002-06-01T18:45:22",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4169954.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8562",
+                                    "id": "4169954",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2002-12-31T00:00:00",
+                                "launchDate": "2002-03-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4180736,
+                                "length": 109,
+                                "width": 157,
+                                "sizeUnit": "MM",
+                                "height": 88
+                            }
+                        }
+                    ],
+                    "assets": [
+                        {
+                            "itemId": "50008562",
+                            "modifiedDate": "2020-08-20T18:27:24.1694062",
+                            "assetFiles": [
+                                {
+                                    "extension": ".JPG",
+                                    "fileName": "8562_prod.JPG",
+                                    "size": 130175,
+                                    "metaTags": {
+                                        "image": {
+                                            "width": 400,
+                                            "height": 768
+                                        }
+                                    },
+                                    "modifiedDate": "0001-01-01T00:00:00",
+                                    "type": "product.img.pri",
+                                    "url": "https://www.lego.com/cdn/product-assets/product.img.pri/8562_prod.JPG"
+                                }
+                            ],
+                            "type": "product.img.pri",
+                            "baseName": "8562_prod"
+                        }
+                    ],
+                    "theme": {
+                        "display_title": "LEGO® BIONICLE",
+                        "id": "f1d29741-ae70-2850-a275-00d2fa7804ae",
+                        "title": "bionicle"
+                    },
+                    "availability": {
+                        "launchDate": "2002-03-01T00:00:00"
+                    },
+                    "locale": {
+                        "en-us": {
+                            "display_title": "Gahlok",
+                            "title": "Gahlok",
+                            "tags": []
+                        },
+                        "fr-fr": {
+                            "display_title": "Gahlok",
+                            "description": "Les Bohrok de l’Eau, les Gahlok, sèment la terreur dans les plaines et les vallées fluviales en construisant des barrages qui provoquent des inondations. Les Gahlok ne s’écartent jamais de leur plan initial - découvre ce plan et tu pourras les arrêter !",
+                            "title": "Gahlok",
+                            "tags": []
+                        }
+                    },
+                    "product_number": "8562"
+                }
+            }
+        ]
+    }
+}
