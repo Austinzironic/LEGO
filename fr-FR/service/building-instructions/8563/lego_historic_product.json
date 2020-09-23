@@ -1,0 +1,270 @@
+{
+    "took": 1,
+    "timed_out": false,
+    "_shards": {
+        "total": 6,
+        "successful": 6,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 1,
+            "relation": "eq"
+        },
+        "max_score": 7.2916555,
+        "hits": [
+            {
+                "_index": "lego_historic_product_637345408748318909",
+                "_type": "_doc",
+                "_id": "8563",
+                "_score": 7.2916555,
+                "_source": {
+                    "market": {
+                        "fr": {
+                            "skus": [
+                                {
+                                    "item_id": 4159500
+                                }
+                            ]
+                        },
+                        "us": {
+                            "skus": [
+                                {
+                                    "item_id": 4159857
+                                },
+                                {
+                                    "item_id": 4174329
+                                },
+                                {
+                                    "item_id": 4177357
+                                },
+                                {
+                                    "item_id": 4180738
+                                }
+                            ]
+                        }
+                    },
+                    "product_versions": [
+                        {
+                            "item_id": 4159500,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 34476,
+                                        "modifiedDate": "2014-11-06T07:30:32",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4169956.png"
+                                    },
+                                    "file": {
+                                        "size": 17250442,
+                                        "modifiedDate": "2002-06-01T18:45:42",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4169956.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8563",
+                                    "id": "4169956",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2002-12-31T00:00:00",
+                                "launchDate": "2002-03-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4159500,
+                                "length": 109,
+                                "width": 157,
+                                "sizeUnit": "MM",
+                                "height": 88
+                            }
+                        },
+                        {
+                            "item_id": 4159857,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 34476,
+                                        "modifiedDate": "2014-11-06T07:30:32",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4169956.png"
+                                    },
+                                    "file": {
+                                        "size": 17250442,
+                                        "modifiedDate": "2002-06-01T18:45:42",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4169956.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8563",
+                                    "id": "4169956",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2002-12-31T00:00:00",
+                                "launchDate": "2002-03-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4159857,
+                                "length": 109,
+                                "width": 157,
+                                "sizeUnit": "MM",
+                                "height": 88
+                            }
+                        },
+                        {
+                            "item_id": 4174329,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 34476,
+                                        "modifiedDate": "2014-11-06T07:30:32",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4169956.png"
+                                    },
+                                    "file": {
+                                        "size": 17250442,
+                                        "modifiedDate": "2002-06-01T18:45:42",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4169956.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8563",
+                                    "id": "4169956",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2002-12-31T00:00:00",
+                                "launchDate": "2002-03-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4174329,
+                                "length": 109,
+                                "width": 157,
+                                "sizeUnit": "MM",
+                                "height": 88
+                            }
+                        },
+                        {
+                            "item_id": 4177357,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 34476,
+                                        "modifiedDate": "2014-11-06T07:30:32",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4169956.png"
+                                    },
+                                    "file": {
+                                        "size": 17250442,
+                                        "modifiedDate": "2002-06-01T18:45:42",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4169956.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8563",
+                                    "id": "4169956",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2002-12-31T00:00:00",
+                                "launchDate": "2002-03-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4177357,
+                                "length": 109,
+                                "width": 157,
+                                "sizeUnit": "MM",
+                                "height": 88
+                            }
+                        },
+                        {
+                            "item_id": 4180738,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 34476,
+                                        "modifiedDate": "2014-11-06T07:30:32",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4169956.png"
+                                    },
+                                    "file": {
+                                        "size": 17250442,
+                                        "modifiedDate": "2002-06-01T18:45:42",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4169956.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8563",
+                                    "id": "4169956",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2002-12-31T00:00:00",
+                                "launchDate": "2002-03-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4180738,
+                                "length": 109,
+                                "width": 157,
+                                "sizeUnit": "MM",
+                                "height": 88
+                            }
+                        }
+                    ],
+                    "assets": [
+                        {
+                            "itemId": "50008563",
+                            "modifiedDate": "2020-08-20T18:27:20.509301",
+                            "assetFiles": [
+                                {
+                                    "extension": ".JPG",
+                                    "fileName": "8563_prod.JPG",
+                                    "size": 121158,
+                                    "metaTags": {
+                                        "image": {
+                                            "width": 400,
+                                            "height": 768
+                                        }
+                                    },
+                                    "modifiedDate": "0001-01-01T00:00:00",
+                                    "type": "product.img.pri",
+                                    "url": "https://www.lego.com/cdn/product-assets/product.img.pri/8563_prod.JPG"
+                                }
+                            ],
+                            "type": "product.img.pri",
+                            "baseName": "8563_prod"
+                        }
+                    ],
+                    "theme": {
+                        "display_title": "LEGO® BIONICLE",
+                        "id": "f1d29741-ae70-2850-a275-00d2fa7804ae",
+                        "title": "bionicle"
+                    },
+                    "availability": {
+                        "launchDate": "2002-03-01T00:00:00"
+                    },
+                    "locale": {
+                        "fr-fr": {
+                            "display_title": "Tahnok",
+                            "description": "Les Bohrok du Feu, les Tahnok, mettent le feu aux forêts tropicales de Mata Nui en utilisant des bombes incendiaires et de la lave en fusion. Si l’un d’entre eux a un problème, ils volent à son secours avant de continuer leur mission.",
+                            "title": "Tahnok",
+                            "tags": []
+                        }
+                    },
+                    "product_number": "8563"
+                }
+            }
+        ]
+    }
+}
