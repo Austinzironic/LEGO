@@ -1,0 +1,165 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 7.265429,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "7654",
+        "_score": 7.265429,
+        "_source": {
+          "market": {
+            "cz": {
+              "skus": [
+                {
+                  "item_id": 4495383
+                }
+              ]
+            },
+            "us": {
+              "skus": [
+                {
+                  "item_id": 4495383
+                },
+                {
+                  "item_id": 4498737
+                }
+              ]
+            }
+          },
+          "product_versions": [
+            {
+              "item_id": 4495383,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 30506,
+                    "modifiedDate": "2014-11-06T07:47:46",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4506868.png"
+                  },
+                  "file": {
+                    "size": 2152642,
+                    "modifiedDate": "2006-10-09T08:24:29",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4506868.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  7654",
+                  "id": "4506868",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2008-07-31T00:00:00",
+                "launchDate": "2007-01-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4495383,
+                "length": 192,
+                "width": 144,
+                "sizeUnit": "MM",
+                "height": 48
+              }
+            },
+            {
+              "item_id": 4498737,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 30506,
+                    "modifiedDate": "2014-11-06T07:47:46",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4506868.png"
+                  },
+                  "file": {
+                    "size": 2152642,
+                    "modifiedDate": "2006-10-09T08:24:29",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4506868.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  7654",
+                  "id": "4506868",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2008-07-31T00:00:00",
+                "launchDate": "2007-01-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4498737,
+                "length": 192,
+                "width": 144,
+                "sizeUnit": "MM",
+                "height": 48
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50007654",
+              "modifiedDate": "2020-08-20T18:46:49.062309",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "7654_prod.jpg",
+                  "size": 119680,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/7654_prod.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "7654_prod"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® Star Wars™",
+            "id": "ae537d16-848c-47d1-9c28-5a57aea1d87b",
+            "title": "Star Wars"
+          },
+          "availability": {
+            "launchDate": "2007-01-01T00:00:00"
+          },
+          "locale": {
+            "en-us": {
+              "display_title": "Droids™ Battle Pack",
+              "description": "Get ready for battle! Control the battle droids and super battle droids in the battle droid carrier and battle droid on the STAP. Create your army to fight against the clone troopers in art. 7655. Set comes with four Battle Droids and three Super Battle Droids.",
+              "title": "Droids™ Battle Pack",
+              "tags": []
+            },
+            "cs-cz": {
+              "display_title": "Droids™ Battle Pack (Bojová jednotka droidů)",
+              "description": "Připravte se k bitvě! Ovládněte bitevní droidy a bitevní superdroidy v jejich lodi a bitevního droida na STAPu. Sestavte armádu pro boj proti jednotkám klonů v č. 7655. Sada obsahuje čtyři bitevní droidy a tři bitevní superdroidy.",
+              "title": "Droids™ Battle Pack (Bojová jednotka droidů)",
+              "tags": []
+            }
+          },
+          "product_number": "7654"
+        }
+      }
+    ]
+  }
+  }
