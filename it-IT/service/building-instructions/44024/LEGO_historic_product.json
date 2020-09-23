@@ -1,0 +1,204 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 7.2848215,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "44024",
+        "_score": 7.2848215,
+        "_source": {
+          "market": {
+            "it": {
+              "skus": [
+                {
+                  "item_id": 6058926
+                }
+              ]
+            },
+            "us": {
+              "skus": [
+                {
+                  "item_id": 6058927
+                }
+              ]
+            }
+          },
+          "product_versions": [
+            {
+              "item_id": 6058926,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 137407,
+                    "modifiedDate": "2017-02-07T10:32:24",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/6088182.png"
+                  },
+                  "file": {
+                    "size": 3534283,
+                    "modifiedDate": "2014-01-29T09:19:03.2973759",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6088182.pdf"
+                  },
+                  "description": "BI 3010/24 - 44024 V29",
+                  "id": "6088182",
+                  "type": "product.bi.core"
+                },
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 43739,
+                    "modifiedDate": "2019-11-20T11:57:58",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.additional.extra.img/44024_X_44024 + 44026 + 44029.png"
+                  },
+                  "file": {
+                    "size": 11147481,
+                    "modifiedDate": "2019-11-20T11:57:58.1101536",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/44024_X_44024 + 44026 + 44029.pdf"
+                  },
+                  "description": "44024_X_44024 + 44026 + 44029",
+                  "type": "product.bi.additional.extra"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2014-12-31T00:00:00",
+                "launchDate": "2014-08-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 6058926,
+                "length": 170,
+                "width": 230,
+                "sizeUnit": "MM",
+                "height": 47
+              }
+            },
+            {
+              "item_id": 6058927,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 132637,
+                    "modifiedDate": "2017-02-07T10:32:24",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/6088183.png"
+                  },
+                  "file": {
+                    "size": 3551896,
+                    "modifiedDate": "2014-01-29T09:22:24.7040493",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6088183.pdf"
+                  },
+                  "description": "BI 3010/24 - 44024 V39",
+                  "id": "6088183",
+                  "type": "product.bi.core"
+                },
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 43739,
+                    "modifiedDate": "2019-11-20T11:57:58",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.additional.extra.img/44024_X_44024 + 44026 + 44029.png"
+                  },
+                  "file": {
+                    "size": 11147481,
+                    "modifiedDate": "2019-11-20T11:57:58.1101536",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/44024_X_44024 + 44026 + 44029.pdf"
+                  },
+                  "description": "44024_X_44024 + 44026 + 44029",
+                  "type": "product.bi.additional.extra"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2014-12-31T00:00:00",
+                "launchDate": "2014-08-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 6058927,
+                "length": 170,
+                "width": 230,
+                "sizeUnit": "MM",
+                "height": 47
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50044024",
+              "modifiedDate": "2020-08-20T12:40:58.2431661",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "44024_prod.jpg",
+                  "size": 204034,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/44024_prod.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "44024_prod"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® Hero Factory",
+            "id": "2f95cc33-4145-289a-b7d4-4d88ceb3db69",
+            "title": "hero factory"
+          },
+          "availability": {
+            "launchDate": "2014-08-01T00:00:00"
+          },
+          "locale": {
+            "it-it": {
+              "bullet_points": "• Include il mini robot di SURGE con un'arma e un accessorio\r\n• Dotato di mascelle mordenti, tenaglie velenose, artigli acidi, guscio di bozzolo, articolazioni mobili ed elementi trasparenti\r\n• Include uno shooter azionabile e il dispositivo per le comunicazioni di SURGE\r\n• Attacca con le tenaglie velenose del mostro TRIVELLATORE\r\n• Aziona lo shooter per respingere il possente mostro\r\n• Chiama i rinforzi con il dispositivo per le comunicazioni\r\n• Intrappola SURGE nelle potenti mascelle del mostro TRIVELLATORE\r\n• Combinalo con 44026 Mostro di CRISTALLO e 44029 Mostro REGINA per creare un mostro ancora più spaventoso utilizzando le istruzioni per la costruzione disponibili su LEGO.it/herofactory\r\n• Alto 13 cm",
+              "display_title": "MOSTRO TRIVELLATORE VS. SURGE",
+              "one_liner": "Affronta il terrificante mostro TRIVELLATORE LEGO® Hero Factory dotato di potenti mascelle mordenti e tenaglie velenose con SURGE, dotato di shooter e dispositivo per le comunicazioni.",
+              "description": "Preparati per la battaglia, SURGE! Nonostante trasporti ancora il suo bozzolo sulla schiena, questo mostro appena schiusosi è un nemico formidabile. I suoi artigli acidi possono scavare gallerie nella roccia, creando caverne sotterranee, e fai attenzione alle sue velenose tenaglie! Aziona lo shooter per respingere il possente mostro. Tieniti alla larga delle sue potenti mascelle e chiama i rinforzi con il dispositivo per le comunicazioni. Include il mini robot di SURGE con un’arma e un accessorio.",
+              "title": "MOSTRO TRIVELLATORE VS. SURGE",
+              "headline": "Inscena uno scontro sotterraneo tra il mostro TRIVELLATORE e SURGE!",
+              "tags": []
+            },
+            "en-us": {
+              "bullet_points": "• Includes SURGE mini robot with a weapon and accessory\r\n• Features snapping mouth, grabbing poison claws, acid talons, cocoon shell, posable joints and translucent elements\r\n• Includes a click shooter and com device for SURGE\r\n• Attack with the TUNNELER Beast's grabbing poison claws\r\n• Fire the click shooter to fend off the mighty beast\r\n• Call for hero backup on the com device\r\n• Trap SURGE in the TUNNELER Beast's powerful jaws\r\n• Combine with 44026 CRYSTAL Beast and 44029 QUEEN Beast for an even scarier beast model using building instructions available at LEGO.com/herofactory\r\n• Stands over 5” (13cm) tall",
+              "display_title": "TUNNELER Beast vs. SURGE",
+              "one_liner": "Match the LEGO® Hero Factory TUNNELER Beast with powerful snapping mouth and poison claws against SURGE with a click shooter and com device.",
+              "description": "Prepare for battle, SURGE! The TUNNELER Beast may still have a cocoon shell attached to its back, but this freshly-hatched monster is a formidable foe. Its acid talons can tunnel through rock to create underground caverns, and watch out for those grabbing poison claws. Fire the click shooter to repel the mighty beast. Keep well clear of its powerful snapping jaws and call for backup from the other heroes on the com device. Includes SURGE mini robot with a weapon and accessory.",
+              "title": "TUNNELER Beast vs. SURGE",
+              "headline": "Stage an underground showdown between the TUNNELER Beast and SURGE!",
+              "tags": []
+            }
+          },
+          "product_number": "44024"
+        }
+      }
+    ]
+  }
+}
