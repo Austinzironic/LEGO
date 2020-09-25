@@ -1,0 +1,162 @@
+{
+    "took": 1,
+    "timed_out": false,
+    "_shards": {
+        "total": 6,
+        "successful": 6,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 1,
+            "relation": "eq"
+        },
+        "max_score": 6.9716687,
+        "hits": [
+            {
+                "_index": "lego_historic_product_637345408748318909",
+                "_type": "_doc",
+                "_id": "8651",
+                "_score": 6.9716687,
+                "_source": {
+                    "market": {
+                        "jp": {
+                            "skus": [
+                                {
+                                    "item_id": 4241939
+                                }
+                            ]
+                        },
+                        "us": {
+                            "skus": [
+                                {
+                                    "item_id": 4248926
+                                }
+                            ]
+                        }
+                    },
+                    "product_versions": [
+                        {
+                            "item_id": 4241939,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 43427,
+                                        "modifiedDate": "2014-11-06T07:42:06",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4285816.png"
+                                    },
+                                    "file": {
+                                        "size": 4749148,
+                                        "modifiedDate": "2005-03-14T11:55:26.7343717",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4285816.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8651",
+                                    "id": "4285816",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2005-12-31T00:00:00",
+                                "launchDate": "2005-06-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4241939,
+                                "length": 384,
+                                "width": 288,
+                                "sizeUnit": "MM",
+                                "height": 60
+                            }
+                        },
+                        {
+                            "item_id": 4248926,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 43427,
+                                        "modifiedDate": "2014-11-06T07:42:06",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4285816.png"
+                                    },
+                                    "file": {
+                                        "size": 4749148,
+                                        "modifiedDate": "2005-03-14T11:55:26.7343717",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4285816.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8651",
+                                    "id": "4285816",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2005-12-31T00:00:00",
+                                "launchDate": "2005-05-15T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4248926,
+                                "length": 384,
+                                "width": 288,
+                                "sizeUnit": "MM",
+                                "height": 60
+                            }
+                        }
+                    ],
+                    "assets": [
+                        {
+                            "itemId": "50008651",
+                            "modifiedDate": "2020-08-20T18:32:44.2655353",
+                            "assetFiles": [
+                                {
+                                    "extension": ".jpg",
+                                    "fileName": "8651_prod.jpg",
+                                    "size": 255627,
+                                    "metaTags": {
+                                        "image": {
+                                            "width": 400,
+                                            "height": 768
+                                        }
+                                    },
+                                    "modifiedDate": "0001-01-01T00:00:00",
+                                    "type": "product.img.pri",
+                                    "url": "https://www.lego.com/cdn/product-assets/product.img.pri/8651_prod.jpg"
+                                }
+                            ],
+                            "type": "product.img.pri",
+                            "baseName": "8651_prod"
+                        }
+                    ],
+                    "theme": {
+                        "display_title": "LEGO® Racers",
+                        "id": "c0dd6ea5-5d65-60eb-3b94-70dcd527a28d",
+                        "title": "racers"
+                    },
+                    "availability": {
+                        "launchDate": "2005-05-15T00:00:00"
+                    },
+                    "locale": {
+                        "en-us": {
+                            "display_title": "Jumping Giant",
+                            "description": "Looking for thrill and spills with stunt action that takes your breath away? The fantastic pull-back motors in this monster truck provide you with all the power you need! Tough tyres, tough graphics – tough truck!",
+                            "title": "Jumping Giant",
+                            "tags": []
+                        },
+                        "ja-jp": {
+                            "display_title": "ジャンピング・ジャイアント",
+                            "description": "ワクワクドキドキして、思わず息を呑むようなスタントアクションを求めるなら、モンスター・トラックの見事なプルバック・モーターが、君に必要なパワーをすべて与えてくれる！タフなタイヤとグラフィック、そしてトラック！",
+                            "title": "ジャンピング・ジャイアント",
+                            "tags": []
+                        }
+                    },
+                    "product_number": "8651"
+                }
+            }
+        ]
+    }
+}
