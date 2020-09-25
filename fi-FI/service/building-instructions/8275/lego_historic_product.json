@@ -1,0 +1,277 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 7.039952,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "8275",
+        "_score": 7.039952,
+        "_source": {
+          "market": {
+            "fi": {
+              "skus": [
+                {
+                  "item_id": 4496024
+                }
+              ]
+            },
+            "us": {
+              "skus": [
+                {
+                  "item_id": 4496024
+                },
+                {
+                  "item_id": 4498935
+                }
+              ]
+            }
+          },
+          "product_versions": [
+            {
+              "item_id": 4496024,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 3,
+                    "element": 3
+                  },
+                  "image": {
+                    "size": 36154,
+                    "modifiedDate": "2014-11-06T07:49:32",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4520319.png"
+                  },
+                  "file": {
+                    "size": 7927272,
+                    "modifiedDate": "2007-05-23T12:33:57.960973",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4520319.pdf"
+                  },
+                  "description": "BUILD INST-8275 MODEL 1 - 3/3",
+                  "id": "4520319",
+                  "type": "product.bi.core"
+                },
+                {
+                  "sequence": {
+                    "total": 3,
+                    "element": 2
+                  },
+                  "image": {
+                    "size": 36463,
+                    "modifiedDate": "2014-11-06T07:51:02",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4529125.png"
+                  },
+                  "file": {
+                    "size": 10386596,
+                    "modifiedDate": "2007-07-31T13:19:05.8908018",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4529125.pdf"
+                  },
+                  "description": "BUILD.INST - 8275 MODEL 1. 2/3",
+                  "id": "4529125",
+                  "type": "product.bi.core"
+                },
+                {
+                  "sequence": {
+                    "total": 3,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 36393,
+                    "modifiedDate": "2014-11-06T07:51:22",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4533636.png"
+                  },
+                  "file": {
+                    "size": 11364403,
+                    "modifiedDate": "2008-02-11T09:11:37.9038843",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4533636.pdf"
+                  },
+                  "description": "BUILD.INST - 8275 MODEL 1. 1/3",
+                  "id": "4533636",
+                  "type": "product.bi.core"
+                },
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 160283,
+                    "modifiedDate": "2019-11-20T12:00:24",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.additional.extra.img/8275_X_8275 Inspiration Model.png"
+                  },
+                  "file": {
+                    "size": 5769859,
+                    "modifiedDate": "2019-11-20T12:00:23.008762",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/8275_X_8275 Inspiration Model.pdf"
+                  },
+                  "description": "8275_X_8275 Inspiration Model",
+                  "type": "product.bi.additional.extra"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2009-12-31T00:00:00",
+                "launchDate": "2007-09-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4496024,
+                "length": 652,
+                "width": 480,
+                "sizeUnit": "MM",
+                "height": 96
+              }
+            },
+            {
+              "item_id": 4498935,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 3,
+                    "element": 3
+                  },
+                  "image": {
+                    "size": 36154,
+                    "modifiedDate": "2014-11-06T07:49:32",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4520319.png"
+                  },
+                  "file": {
+                    "size": 7927272,
+                    "modifiedDate": "2007-05-23T12:33:57.960973",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4520319.pdf"
+                  },
+                  "description": "BUILD INST-8275 MODEL 1 - 3/3",
+                  "id": "4520319",
+                  "type": "product.bi.core"
+                },
+                {
+                  "sequence": {
+                    "total": 3,
+                    "element": 2
+                  },
+                  "image": {
+                    "size": 36463,
+                    "modifiedDate": "2014-11-06T07:51:02",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4529125.png"
+                  },
+                  "file": {
+                    "size": 10386596,
+                    "modifiedDate": "2007-07-31T13:19:05.8908018",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4529125.pdf"
+                  },
+                  "description": "BUILD.INST - 8275 MODEL 1. 2/3",
+                  "id": "4529125",
+                  "type": "product.bi.core"
+                },
+                {
+                  "sequence": {
+                    "total": 3,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 36393,
+                    "modifiedDate": "2014-11-06T07:51:22",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4533636.png"
+                  },
+                  "file": {
+                    "size": 11364403,
+                    "modifiedDate": "2008-02-11T09:11:37.9038843",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4533636.pdf"
+                  },
+                  "description": "BUILD.INST - 8275 MODEL 1. 1/3",
+                  "id": "4533636",
+                  "type": "product.bi.core"
+                },
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 160283,
+                    "modifiedDate": "2019-11-20T12:00:24",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.additional.extra.img/8275_X_8275 Inspiration Model.png"
+                  },
+                  "file": {
+                    "size": 5769859,
+                    "modifiedDate": "2019-11-20T12:00:23.008762",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/8275_X_8275 Inspiration Model.pdf"
+                  },
+                  "description": "8275_X_8275 Inspiration Model",
+                  "type": "product.bi.additional.extra"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2009-12-31T00:00:00",
+                "launchDate": "2007-09-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4498935,
+                "length": 652,
+                "width": 480,
+                "sizeUnit": "MM",
+                "height": 96
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50008275",
+              "modifiedDate": "2020-08-20T18:14:09.1639333",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "8275_prod.jpg",
+                  "size": 214149,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/8275_prod.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "8275_prod"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® Technic",
+            "id": "ca67f2b9-ce74-45bd-a96c-ad11da536115",
+            "title": "LEGO® Technic"
+          },
+          "availability": {
+            "launchDate": "2007-09-01T00:00:00"
+          },
+          "locale": {
+            "fi-fi": {
+              "display_title": "Moottoroitu puskutraktori",
+              "description": "100 % puhdasta voimaa! Kauko-ohjattavilla toiminnoilla varustettu vaikuttavan kokoinen puskutraktori on rakennustyömaan kuningas. Toiminnot aktivoidaan painamalla painiketta. Näet jättiläisen tositoimissa – voit katsella mäntien liikettä tai kääntää traktorin paikallaan 360º.",
+              "title": "Moottoroitu puskutraktori",
+              "tags": []
+            },
+            "en-us": {
+              "display_title": "Motorized Bulldozer",
+              "description": "100% pure power! With its impressive size and remote-controlled Power Functions, the Motorized Bulldozer is the king of the construction site. Activate all the functions at the press of a button: Set the giant in motion – see the pistons move or make it turn 360º on the spot.",
+              "title": "Motorized Bulldozer",
+              "tags": []
+            }
+          },
+          "product_number": "8275"
+        }
+      }
+    ]
+  }
+  }
