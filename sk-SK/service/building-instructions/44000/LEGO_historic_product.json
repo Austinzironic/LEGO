@@ -1,0 +1,226 @@
+{
+  "took": 8,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 7.026427,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "44000",
+        "_score": 7.026427,
+        "_source": {
+          "market": {
+            "sk": {
+              "skus": [
+                {
+                  "item_id": 6025116
+                }
+              ]
+            },
+            "us": {
+              "skus": [
+                {
+                  "item_id": 6025117
+                }
+              ]
+            }
+          },
+          "product_versions": [
+            {
+              "item_id": 6025116,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 58503,
+                    "modifiedDate": "2014-11-06T08:22:42",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/6037787.png"
+                  },
+                  "file": {
+                    "size": 8611968,
+                    "modifiedDate": "2012-09-04T11:35:56",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6037787.pdf"
+                  },
+                  "description": "BI 3017 / 40 - 65g-44000 V.29",
+                  "id": "6037787",
+                  "type": "product.bi.core"
+                },
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 48929,
+                    "modifiedDate": "2019-11-20T11:57:48",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.additional.extra.img/44000_X_44000 FURNO XL + 44001 PYROX.png"
+                  },
+                  "file": {
+                    "size": 27026426,
+                    "modifiedDate": "2019-11-20T11:57:48.8741884",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/44000_X_44000 FURNO XL + 44001 PYROX.pdf"
+                  },
+                  "description": "44000_X_44000 FURNO XL + 44001 PYROX",
+                  "type": "product.bi.additional.extra"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2014-07-31T00:00:00",
+                "launchDate": "2013-01-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 6025116,
+                "length": 240,
+                "width": 280,
+                "sizeUnit": "MM",
+                "height": 105
+              }
+            },
+            {
+              "item_id": 6025117,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 58637,
+                    "modifiedDate": "2014-11-06T08:22:44",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/6037791.png"
+                  },
+                  "file": {
+                    "size": 8545411,
+                    "modifiedDate": "2012-09-04T11:36:33",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6037791.pdf"
+                  },
+                  "description": "BI 3017 / 40 - 65g -44000 V.39",
+                  "id": "6037791",
+                  "type": "product.bi.core"
+                },
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 48929,
+                    "modifiedDate": "2019-11-20T11:57:48",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.additional.extra.img/44000_X_44000 FURNO XL + 44001 PYROX.png"
+                  },
+                  "file": {
+                    "size": 27026426,
+                    "modifiedDate": "2019-11-20T11:57:48.8741884",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.additional.extra.pdf/44000_X_44000 FURNO XL + 44001 PYROX.pdf"
+                  },
+                  "description": "44000_X_44000 FURNO XL + 44001 PYROX",
+                  "type": "product.bi.additional.extra"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2014-07-31T00:00:00",
+                "launchDate": "2013-01-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 6025117,
+                "length": 240,
+                "width": 280,
+                "sizeUnit": "MM",
+                "height": 105
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50044000",
+              "modifiedDate": "2020-09-04T13:11:33.7593292",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "44000_prod.jpg",
+                  "size": 222175,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/44000_prod.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "44000_prod"
+            },
+            {
+              "itemId": "50044000",
+              "modifiedDate": "2015-10-13T09:36:54",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "44000-0000-xx-12-1.jpg",
+                  "size": 31430,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/44000-0000-xx-12-1.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "44000-0000-xx-12-1"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® HERO Factory",
+            "id": "2f95cc33-4145-289a-b7d4-4d88ceb3db69",
+            "title": "hero factory"
+          },
+          "availability": {
+            "launchDate": "2013-01-01T00:00:00"
+          },
+          "locale": {
+            "en-us": {
+              "bullet_points": "• Features flaming fire sword and fire shield, cape, armored and decorated hero visor, tough spiked shoulder armor and hero core locking clamps\r\n• Includes highly durable and poseable design with translucent orange armor elements\r\n• Face the evil brains with FURNO's flaming fire sword!\r\n• Lock the clamps and protect the hero core!\r\n• Battle with 44001 PYROX!\r\n• Combine with 44001 PYROX using building instructions available at LEGO.com/herofactory!\r\n• Also includes unique code worth 1000 game points for LEGO® Hero Factory Brain Attack mobile app and online game at www.LEGO.com/herofactory\r\n• Stands over 9\" (23cm) tall",
+              "display_title": "FURNO XL",
+              "one_liner": "Battle the evil brains with FURNO's fire sword, fire shield, cape, armored visor, spiked shoulder armor and hero core locking clamps!",
+              "description": "Attention FURNO! The galaxy is under attack by the evil brains and it's time to prepare for battle. We've equipped you with a flaming fire sword and fire shield, cape, armored visor, spiked shoulder armor and hero core locking clamps. Use your new powered-up tools to turn up the heat and bring those brains to justice!",
+              "title": "FURNO XL",
+              "headline": "Blaze into battle against the evil brains with FURNO XL!",
+              "tags": []
+            },
+            "sk-sk": {
+              "bullet_points": "• Obsahuje ohnivý meč a štít, kapucňu, obrnený priezor prilby s dekoráciou, ramenné brnenie s bodcami a spínacími čeľusťami jadra\r\n• Súčasťou je vysoko odolný a nastaviteľný dizajn s oranžovými priesvitnými súčasťami brnenia\r\n• Postav sa tvárou v tvár mozgožrútom s FURNOVÝM ohnivým mečom!\r\n• Zakliesni čeľuste a ochráň jadro hrdinu!\r\n• Bojuj so ŽERAVIČOM, výr. č. 44001!\r\n• Skombinuj s výr č. 44001 ŽERAVIČ pomocou návodu na postavenie na LEGO.com/herofactory!\r\n• Obsahuje tiež unikátny kód v hodnote 1000 hracích bodov pre aplikáciu do mobilného telefónu s názvom LEGO® Hero Factory Brain Attack a online hru na www.LEGO.com/herofactory\r\n• Meria 23 cm na výšku",
+              "display_title": "FURNO XL",
+              "one_liner": "Bojuj proti mozgožrútom s FURNOVÝM ohnivým mečom, ohnivým štítom, kapucňou, obrneným priezorom prilby, ramenným brnením s bodcami a spínacími čeľusťami jadra!",
+              "description": "FURNO, pozor, hlásenie! Galaxiu napadli mozgožrúti a je čas pripraviť sa na súboj. Vybavili sme vás ohnivým mečom a štítom, kapucňou, obrneným priezorom prilby, ramenným brnením s bodcami a spínacími čeľusťami s jadrom. Použi nové energiou nabité pomôcky, poriadne tým cudzincom zakúr a predaj ich spravodlivosti!",
+              "title": "FURNO XL",
+              "headline": "Vyraz s FURNOM XL do boja proti mozgožrútom!",
+              "tags": []
+            }
+          },
+          "product_number": "44000"
+        }
+      }
+    ]
+  }
+}
