@@ -1,0 +1,154 @@
+{
+    "took": 1,
+    "timed_out": false,
+    "_shards": {
+        "total": 6,
+        "successful": 6,
+        "skipped": 0,
+        "failed": 0
+    },
+    "hits": {
+        "total": {
+            "value": 1,
+            "relation": "eq"
+        },
+        "max_score": 7.0000305,
+        "hits": [
+            {
+                "_index": "lego_historic_product_637345408748318909",
+                "_type": "_doc",
+                "_id": "8571",
+                "_score": 7.0000305,
+                "_source": {
+                    "market": {
+                        "us": {
+                            "skus": [
+                                {
+                                    "item_id": 4176601
+                                }
+                            ]
+                        }
+                    },
+                    "product_versions": [
+                        {
+                            "item_id": 4176584,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 39776,
+                                        "modifiedDate": "2014-11-06T07:31:54",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4181802.png"
+                                    },
+                                    "file": {
+                                        "size": 2373998,
+                                        "modifiedDate": "2002-06-15T18:38:20",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4181802.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8571",
+                                    "id": "4181802",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2003-12-31T00:00:00",
+                                "launchDate": "2002-09-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4176584,
+                                "length": 88,
+                                "width": 184,
+                                "sizeUnit": "MM",
+                                "height": 88
+                            }
+                        },
+                        {
+                            "item_id": 4176601,
+                            "building_instructions": [
+                                {
+                                    "sequence": {
+                                        "total": 1,
+                                        "element": 1
+                                    },
+                                    "image": {
+                                        "size": 39776,
+                                        "modifiedDate": "2014-11-06T07:31:54",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4181802.png"
+                                    },
+                                    "file": {
+                                        "size": 2373998,
+                                        "modifiedDate": "2002-06-15T18:38:20",
+                                        "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4181802.pdf"
+                                    },
+                                    "description": "BUILDING INSTRUCTION 8571",
+                                    "id": "4181802",
+                                    "type": "product.bi.core"
+                                }
+                            ],
+                            "availability": {
+                                "marketingExitDate": "2003-12-31T00:00:00",
+                                "launchDate": "2002-09-01T00:00:00"
+                            },
+                            "measurements": {
+                                "itemId": 4176601,
+                                "length": 88,
+                                "width": 184,
+                                "sizeUnit": "MM",
+                                "height": 88
+                            }
+                        }
+                    ],
+                    "assets": [
+                        {
+                            "itemId": "50008571",
+                            "modifiedDate": "2020-08-20T18:28:03.0455716",
+                            "assetFiles": [
+                                {
+                                    "extension": ".JPG",
+                                    "fileName": "8571_prod.JPG",
+                                    "size": 146152,
+                                    "metaTags": {
+                                        "image": {
+                                            "width": 400,
+                                            "height": 768
+                                        }
+                                    },
+                                    "modifiedDate": "0001-01-01T00:00:00",
+                                    "type": "product.img.pri",
+                                    "url": "https://www.lego.com/cdn/product-assets/product.img.pri/8571_prod.JPG"
+                                }
+                            ],
+                            "type": "product.img.pri",
+                            "baseName": "8571_prod"
+                        }
+                    ],
+                    "theme": {
+                        "display_title": "LEGO® BIONICLE",
+                        "id": "f1d29741-ae70-2850-a275-00d2fa7804ae",
+                        "title": "bionicle"
+                    },
+                    "availability": {
+                        "launchDate": "2002-09-01T00:00:00"
+                    },
+                    "locale": {
+                        "el-gr": {
+                            "display_title": "Κοπάκα Νούβα",
+                            "description": "Το Πνεύμα του Πάγου είναι όπως πάντα ψύχραιμο κάτω από τη νέα του βελτιωμένη πανοπλία, και τα διπλά σπαθιά του κόβουν τα παγόβουνα σα βούτυρο. Όταν η ταχύτητα έχει τον πρώτο λόγο, ο Κοπάκα Νούβα μετατρέπει τα σπαθιά του σε παγοπέδιλα για να κινηθεί ταχύτατα μέσα από τους παγωμένους ξερότοπους, καταφέρνοντας να περάσει ακόμα και μέσα από τρομερές χιονοθύελλες, χάρη στην ειδική μάσκα χιονοθύελλας.",
+                            "title": "Κοπάκα Νούβα",
+                            "tags": []
+                        },
+                        "en-us": {
+                            "display_title": "Kopaka Nuva",
+                            "title": "Kopaka Nuva",
+                            "tags": []
+                        }
+                    },
+                    "product_number": "8571"
+                }
+            }
+        ]
+    }
+}
