@@ -1,0 +1,200 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 7.090077,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "7259",
+        "_score": 7.090077,
+        "_source": {
+          "market": {
+            "hu": {
+              "skus": [
+                {
+                  "item_id": 4242689
+                }
+              ]
+            },
+            "us": {
+              "skus": [
+                {
+                  "item_id": 4242689
+                },
+                {
+                  "item_id": 4250418
+                }
+              ]
+            }
+          },
+          "product_versions": [
+            {
+              "item_id": 4242689,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 49292,
+                    "modifiedDate": "2014-11-06T07:42:54",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4291633.png"
+                  },
+                  "file": {
+                    "size": 11057283,
+                    "modifiedDate": "2005-05-23T11:53:03.8930229",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4291633.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION 7259 IN",
+                  "id": "4291633",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2006-12-31T00:00:00",
+                "launchDate": "2005-03-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4242689,
+                "length": 432,
+                "width": 288,
+                "sizeUnit": "MM",
+                "height": 60
+              }
+            },
+            {
+              "item_id": 4250418,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 49292,
+                    "modifiedDate": "2014-11-06T07:42:46",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4290477.png"
+                  },
+                  "file": {
+                    "size": 11045386,
+                    "modifiedDate": "2005-05-23T11:50:52.4958088",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4290477.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION, 7259 NA",
+                  "id": "4290477",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2006-12-31T00:00:00",
+                "launchDate": "2005-03-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4250418,
+                "length": 432,
+                "width": 288,
+                "sizeUnit": "MM",
+                "height": 60
+              }
+            },
+            {
+              "item_id": 4286318,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 49292,
+                    "modifiedDate": "2014-11-06T07:42:46",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4290477.png"
+                  },
+                  "file": {
+                    "size": 11045386,
+                    "modifiedDate": "2005-05-23T11:50:52.4958088",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4290477.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION, 7259 NA",
+                  "id": "4290477",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2006-12-31T00:00:00",
+                "launchDate": "2005-04-02T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4286318,
+                "length": 432,
+                "width": 288,
+                "sizeUnit": "MM",
+                "height": 60
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50007259",
+              "modifiedDate": "2020-08-20T15:53:52.9233805",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "7259_prod.jpg",
+                  "size": 104047,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/7259_prod.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "7259_prod"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® Star Wars™",
+            "id": "ae537d16-848c-47d1-9c28-5a57aea1d87b",
+            "title": "Star Wars"
+          },
+          "availability": {
+            "launchDate": "2005-03-01T00:00:00"
+          },
+          "locale": {
+            "hu-hu": {
+              "display_title": "ARC-170 Starfighter™",
+              "description": "A végső űrcsata a galaxis fölötti uralom megszerzéséért. Vajon sikeresen teljesíti küldetését a fényesen csillogó ARC-170 Starfighter és klónokból álló legénysége? Az ARC-170 nyitható szárnyakkal és bombákkal van ellátva. 3 klón pilóta figurát és egy R2 egységet tartalmaz.",
+              "title": "ARC-170 Starfighter™",
+              "tags": []
+            },
+            "en-us": {
+              "display_title": "ARC-170 Starfighter™",
+              "description": "It's the ultimate space battle for control of the galaxy! Will the sleek ARC-170 starfighter with its crew of Clones be successful in completing its mission? The ARC-170 features opening wings and dropping “bombs”! Includes 3 Clone Pilots and an R2 Unit.",
+              "title": "ARC-170 Starfighter™",
+              "tags": []
+            }
+          },
+          "product_number": "7259"
+        }
+      }
+    ]
+  }
+}
