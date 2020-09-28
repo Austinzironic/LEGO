@@ -1,0 +1,109 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 7.105512,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "7111",
+        "_score": 7.105512,
+        "_source": {
+          "product_versions": [
+            {
+              "item_id": 2303902,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 33050,
+                    "modifiedDate": "2014-11-06T07:25:46",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4128245.png"
+                  },
+                  "file": {
+                    "size": 1106286,
+                    "modifiedDate": "2002-01-18T11:41:00",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4128245.pdf"
+                  },
+                  "description": "BUILDING INST. FOR 7111",
+                  "id": "4128245",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2000-12-31T00:00:00",
+                "launchDate": "1999-05-17T00:00:00"
+              },
+              "measurements": {
+                "itemId": 2303902,
+                "length": 144,
+                "width": 96,
+                "sizeUnit": "MM",
+                "height": 60
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50007111",
+              "modifiedDate": "2015-10-26T11:40:30",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "7111-0000-XX-12-1.jpg",
+                  "size": 8464,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/7111-0000-XX-12-1.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "7111-0000-XX-12-1"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® Star Wars™",
+            "id": "ae537d16-848c-47d1-9c28-5a57aea1d87b",
+            "title": "Star Wars"
+          },
+          "availability": {
+            "launchDate": "1999-04-01T00:00:00"
+          },
+          "locale": {
+            "en-us": {
+              "display_title": "Droid Fighter™",
+              "title": "Droid Fighter™",
+              "tags": []
+            },
+            "ja-jp": {
+              "display_title": "ドロイド・スターファイター",
+              "title": "ドロイド・スターファイター",
+              "tags": []
+            }
+          },
+          "product_number": "7111"
+        }
+      }
+    ]
+  }
+}
