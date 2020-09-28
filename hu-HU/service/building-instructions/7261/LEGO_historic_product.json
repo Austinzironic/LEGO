@@ -1,0 +1,218 @@
+{
+  "took": 3,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 7.0817084,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "7261",
+        "_score": 7.0817084,
+        "_source": {
+          "market": {
+            "hu": {
+              "skus": [
+                {
+                  "item_id": 4242691
+                },
+                {
+                  "item_id": 4493951
+                }
+              ]
+            },
+            "us": {
+              "skus": [
+                {
+                  "item_id": 4250420
+                },
+                {
+                  "item_id": 4493953
+                }
+              ]
+            }
+          },
+          "product_versions": [
+            {
+              "item_id": 4242691,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 45223,
+                    "modifiedDate": "2014-11-06T07:43:50",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4298271.png"
+                  },
+                  "file": {
+                    "size": 12006073,
+                    "modifiedDate": "2005-12-13T12:37:12.168239",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4298271.pdf"
+                  },
+                  "description": "BUILDINGINSTRUCTION, 7261 IN",
+                  "id": "4298271",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2006-04-01T00:00:00",
+                "launchDate": "2005-04-02T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4242691,
+                "length": 576,
+                "width": 384,
+                "sizeUnit": "MM",
+                "height": 96
+              }
+            },
+            {
+              "item_id": 4250420,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 45223,
+                    "modifiedDate": "2014-11-06T07:43:54",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4298317.png"
+                  },
+                  "file": {
+                    "size": 12007928,
+                    "modifiedDate": "2005-12-13T12:35:32.417843",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4298317.pdf"
+                  },
+                  "description": "BUILDINGINSTRUCTION, 7261 NA",
+                  "id": "4298317",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2006-04-01T00:00:00",
+                "launchDate": "2005-04-02T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4250420,
+                "length": 576,
+                "width": 384,
+                "sizeUnit": "MM",
+                "height": 96
+              }
+            },
+            {
+              "item_id": 4493951,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 45223,
+                    "modifiedDate": "2014-11-06T07:43:50",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4298271.png"
+                  },
+                  "file": {
+                    "size": 12006073,
+                    "modifiedDate": "2005-12-13T12:37:12.168239",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4298271.pdf"
+                  },
+                  "description": "BUILDINGINSTRUCTION, 7261 IN",
+                  "id": "4298271",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2006-12-31T00:00:00",
+                "launchDate": "2005-04-02T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4493951,
+                "length": 576,
+                "width": 384,
+                "sizeUnit": "MM",
+                "height": 96
+              }
+            },
+            {
+              "item_id": 4493953,
+              "building_instructions": [],
+              "availability": {
+                "marketingExitDate": "2006-12-31T00:00:00",
+                "launchDate": "2006-04-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4493953,
+                "length": 576,
+                "width": 384,
+                "sizeUnit": "MM",
+                "height": 96
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50007261",
+              "modifiedDate": "2020-08-20T14:32:09.5303446",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "7261_prod.jpg",
+                  "size": 187213,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/7261_prod.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "7261_prod"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® Star Wars™",
+            "id": "ae537d16-848c-47d1-9c28-5a57aea1d87b",
+            "title": "Star Wars"
+          },
+          "availability": {
+            "launchDate": "2005-04-02T00:00:00"
+          },
+          "locale": {
+            "hu-hu": {
+              "display_title": "Clone Turbo Tank™",
+              "description": "Itt közeledik a masszív klón turbó tank, oldalán a villámgyors Barc Speeder-rel. Mace Windu-nak egy szörnyű támadástól kell megvédenie barátait, a Jedi lovagokat. A tank működő rugózással van ellátva, Mace Windu fénykardja pedig valóban világít. 3 klónkatonát, 2 csata droidot, Sandtrooper/klónkatonát és világító fénykarddal felszerelt Mace Windu figurát tartalmaz.",
+              "title": "Clone Turbo Tank™",
+              "tags": []
+            },
+            "en-us": {
+              "display_title": "Clone Turbo Tank™",
+              "description": "Here comes the massive Clone Turbo Tank, flanked by the swift Barc Speeder! Mace Windu must defend his fellow Jedi Knights against an incredible assault. Tank features working suspension, and Mace Windu's lightsaber really lights up! Includes 3 Clone Troopers, 2 Battle Droids, Sand Trooper/Clone and Mace Windu with light-up lightsaber.",
+              "title": "Clone Turbo Tank™",
+              "tags": []
+            }
+          },
+          "product_number": "7261"
+        }
+      }
+    ]
+  }
+}
