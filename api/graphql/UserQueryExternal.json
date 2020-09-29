@@ -1,0 +1,23 @@
+{
+    "data": {
+        "me": {
+            "username": null,
+            "country": null,
+            "age": null,
+            "isVip": false,
+            "isOver13yo": true,
+            "isOver18yo": true,
+            "isAdult": true,
+            "isLid": false,
+            "vip": null,
+            "features": [],
+            "__typename": "LegoUser",
+            "wishlist": {
+                "id": "DEFAULT",
+                "items": [],
+                "__typename": "Wishlist"
+            },
+            "cart": null
+        }
+    }
+}
