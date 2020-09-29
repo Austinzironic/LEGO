@@ -1,0 +1,203 @@
+{
+   "took": 1,
+   "timed_out": false,
+   "_shards": {
+      "total": 6,
+      "successful": 6,
+      "skipped": 0,
+      "failed": 0
+   },
+   "hits": {
+      "total": {
+         "value": 1,
+         "relation": "eq"
+      },
+      "max_score": 7.076091,
+      "hits": [
+         {
+            "_index": "lego_historic_product_637345408748318909",
+            "_type": "_doc",
+            "_id": "8904",
+            "_score": 7.076091,
+            "_source": {
+               "market": {
+                  "cz": {
+                     "skus": [
+                        {
+                           "item_id": 4277530
+                        }
+                     ]
+                  },
+                  "us": {
+                     "skus": [
+                        {
+                           "item_id": 4277530
+                        },
+                        {
+                           "item_id": 4281192
+                        },
+                        {
+                           "item_id": 4492774
+                        }
+                     ]
+                  }
+               },
+               "product_versions": [
+                  {
+                     "item_id": 4277530,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 1,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 36648,
+                              "modifiedDate": "2014-11-06T07:43:26",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4294304.png"
+                           },
+                           "file": {
+                              "size": 3045302,
+                              "modifiedDate": "2005-10-06T09:12:11.4471468",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4294304.pdf"
+                           },
+                           "description": "BUILDING INSTRUCTION 8904 IN",
+                           "id": "4294304",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2006-12-31T00:00:00",
+                        "launchDate": "2006-01-01T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 4277530,
+                        "length": 102,
+                        "width": 199.5,
+                        "sizeUnit": "MM",
+                        "height": 88
+                     }
+                  },
+                  {
+                     "item_id": 4281192,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 1,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 39599,
+                              "modifiedDate": "2014-11-06T07:44:12",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4492465.png"
+                           },
+                           "file": {
+                              "size": 3074078,
+                              "modifiedDate": "2007-01-29T13:57:03.1336069",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4492465.pdf"
+                           },
+                           "description": "BUILDING INSTRUCTION 8904 NA",
+                           "id": "4492465",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2006-12-31T00:00:00",
+                        "launchDate": "2006-01-01T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 4281192,
+                        "length": 102,
+                        "width": 199.5,
+                        "sizeUnit": "MM",
+                        "height": 88
+                     }
+                  },
+                  {
+                     "item_id": 4492774,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 1,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 39599,
+                              "modifiedDate": "2014-11-06T07:44:12",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4492465.png"
+                           },
+                           "file": {
+                              "size": 3074078,
+                              "modifiedDate": "2007-01-29T13:57:03.1336069",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4492465.pdf"
+                           },
+                           "description": "BUILDING INSTRUCTION 8904 NA",
+                           "id": "4492465",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2006-12-31T00:00:00",
+                        "launchDate": "2006-01-01T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 4492774,
+                        "length": 102,
+                        "width": 199.5,
+                        "sizeUnit": "MM",
+                        "height": 88
+                     }
+                  }
+               ],
+               "assets": [
+                  {
+                     "itemId": "50008904",
+                     "modifiedDate": "2020-08-20T16:23:13.5340824",
+                     "assetFiles": [
+                        {
+                           "extension": ".jpg",
+                           "fileName": "8904_prod.jpg",
+                           "size": 254604,
+                           "metaTags": {
+                              "image": {
+                                 "width": 400,
+                                 "height": 768
+                              }
+                           },
+                           "modifiedDate": "0001-01-01T00:00:00",
+                           "type": "product.img.pri",
+                           "url": "https://www.lego.com/cdn/product-assets/product.img.pri/8904_prod.jpg"
+                        }
+                     ],
+                     "type": "product.img.pri",
+                     "baseName": "8904_prod"
+                  }
+               ],
+               "theme": {
+                  "display_title": "LEGO® BIONICLE",
+                  "id": "f1d29741-ae70-2850-a275-00d2fa7804ae",
+                  "title": "bionicle"
+               },
+               "availability": {
+                  "launchDate": "2006-01-01T00:00:00"
+               },
+               "locale": {
+                  "en-us": {
+                     "display_title": "Avak",
+                     "description": "Trigger-happy chief of the Piraka’s armory, Avak has a rare talent for turning almost anything into a weapon. Carries a giant hacksaw that can both slice through any material and weld it back together again.",
+                     "title": "Avak",
+                     "tags": []
+                  },
+                  "cs-cz": {
+                     "display_title": "Avak",
+                     "description": "Nedočkavý střelec a velitel zbrojnice Piraků. Avak má vzácný talent přeměnit téměř cokoli ve zbraň. Má obrovskou pilu na kov, kterou dokáže rozříznout jakýkoli materiál a znovu ho spojit dohromady.",
+                     "title": "Avak",
+                     "tags": []
+                  }
+               },
+               "product_number": "8904"
+            }
+         }
+      ]
+   }
+}
