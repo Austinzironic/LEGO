@@ -1,0 +1,201 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 7.1169353,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "7674",
+        "_score": 7.1169353,
+        "_source": {
+          "market": {
+            "pl": {
+              "skus": [
+                {
+                  "item_id": 4512537
+                }
+              ]
+            },
+            "us": {
+              "skus": [
+                {
+                  "item_id": 4517228
+                }
+              ]
+            }
+          },
+          "product_versions": [
+            {
+              "item_id": 4512537,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 2,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 29875,
+                    "modifiedDate": "2014-11-06T07:51:56",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4536953.png"
+                  },
+                  "file": {
+                    "size": 8098042,
+                    "modifiedDate": "2008-02-15T07:40:22.9630803",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4536953.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION 7674 1/2",
+                  "id": "4536953",
+                  "type": "product.bi.core"
+                },
+                {
+                  "sequence": {
+                    "total": 2,
+                    "element": 2
+                  },
+                  "image": {
+                    "size": 29925,
+                    "modifiedDate": "2014-11-06T07:51:56",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4536955.png"
+                  },
+                  "file": {
+                    "size": 9542380,
+                    "modifiedDate": "2008-02-15T08:07:47.5303533",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4536955.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION 7674 2/2",
+                  "id": "4536955",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2009-12-31T00:00:00",
+                "launchDate": "2008-07-26T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4512537,
+                "length": 480,
+                "width": 288,
+                "sizeUnit": "MM",
+                "height": 72
+              }
+            },
+            {
+              "item_id": 4517228,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 2,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 29875,
+                    "modifiedDate": "2014-11-06T07:51:56",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4536953.png"
+                  },
+                  "file": {
+                    "size": 8098042,
+                    "modifiedDate": "2008-02-15T07:40:22.9630803",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4536953.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION 7674 1/2",
+                  "id": "4536953",
+                  "type": "product.bi.core"
+                },
+                {
+                  "sequence": {
+                    "total": 2,
+                    "element": 2
+                  },
+                  "image": {
+                    "size": 29925,
+                    "modifiedDate": "2014-11-06T07:51:56",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4536955.png"
+                  },
+                  "file": {
+                    "size": 9542380,
+                    "modifiedDate": "2008-02-15T08:07:47.5303533",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4536955.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION 7674 2/2",
+                  "id": "4536955",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2009-12-31T00:00:00",
+                "launchDate": "2008-07-26T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4517228,
+                "length": 480,
+                "width": 288,
+                "sizeUnit": "MM",
+                "height": 72
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50007674",
+              "modifiedDate": "2020-08-20T18:48:12.5414739",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "7674_prod.jpg",
+                  "size": 102026,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/7674_prod.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "7674_prod"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® Star Wars™",
+            "id": "ae537d16-848c-47d1-9c28-5a57aea1d87b",
+            "title": "Star Wars"
+          },
+          "availability": {
+            "marketingExitDate": "2009-12-31T00:00:00",
+            "launchDate": "2008-07-26T00:00:00"
+          },
+          "locale": {
+            "pl-pl": {
+              "display_title": "V-19 Torrent™",
+              "description": "Walcz z wojskami separatystów przy pomocy republikańskiego V-19 Torrent ze Star Wars: The Clone Wars. Statek posiada ruchomy system skrzydeł i lądowania, który automatycznie przełącza się między trybami lądowania i lotu, migające rakiety, otwierany kokpit oraz całkiem nowego pilota szturmowców.",
+              "title": "V-19 Torrent™",
+              "tags": []
+            },
+            "en-us": {
+              "display_title": "V-19 Torrent™",
+              "description": "Battle the Separatist forces with the Republic’s V-19 Torrent, as seen in Star Wars: The Clone Wars. Features includes a geared wing and landing gear system that automatically switches between landing and flying modes, flick missiles, opening cockpit, and all-new clone trooper pilot.",
+              "title": "V-19 Torrent™",
+              "tags": []
+            }
+          },
+          "product_number": "7674"
+        }
+      }
+    ]
+  }
+}
