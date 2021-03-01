@@ -1,0 +1,239 @@
+{
+  "took": 1,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 6.9853334,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "8575",
+        "_score": 6.9853334,
+        "_source": {
+          "market": {
+            "gb": {
+              "skus": [
+                {
+                  "item_id": 4187142
+                },
+                {
+                  "item_id": 4204079
+                }
+              ]
+            },
+            "us": {
+              "skus": [
+                {
+                  "item_id": 4187580
+                },
+                {
+                  "item_id": 4204080
+                }
+              ]
+            }
+          },
+          "product_versions": [
+            {
+              "item_id": 4187142,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 52524,
+                    "modifiedDate": "2014-11-06T07:33:26",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4200942.png"
+                  },
+                  "file": {
+                    "size": 7575510,
+                    "modifiedDate": "2002-12-17T11:50:00",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4200942.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  8575",
+                  "id": "4200942",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2003-12-31T00:00:00",
+                "launchDate": "2003-03-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4187142,
+                "length": 109,
+                "width": 157,
+                "sizeUnit": "MM",
+                "height": 88
+              }
+            },
+            {
+              "item_id": 4187580,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 52524,
+                    "modifiedDate": "2014-11-06T07:33:26",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4200942.png"
+                  },
+                  "file": {
+                    "size": 7575510,
+                    "modifiedDate": "2002-12-17T11:50:00",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4200942.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  8575",
+                  "id": "4200942",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2003-12-31T00:00:00",
+                "launchDate": "2003-03-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4187580,
+                "length": 109,
+                "width": 157,
+                "sizeUnit": "MM",
+                "height": 88
+              }
+            },
+            {
+              "item_id": 4204079,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 52524,
+                    "modifiedDate": "2014-11-06T07:33:26",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4200942.png"
+                  },
+                  "file": {
+                    "size": 7575510,
+                    "modifiedDate": "2002-12-17T11:50:00",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4200942.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  8575",
+                  "id": "4200942",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2003-12-31T00:00:00",
+                "launchDate": "2003-03-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4204079,
+                "length": 109,
+                "width": 157,
+                "sizeUnit": "MM",
+                "height": 88
+              }
+            },
+            {
+              "item_id": 4204080,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 52524,
+                    "modifiedDate": "2014-11-06T07:33:26",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4200942.png"
+                  },
+                  "file": {
+                    "size": 7575510,
+                    "modifiedDate": "2002-12-17T11:50:00",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4200942.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  8575",
+                  "id": "4200942",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2003-12-31T00:00:00",
+                "launchDate": "2003-03-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4204080,
+                "length": 109,
+                "width": 157,
+                "sizeUnit": "MM",
+                "height": 88
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50008575",
+              "modifiedDate": "2020-10-20T12:15:04.4403109",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "8575_prod.jpg",
+                  "size": 179602,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/8575_prod.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "8575_prod"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® BIONICLE®",
+            "id": "f1d29741-ae70-2850-a275-00d2fa7804ae",
+            "title": "bionicle"
+          },
+          "availability": {
+            "marketingExitDate": "2003-12-31T00:00:00",
+            "launchDate": "2003-03-01T00:00:00"
+          },
+          "locale": {
+            "en-gb": {
+              "display_title": "Kohrak-Kal",
+              "description": "Kohrak-Kal often works alone - its sonic powers are so great, they are even a threat to the other Bohrok-Kal! In fact, the Kohrak-Kal’s power is so awesome that its Krana can afford to ignore danger until the very last moment. When the Kohrak-Kal finally reacts to a threat, it does so swiftly and with overpowering effect.",
+              "title": "Kohrak-Kal",
+              "tags": []
+            },
+            "ja-jp": {
+              "display_title": "コーワック カル",
+              "description": "コーワック カルは単独で働く事が多いが、超音波パワーはとてもすばらしい、他のボロック カルへの脅威でもある。たしかに、コーワック カルの力は恐ろしい。クラナは最後の瞬間まで危険を無視する余裕がある。コーワック カルが最終的に脅威に反応した時、それは速やかに圧倒的な効果をもたらす。",
+              "title": "コーワック カル",
+              "tags": []
+            }
+          },
+          "product_number": "8575"
+        }
+      }
+    ]
+  }
+}
