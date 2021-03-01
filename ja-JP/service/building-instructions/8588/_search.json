@@ -1,0 +1,315 @@
+{
+  "took": 12,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 7.271472,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "8588",
+        "_score": 7.271472,
+        "_source": {
+          "market": {
+            "jp": {
+              "skus": [
+                {
+                  "item_id": 4187154
+                },
+                {
+                  "item_id": 4205229
+                }
+              ]
+            },
+            "us": {
+              "skus": [
+                {
+                  "item_id": 4187552
+                },
+                {
+                  "item_id": 4205235
+                },
+                {
+                  "item_id": 4205403
+                },
+                {
+                  "item_id": 4227849
+                }
+              ]
+            }
+          },
+          "product_versions": [
+            {
+              "item_id": 4187154,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 41255,
+                    "modifiedDate": "2014-11-06T07:33:48",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4204686.png"
+                  },
+                  "file": {
+                    "size": 4248232,
+                    "modifiedDate": "2002-12-18T09:01:06",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4204686.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  8588",
+                  "id": "4204686",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2004-06-30T00:00:00",
+                "launchDate": "2003-05-15T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4187154,
+                "length": 102,
+                "width": 187,
+                "sizeUnit": "MM",
+                "height": 88
+              }
+            },
+            {
+              "item_id": 4187552,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 41255,
+                    "modifiedDate": "2014-11-06T07:33:48",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4204686.png"
+                  },
+                  "file": {
+                    "size": 4248232,
+                    "modifiedDate": "2002-12-18T09:01:06",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4204686.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  8588",
+                  "id": "4204686",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2004-06-30T00:00:00",
+                "launchDate": "2003-07-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4187552,
+                "length": 102,
+                "width": 187,
+                "sizeUnit": "MM",
+                "height": 88
+              }
+            },
+            {
+              "item_id": 4205229,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 41255,
+                    "modifiedDate": "2014-11-06T07:33:48",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4204686.png"
+                  },
+                  "file": {
+                    "size": 4248232,
+                    "modifiedDate": "2002-12-18T09:01:06",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4204686.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  8588",
+                  "id": "4204686",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2004-06-30T00:00:00",
+                "launchDate": "2003-05-15T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4205229,
+                "length": 102,
+                "width": 187,
+                "sizeUnit": "MM",
+                "height": 88
+              }
+            },
+            {
+              "item_id": 4205235,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 41255,
+                    "modifiedDate": "2014-11-06T07:33:48",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4204686.png"
+                  },
+                  "file": {
+                    "size": 4248232,
+                    "modifiedDate": "2002-12-18T09:01:06",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4204686.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  8588",
+                  "id": "4204686",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2004-06-30T00:00:00",
+                "launchDate": "2003-07-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4205235,
+                "length": 102,
+                "width": 187,
+                "sizeUnit": "MM",
+                "height": 88
+              }
+            },
+            {
+              "item_id": 4205403,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 41255,
+                    "modifiedDate": "2014-11-06T07:33:48",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4204686.png"
+                  },
+                  "file": {
+                    "size": 4248232,
+                    "modifiedDate": "2002-12-18T09:01:06",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4204686.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  8588",
+                  "id": "4204686",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2004-06-30T00:00:00",
+                "launchDate": "2003-07-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4205403,
+                "length": 102,
+                "width": 187,
+                "sizeUnit": "MM",
+                "height": 88
+              }
+            },
+            {
+              "item_id": 4227849,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 41255,
+                    "modifiedDate": "2014-11-06T07:33:48",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4204686.png"
+                  },
+                  "file": {
+                    "size": 4248232,
+                    "modifiedDate": "2002-12-18T09:01:06",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4204686.pdf"
+                  },
+                  "description": "BUILDING INSTRUCTION  8588",
+                  "id": "4204686",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2004-06-30T00:00:00",
+                "launchDate": "2003-07-01T00:00:00"
+              },
+              "measurements": {
+                "itemId": 4227849,
+                "length": 102,
+                "width": 187,
+                "sizeUnit": "MM",
+                "height": 88
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50008588",
+              "modifiedDate": "2020-09-08T06:24:09.2929037",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "8588_prod.jpg",
+                  "size": 84253,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/8588_prod.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "8588_prod"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® BIONICLE®",
+            "id": "f1d29741-ae70-2850-a275-00d2fa7804ae",
+            "title": "bionicle"
+          },
+          "availability": {
+            "marketingExitDate": "2004-06-30T00:00:00",
+            "launchDate": "2003-07-01T00:00:00"
+          },
+          "locale": {
+            "en-gb": {
+              "display_title": "Kurahk",
+              "description": "Kurahk, who turns allies against each other!",
+              "title": "Kurahk",
+              "tags": []
+            },
+            "ja-jp": {
+              "display_title": "カラーク",
+              "description": "互いに味方を交わしたカラーク！",
+              "title": "カラーク",
+              "tags": []
+            }
+          },
+          "product_number": "8588"
+        }
+      }
+    ]
+  }
+}
