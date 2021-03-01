@@ -1,0 +1,289 @@
+{
+   "took": 1,
+   "timed_out": false,
+   "_shards": {
+      "total": 6,
+      "successful": 6,
+      "skipped": 0,
+      "failed": 0
+   },
+   "hits": {
+      "total": {
+         "value": 1,
+         "relation": "eq"
+      },
+      "max_score": 6.1654177,
+      "hits": [
+         {
+            "_index": "lego_historic_product_637345408748318909",
+            "_type": "_doc",
+            "_id": "7121",
+            "_score": 6.1654177,
+            "_source": {
+               "market": {
+                  "jp": {
+                     "skus": [
+                        {
+                           "item_id": 1026387
+                        },
+                        {
+                           "item_id": 1026909
+                        },
+                        {
+                           "item_id": 1029364
+                        },
+                        {
+                           "item_id": 1033347
+                        },
+                        {
+                           "item_id": 7121
+                        }
+                     ]
+                  },
+                  "us": {
+                     "skus": [
+                        {
+                           "item_id": 1026387
+                        },
+                        {
+                           "item_id": 1026909
+                        },
+                        {
+                           "item_id": 1029364
+                        },
+                        {
+                           "item_id": 1033347
+                        }
+                     ]
+                  }
+               },
+               "product_versions": [
+                  {
+                     "item_id": 1026387,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 1,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 39483,
+                              "modifiedDate": "2014-11-06T07:25:46",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4128246.png"
+                           },
+                           "file": {
+                              "size": 1854833,
+                              "modifiedDate": "2002-01-18T11:41:02",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4128246.pdf"
+                           },
+                           "description": "BUILDING INST. FOR 7121",
+                           "id": "4128246",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2000-12-31T00:00:00",
+                        "launchDate": "1999-04-01T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 1026387,
+                        "length": 144,
+                        "width": 144,
+                        "sizeUnit": "MM",
+                        "height": 48
+                     }
+                  },
+                  {
+                     "item_id": 1026909,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 1,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 39483,
+                              "modifiedDate": "2014-11-06T07:25:46",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4128246.png"
+                           },
+                           "file": {
+                              "size": 1854833,
+                              "modifiedDate": "2002-01-18T11:41:02",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4128246.pdf"
+                           },
+                           "description": "BUILDING INST. FOR 7121",
+                           "id": "4128246",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2000-12-31T00:00:00",
+                        "launchDate": "1999-04-01T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 1026909,
+                        "length": 144,
+                        "width": 144,
+                        "sizeUnit": "MM",
+                        "height": 48
+                     }
+                  },
+                  {
+                     "item_id": 1029364,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 1,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 39483,
+                              "modifiedDate": "2014-11-06T07:25:46",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4128246.png"
+                           },
+                           "file": {
+                              "size": 1854833,
+                              "modifiedDate": "2002-01-18T11:41:02",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4128246.pdf"
+                           },
+                           "description": "BUILDING INST. FOR 7121",
+                           "id": "4128246",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2000-12-31T00:00:00",
+                        "launchDate": "1999-04-01T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 1029364,
+                        "length": 144,
+                        "width": 144,
+                        "sizeUnit": "MM",
+                        "height": 48
+                     }
+                  },
+                  {
+                     "item_id": 1033347,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 1,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 39483,
+                              "modifiedDate": "2014-11-06T07:25:46",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4128246.png"
+                           },
+                           "file": {
+                              "size": 1854833,
+                              "modifiedDate": "2002-01-18T11:41:02",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4128246.pdf"
+                           },
+                           "description": "BUILDING INST. FOR 7121",
+                           "id": "4128246",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2000-12-31T00:00:00",
+                        "launchDate": "1999-04-01T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 1033347,
+                        "length": 144,
+                        "width": 144,
+                        "sizeUnit": "MM",
+                        "height": 48
+                     }
+                  },
+                  {
+                     "item_id": 7121,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 1,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 39483,
+                              "modifiedDate": "2014-11-06T07:25:46",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4128246.png"
+                           },
+                           "file": {
+                              "size": 1854833,
+                              "modifiedDate": "2002-01-18T11:41:02",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4128246.pdf"
+                           },
+                           "description": "BUILDING INST. FOR 7121",
+                           "id": "4128246",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2000-12-31T00:00:00",
+                        "launchDate": "1999-04-01T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 7121,
+                        "length": 144,
+                        "width": 144,
+                        "sizeUnit": "MM",
+                        "height": 48
+                     }
+                  }
+               ],
+               "assets": [
+                  {
+                     "itemId": "50007121",
+                     "modifiedDate": "2015-10-26T11:40:30",
+                     "assetFiles": [
+                        {
+                           "extension": ".jpg",
+                           "fileName": "7121-0000-XX-12-1.jpg",
+                           "size": 22127,
+                           "metaTags": {
+                              "image": {
+                                 "width": 400,
+                                 "height": 768
+                              }
+                           },
+                           "modifiedDate": "0001-01-01T00:00:00",
+                           "type": "product.img.pri",
+                           "url": "https://www.lego.com/cdn/product-assets/product.img.pri/7121-0000-XX-12-1.jpg"
+                        }
+                     ],
+                     "type": "product.img.pri",
+                     "baseName": "7121-0000-XX-12-1"
+                  }
+               ],
+               "theme": {
+                  "display_title": "LEGO® Star Wars™",
+                  "id": "ae537d16-848c-47d1-9c28-5a57aea1d87b",
+                  "title": "Star Wars"
+               },
+               "availability": {
+                  "marketingExitDate": "2000-12-31T00:00:00",
+                  "launchDate": "1999-04-01T00:00:00"
+               },
+               "locale": {
+                  "en-gb": {
+                     "display_title": "Naboo™ Swamp",
+                     "description": "The battle droids on their STAPs have trapped Qui-Gon Jinn and Jar Jar Binks in the swamp. Will they make it?",
+                     "title": "Naboo™ Swamp",
+                     "tags": []
+                  },
+                  "ja-jp": {
+                     "display_title": "ナブー・スワンプ",
+                     "description": "STAPのバトル・ドロイドがクワイ＝ガン・ジンとジャー・ジャー・ビンクスを沼に閉じ込めた。彼らは成功しますか？",
+                     "title": "ナブー・スワンプ",
+                     "tags": []
+                  }
+               },
+               "product_number": "7121"
+            }
+         }
+      ]
+   }
+}
