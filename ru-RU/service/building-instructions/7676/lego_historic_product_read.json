@@ -1,0 +1,201 @@
+{
+   "took": 1,
+   "timed_out": false,
+   "_shards": {
+      "total": 6,
+      "successful": 6,
+      "skipped": 0,
+      "failed": 0
+   },
+   "hits": {
+      "total": {
+         "value": 1,
+         "relation": "eq"
+      },
+      "max_score": 7.0619054,
+      "hits": [
+         {
+            "_index": "lego_historic_product_637345408748318909",
+            "_type": "_doc",
+            "_id": "7676",
+            "_score": 7.0619054,
+            "_source": {
+               "market": {
+                  "ru": {
+                     "skus": [
+                        {
+                           "item_id": 4512540
+                        }
+                     ]
+                  },
+                  "us": {
+                     "skus": [
+                        {
+                           "item_id": 4517230
+                        }
+                     ]
+                  }
+               },
+               "product_versions": [
+                  {
+                     "item_id": 4512540,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 2,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 33605,
+                              "modifiedDate": "2014-11-06T07:51:54",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4536938.png"
+                           },
+                           "file": {
+                              "size": 13376616,
+                              "modifiedDate": "2008-08-08T08:53:05.5038356",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4536938.pdf"
+                           },
+                           "description": "BUILDING INSTRUCTION  7676 1/2",
+                           "id": "4536938",
+                           "type": "product.bi.core"
+                        },
+                        {
+                           "sequence": {
+                              "total": 2,
+                              "element": 2
+                           },
+                           "image": {
+                              "size": 33566,
+                              "modifiedDate": "2014-11-06T07:51:54",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4536940.png"
+                           },
+                           "file": {
+                              "size": 11331358,
+                              "modifiedDate": "2008-02-15T09:00:58.3080423",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4536940.pdf"
+                           },
+                           "description": "BUILDING INSTRUCTION  7676 2/2",
+                           "id": "4536940",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2010-06-30T00:00:00",
+                        "launchDate": "2008-07-26T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 4512540,
+                        "length": 652,
+                        "width": 384,
+                        "sizeUnit": "MM",
+                        "height": 96
+                     }
+                  },
+                  {
+                     "item_id": 4517230,
+                     "building_instructions": [
+                        {
+                           "sequence": {
+                              "total": 2,
+                              "element": 1
+                           },
+                           "image": {
+                              "size": 33605,
+                              "modifiedDate": "2014-11-06T07:51:54",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4536938.png"
+                           },
+                           "file": {
+                              "size": 13376616,
+                              "modifiedDate": "2008-08-08T08:53:05.5038356",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4536938.pdf"
+                           },
+                           "description": "BUILDING INSTRUCTION  7676 1/2",
+                           "id": "4536938",
+                           "type": "product.bi.core"
+                        },
+                        {
+                           "sequence": {
+                              "total": 2,
+                              "element": 2
+                           },
+                           "image": {
+                              "size": 33566,
+                              "modifiedDate": "2014-11-06T07:51:54",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/4536940.png"
+                           },
+                           "file": {
+                              "size": 11331358,
+                              "modifiedDate": "2008-02-15T09:00:58.3080423",
+                              "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/4536940.pdf"
+                           },
+                           "description": "BUILDING INSTRUCTION  7676 2/2",
+                           "id": "4536940",
+                           "type": "product.bi.core"
+                        }
+                     ],
+                     "availability": {
+                        "marketingExitDate": "2010-06-30T00:00:00",
+                        "launchDate": "2008-07-26T00:00:00"
+                     },
+                     "measurements": {
+                        "itemId": 4517230,
+                        "length": 652,
+                        "width": 384,
+                        "sizeUnit": "MM",
+                        "height": 96
+                     }
+                  }
+               ],
+               "assets": [
+                  {
+                     "itemId": "50007676",
+                     "modifiedDate": "2020-08-20T18:47:57.0893869",
+                     "assetFiles": [
+                        {
+                           "extension": ".jpg",
+                           "fileName": "7676_prod.jpg",
+                           "size": 135356,
+                           "metaTags": {
+                              "image": {
+                                 "width": 400,
+                                 "height": 768
+                              }
+                           },
+                           "modifiedDate": "0001-01-01T00:00:00",
+                           "type": "product.img.pri",
+                           "url": "https://www.lego.com/cdn/product-assets/product.img.pri/7676_prod.jpg"
+                        }
+                     ],
+                     "type": "product.img.pri",
+                     "baseName": "7676_prod"
+                  }
+               ],
+               "theme": {
+                  "display_title": "LEGO® Star Wars™",
+                  "id": "ae537d16-848c-47d1-9c28-5a57aea1d87b",
+                  "title": "Star Wars"
+               },
+               "availability": {
+                  "marketingExitDate": "2010-06-30T00:00:00",
+                  "launchDate": "2008-07-26T00:00:00"
+               },
+               "locale": {
+                  "ru-ru": {
+                     "display_title": "Republic Attack Gunship™ (Атакующий корабль республиканцев)",
+                     "description": "Вступи в бой с сепаратистами, используя этот «вооруженный до зубов» военный транспорт, так же, как это показано в фильме Star Wars: The Clone Wars (Войны клонов). Отличительные особенности – открывающиеся двери отсека экипажа, маневренные ракеты и скоростной байк. В набор входят семь минифигурок: 4 клона-десантника, Оби-Ван Кеноби (Obi-Wan Kenobi) и две новых минифигурки, Пло Кун (Plo Koon) и Асайи Вентресс (Asajj Ventress), Владыка Ситх (Sith Lord), вооруженная двумя световыми мечами.",
+                     "title": "Republic Attack Gunship™ (Атакующий корабль республиканцев)",
+                     "tags": []
+                  },
+                  "en-us": {
+                     "display_title": "Republic Attack Gunship™",
+                     "description": "Take the battle to the Separatists with this heavily armed troop transporter, as seen in Star Wars: The Clone Wars. Features opening crew bay doors, flick missiles, and separate speeder bike. Includes seven minifigures: 4 clone troopers, Obi-Wan Kenobi, and two new minifigures, Plo Koon and Asajj Ventress, a Sith Lord equipped with a new double lightsaber.",
+                     "title": "Republic Attack Gunship™",
+                     "tags": []
+                  }
+               },
+               "product_number": "7676"
+            }
+         }
+      ]
+   }
+}
