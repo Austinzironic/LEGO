@@ -1,0 +1,325 @@
+{
+  "took": 2,
+  "timed_out": false,
+  "_shards": {
+    "total": 6,
+    "successful": 6,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 1,
+      "relation": "eq"
+    },
+    "max_score": 5.972189,
+    "hits": [
+      {
+        "_index": "lego_historic_product_637345408748318909",
+        "_type": "_doc",
+        "_id": "75109",
+        "_score": 5.972189,
+        "_source": {
+          "market": {
+            "kr": {
+              "skus": [
+                {
+                  "item_id": 6117505
+                }
+              ]
+            },
+            "us": {
+              "skus": [
+                {
+                  "item_id": 6117506
+                }
+              ]
+            }
+          },
+          "product_versions": [
+            {
+              "item_id": 6117505,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 144938,
+                    "modifiedDate": "2019-09-24T14:00:20",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/6162248.png"
+                  },
+                  "file": {
+                    "size": 11561860,
+                    "modifiedDate": "2019-09-24T12:36:33.5058973",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6162248.pdf"
+                  },
+                  "description": "BI 3022/36-65G, 75109 V29",
+                  "id": "6162248",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2016-12-31T00:00:00",
+                "launchDate": "2015-09-04T00:00:00"
+              },
+              "measurements": {
+                "itemId": 6117505,
+                "length": 141,
+                "width": 262,
+                "sizeUnit": "MM",
+                "height": 61
+              }
+            },
+            {
+              "item_id": 6117506,
+              "building_instructions": [
+                {
+                  "sequence": {
+                    "total": 1,
+                    "element": 1
+                  },
+                  "image": {
+                    "size": 144938,
+                    "modifiedDate": "2019-09-24T14:00:56",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.img/6162249.png"
+                  },
+                  "file": {
+                    "size": 11915270,
+                    "modifiedDate": "2019-09-24T12:37:06.0341867",
+                    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6162249.pdf"
+                  },
+                  "description": "BI 3022/36-65G, 75109 V39",
+                  "id": "6162249",
+                  "type": "product.bi.core"
+                }
+              ],
+              "availability": {
+                "marketingExitDate": "2016-12-31T00:00:00",
+                "launchDate": "2015-09-04T00:00:00"
+              },
+              "measurements": {
+                "itemId": 6117506,
+                "length": 141,
+                "width": 262,
+                "sizeUnit": "MM",
+                "height": 61
+              }
+            }
+          ],
+          "assets": [
+            {
+              "itemId": "50075109",
+              "modifiedDate": "2020-09-08T10:51:46.6717467",
+              "assetFiles": [
+                {
+                  "extension": ".jpg",
+                  "fileName": "75109_Prod.jpg",
+                  "size": 122810,
+                  "metaTags": {
+                    "image": {
+                      "width": 400,
+                      "height": 768
+                    }
+                  },
+                  "modifiedDate": "0001-01-01T00:00:00",
+                  "type": "product.img.pri",
+                  "url": "https://www.lego.com/cdn/product-assets/product.img.pri/75109_Prod.jpg"
+                }
+              ],
+              "type": "product.img.pri",
+              "baseName": "75109_Prod"
+            }
+          ],
+          "theme": {
+            "display_title": "LEGO® Star Wars™",
+            "id": "ae537d16-848c-47d1-9c28-5a57aea1d87b",
+            "title": "Star Wars"
+          },
+          "availability": {
+            "marketingExitDate": "2016-12-31T00:00:00",
+            "launchDate": "2015-09-04T00:00:00"
+          },
+          "locale": {
+            "en-us": {
+              "additional_data": {
+                "additional_images": [
+                  {
+                    "kid_image": {
+                      "image": {
+                        "uid": "blte5bebcdbee50a95d",
+                        "filename": "LEGO_75109_PROD_SEC01_1488.jpg",
+                        "content_type": "image/jpeg",
+                        "alt_text": "",
+                        "description": "/r/www/r/catalogs/-/media/catalogs/products/star wars/secondary/lego_75109_prod_sec01_1488.jpg",
+                        "file_size": "203453",
+                        "url": "https://www.lego.com/cdn/cs/catalog/assets/blte5bebcdbee50a95d/1/LEGO_75109_PROD_SEC01_1488.jpg"
+                      },
+                      "_metadata": {
+                        "uid": "cs16b36b4032ed391f"
+                      }
+                    }
+                  },
+                  {
+                    "kid_image": {
+                      "image": {
+                        "uid": "blt1a518622ea76ff03",
+                        "filename": "LEGO_75109_PROD_SEC02_1488.jpg",
+                        "content_type": "image/jpeg",
+                        "alt_text": "",
+                        "description": "/r/www/r/catalogs/-/media/catalogs/products/star wars/secondary/lego_75109_prod_sec02_1488.jpg",
+                        "file_size": "174310",
+                        "url": "https://www.lego.com/cdn/cs/catalog/assets/blt1a518622ea76ff03/1/LEGO_75109_PROD_SEC02_1488.jpg"
+                      },
+                      "_metadata": {
+                        "uid": "cs1c1ac1b75990f4be"
+                      }
+                    }
+                  },
+                  {
+                    "kid_image": {
+                      "image": {
+                        "uid": "blt64013ed7b524b1b9",
+                        "filename": "LEGO_75109_PROD_SEC03_1488.jpg",
+                        "content_type": "image/jpeg",
+                        "alt_text": "",
+                        "description": "/r/www/r/catalogs/-/media/catalogs/products/star wars/secondary/lego_75109_prod_sec03_1488.jpg",
+                        "file_size": "223929",
+                        "url": "https://www.lego.com/cdn/cs/catalog/assets/blt64013ed7b524b1b9/1/LEGO_75109_PROD_SEC03_1488.jpg"
+                      },
+                      "_metadata": {
+                        "uid": "cs537d49e49947d08f"
+                      }
+                    }
+                  }
+                ],
+                "box_image": {
+                  "uid": "bltfc43a0d05f2ab1b9",
+                  "filename": "LEGO_75109_box1_na_1488.png",
+                  "content_type": "image/png",
+                  "description": "/r/www/r/catalogs/-/media/catalogs/products/star wars/box images/lego_75109_box1_na_1488.png",
+                  "file_size": "157782",
+                  "url": "https://www.lego.com/cdn/cs/catalog/assets/bltfc43a0d05f2ab1b9/1/LEGO_75109_box1_na_1488.png"
+                },
+                "uid": "blt1cc3838cb4dd1052",
+                "hide_dbix_availability": false,
+                "sitecore_id": "3902814a-2c7b-4c12-8eca-341b134d9917",
+                "primary_image_grownups": {
+                  "uid": "blta8580ef637f4aae6",
+                  "filename": "LEGO_75109_PROD_PRI_1488.jpg",
+                  "content_type": "image/jpeg",
+                  "description": "/r/www/r/catalogs/-/media/catalogs/products/star wars/primary/lego_75109_prod_pri_1488.jpg",
+                  "file_size": "178616",
+                  "url": "https://www.lego.com/cdn/cs/catalog/assets/blta8580ef637f4aae6/1/LEGO_75109_PROD_PRI_1488.jpg"
+                },
+                "seo_content": {
+                  "og_title": null,
+                  "description": null,
+                  "og_image": null
+                }
+              },
+              "bullet_points": "• Includes fully posable limbs, special white Clone armor, fabric cape, buildable blue Lightsaber and extra Lightsaber handle\r\n• Use the power of the Force against the Separatists!\r\n• Create cool Jedi poses!\r\n• Sturdy and durable design for intense action play\r\n• Replay the epic Star Wars: Episode III Revenge of the Sith duel between Obi-Wan and 75112 General Grievous (sold separately)\r\n• Stands over 9” (25cm) tall",
+              "display_title": "Obi-Wan Kenobi™",
+              "one_liner": "Collect Obi-Wan Kenobi with posable limbs, white Clone armor, fabric cape, buildable blue Lightsaber and a belt clip for Lightsaber handle.",
+              "description": "Command the Clone Army against the Separatists with buildable Obi-Wan Kenobi. With durable, fully posable limbs, special white Clone armor, fabric cape, buildable blue Lightsaber and a holster with extra Lightsaber handle, this LEGO® Jedi Master is ready for tough action play!",
+              "title": "Obi-Wan Kenobi™",
+              "headline": "Use the Force to battle the Separatists with buildable & posable Obi-Wan Kenobi!",
+              "tags": [
+                "fictional past",
+                "battle",
+                "lightsaber"
+              ]
+            },
+            "ko-kr": {
+              "additional_data": {
+                "additional_images": [
+                  {
+                    "kid_image": {
+                      "image": {
+                        "uid": "blte5bebcdbee50a95d",
+                        "filename": "LEGO_75109_PROD_SEC01_1488.jpg",
+                        "content_type": "image/jpeg",
+                        "alt_text": "",
+                        "description": "/r/www/r/catalogs/-/media/catalogs/products/star wars/secondary/lego_75109_prod_sec01_1488.jpg",
+                        "file_size": "203453",
+                        "url": "https://www.lego.com/cdn/cs/catalog/assets/blte5bebcdbee50a95d/1/LEGO_75109_PROD_SEC01_1488.jpg"
+                      },
+                      "_metadata": {
+                        "uid": "csfd8bc83889017e60"
+                      }
+                    }
+                  },
+                  {
+                    "kid_image": {
+                      "image": {
+                        "uid": "blt1a518622ea76ff03",
+                        "filename": "LEGO_75109_PROD_SEC02_1488.jpg",
+                        "content_type": "image/jpeg",
+                        "alt_text": "",
+                        "description": "/r/www/r/catalogs/-/media/catalogs/products/star wars/secondary/lego_75109_prod_sec02_1488.jpg",
+                        "file_size": "174310",
+                        "url": "https://www.lego.com/cdn/cs/catalog/assets/blt1a518622ea76ff03/1/LEGO_75109_PROD_SEC02_1488.jpg"
+                      },
+                      "_metadata": {
+                        "uid": "cs46047fb32b4e6121"
+                      }
+                    }
+                  },
+                  {
+                    "kid_image": {
+                      "image": {
+                        "uid": "blt64013ed7b524b1b9",
+                        "filename": "LEGO_75109_PROD_SEC03_1488.jpg",
+                        "content_type": "image/jpeg",
+                        "alt_text": "",
+                        "description": "/r/www/r/catalogs/-/media/catalogs/products/star wars/secondary/lego_75109_prod_sec03_1488.jpg",
+                        "file_size": "223929",
+                        "url": "https://www.lego.com/cdn/cs/catalog/assets/blt64013ed7b524b1b9/1/LEGO_75109_PROD_SEC03_1488.jpg"
+                      },
+                      "_metadata": {
+                        "uid": "cse6c8268518a106c2"
+                      }
+                    }
+                  }
+                ],
+                "box_image": {
+                  "uid": "bltfc43a0d05f2ab1b9",
+                  "filename": "LEGO_75109_box1_na_1488.png",
+                  "content_type": "image/png",
+                  "alt_text": "",
+                  "description": "/r/www/r/catalogs/-/media/catalogs/products/star wars/box images/lego_75109_box1_na_1488.png",
+                  "file_size": "157782",
+                  "url": "https://www.lego.com/cdn/cs/catalog/assets/bltfc43a0d05f2ab1b9/1/LEGO_75109_box1_na_1488.png"
+                },
+                "uid": "blt1cc3838cb4dd1052",
+                "hide_dbix_availability": false,
+                "sitecore_id": "3902814a-2c7b-4c12-8eca-341b134d9917",
+                "primary_image_grownups": {
+                  "uid": "blta8580ef637f4aae6",
+                  "filename": "LEGO_75109_PROD_PRI_1488.jpg",
+                  "content_type": "image/jpeg",
+                  "description": "/r/www/r/catalogs/-/media/catalogs/products/star wars/primary/lego_75109_prod_pri_1488.jpg",
+                  "file_size": "178616",
+                  "url": "https://www.lego.com/cdn/cs/catalog/assets/blta8580ef637f4aae6/1/LEGO_75109_PROD_PRI_1488.jpg"
+                },
+                "seo_content": {
+                  "og_title": null,
+                  "description": null,
+                  "og_image": null
+                }
+              },
+              "bullet_points": "• 자세를 바꿀 수 있는 팔다리, 특별한 흰색 클론 갑옷, 직물 망토, 조립식 파란색 광선검, 여분의 광선검 손잡이가 있는 검집이 들어 있습니다\r\n• 포스의 힘을 이용해 분리주의자들과 맞서 싸우세요!\r\n• 멋진 제다이 포즈를 취해 보세요!\r\n• 격한 놀이에도 문제없는 튼튼하고 내구성이 뛰어난 디자인\r\n• 스타워즈: 에피소드 III 시스의 복수에 등장하는 오비완 케노비와 75112 그리버스 장군(별매품)의 대결 장면을 재현해 보세요\r\n• 세운 자세에서 높이 25cm입니다",
+              "display_title": "오비완 케노비™",
+              "one_liner": "자세를 바꿀 수 있는 팔다리, 흰색 클론 갑옷, 직물 망토, 조립식 파란색 광선검, 광선검 손잡이가 있는 검집을 갖춘 이 미니피겨를 놓치지 말고 수집하세요.",
+              "description": "오비완 케노비 미니피겨를 조립하고 클론 군대를 지휘하여 분리주의자들을 물리치세요. 자세를 바꿀 수 있는 팔다리, 특별한 흰색 클론 갑옷, 직물 망토, 조립식 파란색 광선검, 여분의 광선검 손잡이가 있는 검집을 갖춘 이 레고® 제다이 마스터는 격한 액션 놀이에도 문제가 없도록 튼튼하게 디자인되었습니다.",
+              "title": "오비완 케노비™",
+              "headline": "멋진 포즈의 오비완 케노비와 함께 포스의 힘으로 분리주의자들을 물리치세요."
+            }
+          },
+          "product_number": "75109"
+        }
+      }
+    ]
+  }
+}
