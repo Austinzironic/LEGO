@@ -1,0 +1,244 @@
+{
+    "_in_progress": false,
+    "_version": 27,
+    "acl": {},
+    "bricks_and_pieces": {
+        "bag": {
+            "add_to_bag": "Add to bag",
+            "aria_toggle_bag": "Toggle bag",
+            "confirm_empty_bag": "You are about to empty your bag!\n\nAre you sure?",
+            "confirm_order_button": "Confirm order",
+            "edit_description": "Edit description",
+            "empty_bag_button": "Empty Bag",
+            "items_in_bag": "Items in bag:",
+            "quantity": "Quantity",
+            "shop_checkout_text": "In the next step, we'll take you to the LEGO Shop checkout. Please note that your \"Bricks & Pieces\" order will show as one item in your basket.",
+            "unknown_brick": "UNKNOWN BRICK",
+            "unknown_brick_image": {
+                "_version": 2,
+                "acl": [],
+                "content_type": "image/png",
+                "created_at": "2019-12-17T09:08:04.45Z",
+                "created_by": "bltfc41febe2cbebc30",
+                "description": "",
+                "file_size": "10016",
+                "filename": "Skærmbillede_2019-12-17_kl._10.07.31_AM.png",
+                "is_dir": false,
+                "parent_uid": null,
+                "tags": [],
+                "title": "unknown.png",
+                "uid": "blt26e5f70f20fe71d6",
+                "updated_at": "2019-12-17T09:08:20.872Z",
+                "updated_by": "bltfc41febe2cbebc30",
+                "url": "https://www.lego.com/cdn/cs/service/assets/blt26e5f70f20fe71d6/Skærmbillede_2019-12-17_kl._10.07.31_AM.png"
+            },
+            "your_bag": "Your bag",
+            "your_bag_is_empty": "Your bag is empty"
+        },
+        "brick": {
+            "brick_category": "Category",
+            "brick_color": "Color",
+            "brick_description": "Description",
+            "design_number": "Design Number",
+            "element": "Element",
+            "not_for_sale": "Not for sale",
+            "out_of_stock": "This part is out of stock. If you submit your request, we'll get in touch to let you know when it's expected back or to offer you a substitute.",
+            "out_of_stock_button": "Out of Stock",
+            "quantity_limit": "Quantity for the selected part exceeds the quantity in this set.",
+            "quantity_limit_headline": "Brick quantity limit reached"
+        },
+        "building_instructions": {
+            "bi_image": {
+                "_version": 1,
+                "acl": [],
+                "content_type": "image/png",
+                "created_at": "2020-10-26T18:51:25.201Z",
+                "created_by": "bltec013e5378004e7d",
+                "file_size": "62714",
+                "filename": "building-instruction.png",
+                "is_dir": false,
+                "parent_uid": "blt8ed4a45402f34d89",
+                "tags": [],
+                "title": "building-instruction.png",
+                "uid": "blt656d4733d37a10b2",
+                "updated_at": "2020-10-26T18:51:25.201Z",
+                "updated_by": "bltec013e5378004e7d",
+                "url": "https://www.lego.com/cdn/cs/service/assets/blt656d4733d37a10b2/building-instruction.png"
+            },
+            "download_instructions": "Want a digital version?",
+            "get_the_building_instructions": "Get the building instructions",
+            "missing_your_building_instructions": "Order the printed instructions",
+            "no_physical_bi_available": "No physical Building Instructions available.",
+            "order_a_physical_copy": "Want a digital version?"
+        },
+        "check": {
+            "tab_title": "Check summary",
+            "whats_next_headline": "What's next?",
+            "whats_next_text": "<p>If we need more details for our quality department, we'll be in touch in the next couple of days. Otherwise we'll simply post a replacement as soon as possible and send you a shipping confirmation to let you know the parts are on their way. Delivery to the <strong>US</strong> takes <strong>7-10</strong> business days, while delivery to <strong>Canada</strong> takes <strong>10-14</strong> business days. Delivery times to other regions can be found <a href=\"http://www.lego.com/service/\" title=\"To the homepage\">here</a></p>",
+            "your_order": "Your order",
+            "your_shipping_address": "Your shipping address"
+        },
+        "choose_brick": {
+            "add_bricks_from_another_set": "Add bricks from another set",
+            "brick_sold_out_in_missing_broken_flow": "This part is out of stock. If you submit your request, we’ll get in touch to let you know when it’s expected back or to offer you a substitute.",
+            "bricks_available": "Bricks avalable:",
+            "bricks_available_for_set": "Bricks available for that set:",
+            "cant_find_what_im_looking_for": "I can't find what I'm looking for",
+            "find_it_headline": "Help us find it",
+            "find_it_text": "Give us as much detail about your part as you can. If you know the part number or design number, that will make it much easier for us to find the right bricks.",
+            "no_available_bricks_found": "",
+            "no_bricks_found": "No bricks were found with that element or design number.",
+            "search_number": "Searched number:",
+            "tab_title": "Choose brick"
+        },
+        "confirm": {
+            "confirm_and_send_button": "Confirm and send request",
+            "items": "Items",
+            "tab_title": "Confirm"
+        },
+        "enter_set_number_tab": {
+            "dont_know_set_number": "I don't know the set number",
+            "find_an_element_or_design_below": "Find an element or design number below",
+            "find_your_set": "Find your set",
+            "help_us_find_it_headline": "Give us as much detail about your set or your part as you can. If you know the part number, design number or the name of your set, that will make it much easier for us to find the right brick.",
+            "help_us_find_it_text": "Help us find it",
+            "help_us_improve_dialog_body": "Please tell us in detail what's wrong with the piece to help our quality team make sure theis won't happen again.",
+            "help_us_improve_dialog_title": "Help us improve",
+            "invalid_search_term_headline": "Not a valid search term",
+            "invalid_search_term_text": "You entered an invalid search term, product numbers are mostly 5 digits and element numbers 7 digits",
+            "item_number_placeholder_text": "Enter an item number or design ID",
+            "no_bricks": "No bricks were found with that element or design number.",
+            "no_results": "No results",
+            "please_describe_the_piece_you_need": "Please describe the piece you need",
+            "please_describe_the_set": "Please describe the set",
+            "search_placeholder": "Example: 4260178",
+            "set_number_placeholder_text": "Enter a 4-7 digit set number to see all bricks in the set",
+            "tab_title": "Enter set number",
+            "what_is_a_set_number": "What is a set number?",
+            "what_is_a_set_number_headline": "What's a set number?",
+            "what_is_a_set_number_text": "You'll find the set number just below the LEGO logo on the building instructions, on the box and the product page of our website.",
+            "whats_wrong_with_the_piece": "Whats wrong with the piece?"
+        },
+        "location_tab": {
+            "next_button_text": "Next",
+            "tab_title": "Location",
+            "where_do_you_live_label_text": "Where do you live?"
+        },
+        "no_thanks": "No Thanks",
+        "ok_continue": "Ok, Continue",
+        "sale_flow_disabled": true,
+        "search": "Search",
+        "stickers": {
+            "get_stickers": "Get the stickers",
+            "missing_your_stickers": "Choose the stickers you need"
+        }
+    },
+    "common": {
+        "cancel": "Cancel",
+        "characters": "characters",
+        "load_more": "Load more",
+        "okay": "Ok",
+        "save_text": "Save",
+        "subtotal": "Subtotal",
+        "unit_price": "Unit price"
+    },
+    "contact_us": {
+        "additional_info": {
+            "no_email_support": "At this time, we do not have a contact address for your region. However, if you use our Contact Us Email form and write in English, we'll do our best to respond to your email.",
+            "no_mail_support": "At this time, we do not have a contact address for your region. However, if you use our Contact Us Email form and write in English, we'll do our best to respond to your email.",
+            "no_phone_support": "At this time, we do not offer telephone support for your region. However, if you use our Contact Us Email form and write in English, we'll do our best to respond to your email.",
+            "phone_notice_fee": "Our free number might be blocked by some telecom providers and may incur charges when called from a mobile phone. Please contact your provider for more details."
+        },
+        "address": {
+            "choose_country": "Where do you live?",
+            "choose_language": "Choose your language",
+            "choose_state": "Choose State",
+            "max_length_validation": "This field can only contain {maxLength} characters.",
+            "no_addresses_found": "No Addresses Found...",
+            "optional_field": "optional",
+            "search_address": "Search for address",
+            "search_address_again": "Search for another address",
+            "title": "Your Info",
+            "tracking_name": "Your Info",
+            "your_address": "Your Address"
+        },
+        "back_btn": "Back",
+        "details": {
+            "detail_message": "You can write your message in English, Chinese (Simplified or Traditional), Czech, Danish, Dutch, Estonian, Finnish, French, German, Greek, Hungarian, Italian, Japanese, Korean, Latvian, Lithuanian, Norwegian, Polish, Portuguese, Russian, Slovak, Slovene, Spanish, Swedish and Turkish.",
+            "message_placeholder": "Click to write your message. There's enough space for 2000 characters.",
+            "title": "Details",
+            "tracking_name": "Details"
+        },
+        "done": {
+            "error": "Something went wrong! Go back and try again, or try again later.",
+            "thanks": "Thanks!",
+            "thanks_message": "Your message has been sent and you will receive an email confirmation shortly.",
+            "title": "Done",
+            "tracking_name": "Done",
+            "your_information": "Your Information",
+            "your_message": "Your message"
+        },
+        "done_btn": "Done",
+        "next_btn": "Next",
+        "submit_btn": "Send",
+        "topics": {
+            "title": "Choose topic",
+            "tracking_name": "Choose topic"
+        }
+    },
+    "created_at": "2020-05-05T16:23:51.418Z",
+    "created_by": "blt848d2214dcc6801b",
+    "date": "2020-11-25T12:51:25.449Z",
+    "draft": false,
+    "error_pop_up": {
+        "close_button": "Close",
+        "error_body": "Apparently something went wrong on our end, maybe try again later, we'll look into it.",
+        "error_title": "Something went wrong"
+    },
+    "exclude_from_sitemap": true,
+    "help_topics": {
+        "back_btn": "Back to all Help Topics",
+        "embedded_title": "Help Topics",
+        "error": {
+            "external_knowledgebase_error": "Our help topics section is currently undergoing maintenance. This means that what you're trying to find is not currently available. Please come back later and it should be working again. Sorry for the inconvenience!",
+            "external_knowledgebase_error_title": "We're Sorry!",
+            "not_found": "Sorry, we can't find that article or topic! It might be an old link or maybe it moved."
+        },
+        "feedback_thanks": "Thanks for the feedback!",
+        "feedback_title": "Was this information helpful?",
+        "help_guide": {
+            "edit_answer": "Edit",
+            "previous_answers_title": "Your previous answers"
+        },
+        "list_title": "What can we help you with?",
+        "no_btn": "No",
+        "popular_articles_title": "Popular articles",
+        "search": {
+            "no_results": "We couldn't find anything for your search in our Help Topics. Try using another search term or get in touch so we can help!",
+            "no_results_sidebar": "Sorry, we did not find anything based on your request",
+            "results_for": "Results for",
+            "search_placeholder": "Search Help Topics",
+            "show_all_results": "Show all results",
+            "showing_results": "Showing {amount} of {max} results"
+        },
+        "select_sub_topic": "Select Sub Topic",
+        "view_all_btn": "View all Help Topics",
+        "yes_btn": "Yes"
+    },
+    "iscjklanguage": false,
+    "lastmod": "2020-11-25T12:51:25.449Z",
+    "locale": "el-gr",
+    "publish_details": {
+        "environment": "blt1c162c42f4feac3d",
+        "locale": "el-gr",
+        "time": "2020-11-25T12:51:25.449Z",
+        "user": "blt6dd306b930e68e88"
+    },
+    "tags": [],
+    "title": "Text Service",
+    "type": "json",
+    "uid": "blt40f8b11995d3029e",
+    "updated_at": "2020-11-25T12:48:01.87Z",
+    "updated_by": "blt6dd306b930e68e88",
+    "url": "/el-gr/service/api/textservice"
+}
