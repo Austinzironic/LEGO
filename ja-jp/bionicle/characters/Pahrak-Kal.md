@@ -52,7 +52,7 @@
                         <tbody>
                            <tr>
                               <td width="2"><img src="https://web.archive.org/web/20031101054427im_/http://cache.lego.com/2057/images/globalnavigation/spacer.gif" width="2" height="1"></td>
-                              <td align="left" valign="middle"><a href="https://web.archive.org/web/20031101054427/http://www.lego.com/eng/"><img src="https://web.archive.org/web/20031101054427im_/http://cache.lego.com/2057/images/globalnavigation/endorsed/und30x30logo.gif" width="30" height="30" border="0" alt="LEGO Home"></a></td>
+                              <td align="left" valign="middle"><a href="https://web.archive.org/web/20031101054427/http://www.lego.com/eng/"><img src="https://web.archive.org/web/20031101054427im_/http://cache.lego.com/2057/images/globalnavigation/endorsed/und30x30logo.gif" width="30" height="" border="0" alt="LEGO Home"></a></td>
                               <td><img src="https://web.archive.org/web/20031101054427im_/http://cache.lego.com/2057/images/globalnavigation/spacer.gif" width="10" height="1"></td>
                               <td align="left" valign="middle"><a href="https://web.archive.org/web/20031101054427/http://www.lego.com/eng/"><img src="https://web.archive.org/web/20031101054427im_/http://cache.lego.com/2057/images/globalnavigation/endorsed/btn72x14legohome_endorsed.gif" width="72" height="14" border="0" alt="LEGO Home"></a></td>
                               <td><img src="https://web.archive.org/web/20031101054427im_/http://cache.lego.com/2057/images/globalnavigation/spacer.gif" width="11" height="1"></td>
