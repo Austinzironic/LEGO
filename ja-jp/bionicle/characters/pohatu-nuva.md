@@ -6,23 +6,18 @@
 <meta name="description" content="Pohatu Nuva, the Toa Nuva of Stone. His skill with stones and boulders is unmatched.">
 <link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20030815134414cs_/http://assets.lego.com/logging/lwt.css?A1040F1B1CF995507505413C93E7DB4C337C7F0324CCD89DF7C0E34293FD7E55E347454AEE848130636EF78C42D939D3268B4E7DA3555C90F77B2A86821D264B8BAAF2C6C9242C385B5D5DD0207DE7D055375F2D3A923397C0152A317E6A85ED1602817D593FE9C7C1C2860A3811A845BA82FD32633C9A74DAAA242524AA54F19250246144CE1926D744500288C23E7ADCE47DD6AF1C">
 <link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20031101054427cs_/http://www.lego.com/jpn/bionicle/include/bionicle.css">
-      <link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20031101054427cs_/http://www.lego.com/styles/lego.css">
-      <link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20031101054427cs_/http://www.lego.com/styles/navigation.css">
-      <link rel="SHORTCUT ICON" href="https://web.archive.org/web/20031101054427im_/http://www.lego.com/favicon.ico">
-		  
-
-		<script language="javascript">
+<link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20031101054427cs_/http://www.lego.com/styles/lego.css">
+<link rel="stylesheet" type="text/css" href="https://web.archive.org/web/20031101054427cs_/http://www.lego.com/styles/navigation.css">
+<link rel="SHORTCUT ICON" href="https://web.archive.org/web/20031101054427im_/http://www.lego.com/favicon.ico">
+		  <script language="javascript">
 			<!--
 			function templatehover(imgname,action){
 			if (document.images){document[imgname].src = eval(imgname + action + ".src")}
 			}
 			//-->
 		</script>
-		
 	</head>
-
-	
-		<body bgcolor="#FFFFFE" background="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/images/bionicle/general/bgr002x1800_white.gif" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
+<body bgcolor="#FFFFFE" background="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/images/bionicle/general/bgr002x1800_white.gif" topmargin="0" leftmargin="0" marginwidth="0" marginheight="0">
     <style type="text/css">
 			<!--
 				#endorsedglobalNav td {
@@ -45,11 +40,9 @@
 				}
 			
 				//--></style>
-
 			<span id="endorsedglobalNav">
 				<table border="0" cellpadding="0" cellspacing="0" background="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/2057/images/globalnavigation/endorsed/bgr002x035endorse.gif" width="100%" height="35" id="Table6">
 					<form name="frmSearch1" method="get" action="https://web.archive.org/web/20030815134414/http://search.lego.com/searchResults.asp"></form>
-
 						<tbody><tr>
 							<td align="left" valign="middle">
 								<table width="770" border="0" cellpadding="0" cellspacing="0">
@@ -75,17 +68,11 @@
 							</td>
 						</tr>
 					<input type="hidden" name="site" value="LEGO_AllContent"><input type="hidden" name="client" value="LEGO_AllContent"><input type="hidden" name="filter" value="0"><input type="hidden" name="output" value="xml_no_dtd"><input type="hidden" name="proxystylesheet" value=""><input type="hidden" name="num" value="10"><input type="hidden" name="lr" value="lang_en"><input type="hidden" name="as_occt" value="any"><input type="hidden" name="as_dt" value="i"><input type="hidden" name="getfields" value="description.productid"><input type="hidden" name="ie" value="utf8"><input type="hidden" name="oe" value="utf8">
-
 				</tbody></table>
 			</span> 
-		
 	<table width="770" border="0" cellpadding="0" cellspacing="0" id="Table1">
 	<tbody><tr>
 		<td align="left">
-
-
-	
-
 <script language="Javascript">
     <!--
     
@@ -100,9 +87,6 @@
      <tbody><tr>
 		<td align="left" valign="top" colspan="3"><img height="55" alt="" src="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/images/bionicle/homepage/img283x55logo_home.jpg" width="283" border="0"></td>
 	</tr>
-	 
-
-
 	 <tr>
 	     <td colspan="3"><img src="https://web.archive.org/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_999999.gif" width="770" height="2" border="0" alt=""></td>
 	 </tr>
@@ -144,7 +128,7 @@
 </option><option value="/bionicle/extras.asp?pageid=desktops">デスクトップ
 </option><option value="/bionicle/screensavers.asp">スクリーンセーバー
 </option><option value="/bionicle/wallpapers.asp">壁紙
-</option><option value="/bionicle/building.asp">くみかえアイデア
+</option><option value="/bionicle/building.asp">くみかえアイディア
 
 </option></select>
 		 </td>
@@ -167,9 +151,6 @@
 	  <tr>
 	     <td colspan="3" bgcolor="#333333"><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_666666.gif" width="770" height="1" border="0" alt=""></td>
 	 </tr>
-	 
-
-
 <script language="JavaScript">
 <!-- 
 
@@ -180,8 +161,6 @@ function jumpTo(URL_List){
 
 //-->
 </script>
-
-
 	 <tr>
 	     <td width="320" valign="top">
 		    <table border="0" cellspacing="0" cellpadding="0">
@@ -192,13 +171,10 @@ function jumpTo(URL_List){
 				<tr><td bgcolor="#333333"><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_333333.gif" width="320" height="2" border="0"></td></tr><tr><td bgcolor="#333333"><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_333333.gif" width="2" height="1" border="0"><a href="PohatuNuva.html"><img src="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/jpn/images/bionicle/characters/general/btn157x035us0pohatunuva.gif" alt="オワツ ヌーバ" border="0"></a><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_333333.gif" width="2" height="1" border="0"><a href="OnuaNuva.html"><img src="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/jpn/images/bionicle/characters/general/btn157x035us0onuanuva.gif" alt="オヌー ヌーバ" border="0"></a><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_333333.gif" width="2" height="1" border="0"></td></tr>
 <tr><td bgcolor="#333333"><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_333333.gif" width="320" height="2" border="0"></td></tr><tr><td bgcolor="#333333"><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_333333.gif" width="2" height="1" border="0"><a href="GaliNuva.html"><img src="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/jpn/images/bionicle/characters/general/btn157x035us0galinuva.gif" alt="ガーリ ヌーバ" border="0"></a><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_333333.gif" width="2" height="1" border="0"><a href="LewaNuva.html"><img src="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/jpn/images/bionicle/characters/general/btn157x035us0lewanuva.gif" alt="レーバ ヌーバ" border="0"></a><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_333333.gif" width="2" height="1" border="0"></td></tr>
 <tr><td bgcolor="#333333"><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_333333.gif" width="320" height="2" border="0"></td></tr><tr><td bgcolor="#333333"><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_333333.gif" width="2" height="1" border="0"><a href="TahuNuva.html"><img src="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/jpn/images/bionicle/characters/general/btn157x035us0tahunuva.gif" alt="タフー ヌーバ" border="0"></a><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_333333.gif" width="2" height="1" border="0"><a href="KopakaNuva.html"><img src="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/jpn/images/bionicle/characters/general/btn157x035us0kopakanuva.gif" alt="コパカ ヌーバ" border="0"></a><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/img1x1_333333.gif" width="2" height="1" border="0"></td></tr>
-
-
 		 		<tr><td bgcolor="#333333"><img src="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/images/bionicle/general/img1x1_333333.gif" width="320" height="10" border="0"></td></tr>
 				<tr><td bgcolor="#333333"><img src="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/images/bionicle/general/spacer.gif" width="1" height="175" border="0"></td></tr>
 			</tbody></table>
 		 </td>
-
 		 <td width="345" valign="top">
 		      <table border="0" cellspacing="0" cellpadding="0">
 				 <tbody><tr>
@@ -207,19 +183,16 @@ function jumpTo(URL_List){
 				</tr>
 				<tr><td colspan="2" width="19">&nbsp;</td></tr>
 				  <tr><td><img src="/web/20030815134414im_/http://www.lego.com/bionicle/images/general/spacer.gif" width="15" height="1" border="0"></td><td>岩石のトーア ヌーバ</td></tr>
-
 				  <tr>
 			         <td>&nbsp;</td><td><img src="https://web.archive.org/web/20030815134414im_/http://cache.lego.com/images/bionicle/general/spacer.gif" width="1" height="15" border="0" alt=""></td>
 			      </tr>
 			      <tr>
 					<td>&nbsp;</td><td valign="top" class="textblack">
 							オワツ ヌーバのカギ爪は以前よりも強くなり、村の近くの岩山に楽々と登る。オワツ ヌーバの新しい装備は、2本のコダン クライミング クロウだ。これを使えば、どんなに硬い岩にでもつかまることができる。オワツ ヌーバは速さのマスク【カカマ ヌーバ】を使って、ボロックによって荒らされたポ・コロ村の復興に貢献する。<br><br>
-							
 							<a href="Pohatu.html"><img src="https://web.archive.org/web/20030815134414im_/http://www.lego.com/bionicle/images/characters/nuva/img50x50oldpohatu.gif" width="50" height="50" border="0" align="left" alt="Pohatu"></a>&nbsp;&nbsp;オワツ ヌーバにトランスフォームする以前の【オワツ】情報はこちらから
 							<br>&nbsp;
 							<br>&nbsp;
 							<br>&nbsp;
-							
 						</td>
 				</tr>
 			      <tr><td>&nbsp;</td><td class="redheader">その他<br><img src="/web/20030815134414im_/http://www.lego.com/assets/images/bionicle/characters/general/img329x1dottedbar.gif" width="329" height="1" border="0"></td></tr>
@@ -230,9 +203,7 @@ function jumpTo(URL_List){
 <a href="javascript:openpopWindow('/bionicle/movies.asp?id=pohatunuvaWmLg&lang=jpn&xmlfile=characters','movies','status=yes,width=340,height=300,scrollbars=no')">Windows Media 7 (large) ~500K</a><br>
 </div></td>
 </tr>
-
 			  </tbody></table>
-			  
 		 </td>
 		 <td width="105" valign="top">
 		    <table border="0" cellspacing="0" cellpadding="0">
@@ -249,14 +220,10 @@ function jumpTo(URL_List){
 <tr><td align="center"><img src="https://web.archive.org/web/20030815134414im_/http://www.lego.com/assets/images/bionicle/characters/toanuva/img40x40pohatu_kakamanuva.gif" alt="Kakama" border="0"><br><font class="textgray">カカマ ヌーバ</font></td></tr>
 <tr><td align="center"><img src="https://web.archive.org/web/20030815134414im_/http://www.lego.com/assets/images/bionicle/characters/toanuva/img40x40pohatu_akakunuva.gif" alt="Akaku" border="0"><br><font class="textgray">アカク ヌーバ</font></td></tr>
 <tr><td align="center"><img src="https://web.archive.org/web/20030815134414im_/http://www.lego.com/assets/images/bionicle/characters/toanuva/img40x40pohatu_kaukaunuva.gif" alt="Kaukau" border="0"><br><font class="textgray">カウカウ ヌーバ</font></td></tr>
-	
 			</tbody></table>
 		 </td>
 	 </tr>
 </tbody></table>
-
-
-
 			</td>
 		</tr>
 		<tr>
@@ -264,7 +231,6 @@ function jumpTo(URL_List){
 			</td>
 		</tr>
 	</tbody></table>  
-	
 <!-- BEGIN WEBSIDESTORY CODE v7.4.0 (no 1.0)-->
 <!-- COPYRIGHT 1997-2003 WEBSIDESTORY, INC. ALL RIGHTS RESERVED. U.S.PATENT No. 6,393,479 B1. Privacy notice at: http://websidestory.com/privacy -->
 <script language="javascript" id="_hbc">
