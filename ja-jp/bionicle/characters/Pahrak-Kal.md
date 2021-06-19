@@ -118,8 +118,8 @@
                               &nbsp;&nbsp;
                               <select class="textpulldown1" onchange="jumpTo(this)">
                                  <option value="/bionicle/">マスク</option>
-                                 <option value="/bionicle/masks.asp?type=KanohiNuva">クラナ</option>
-                                 <option value="/bionicle/masks.asp?type=kranakal">クラナカル</option>
+                                 <option value="/bionicle/masks.asp?type=KanohiNuva">カノイ ヌーバ</option>
+                                 <option value="/bionicle/masks.asp?type=kranakal">クラナ カル</option>
                                  <option value="/bionicle/masks.asp?type=krana">クラナ</option>
                                  <option value="/bionicle/masks.asp?type=kanohi">カノイ
                                  </option>
